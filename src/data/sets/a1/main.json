@@ -1,0 +1,5385 @@
+{
+  "setInfo": {
+    "id": "a1",
+    "releaseDate": "2024-10-30",
+    "packs": ["mewtwo", "pikachu", "charizard"]
+  },
+  "cards": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "vine_whip",
+          "cost": ["grass", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Narumi Sato",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "bulbasaur",
+      "attacks": [
+        {
+          "name": "razor_leaf",
+          "cost": ["grass", "colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "Kurata So",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 160,
+      "pokemon_type": "grass",
+      "stage": 2,
+      "preevolution": "ivysaur",
+      "attacks": [
+        {
+          "name": "mega_drain",
+          "cost": ["grass", "grass", "colorless", "colorless"],
+          "damage": 80,
+          "effect": [
+            {
+              "type": "heal",
+              "amount": 30,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "artist": "Ryota Murayama",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 4,
+      "name": "venusaur_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 190,
+      "pokemon_type": "grass",
+      "stage": 2,
+      "preevolution": "ivysaur",
+      "attacks": [
+        {
+          "name": "razor_leaf",
+          "cost": ["grass", "colorless", "colorless"],
+          "damage": 60
+        },
+        {
+          "name": "giant_bloom",
+          "cost": ["grass", "grass", "colorless", "colorless"],
+          "damage": 100,
+          "effect": [
+            {
+              "type": "heal",
+              "amount": 30,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "artist": "PLANETA CG Works",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 5,
+      "name": "caterpie",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "find_a_friend",
+          "cost": ["colorless"],
+          "effect": [
+            {
+              "type": "draw",
+              "amount": 1,
+              "target": "grass_pokemon",
+              "choice": "random",
+              "into": "hand"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Miki Tanaka",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 6,
+      "name": "metapod",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "caterpie",
+      "attacks": [
+        {
+          "name": "bug_bite",
+          "cost": ["colorless", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "Yuka Morii",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 7,
+      "name": "butterfree",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "grass",
+      "stage": 2,
+      "preevolution": "metapod",
+      "ability": {
+        "name": "powder_heal",
+        "activate": "once_per_turn",
+        "effect": [
+          {
+            "type": "heal",
+            "amount": 20,
+            "target": "ally_all"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "gust",
+          "cost": ["grass", "colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Shin Nagasawa",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 8,
+      "name": "weedle",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "sting",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Hajime Kusajima",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 9,
+      "name": "kakuna",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "weedle",
+      "attacks": [
+        {
+          "name": "bug_bite",
+          "cost": ["grass"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "miki kudo",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 10,
+      "name": "beedrill",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "grass",
+      "stage": 2,
+      "preevolution": "kakuna",
+      "attacks": [
+        {
+          "name": "sharp_sting",
+          "cost": ["grass"],
+          "damage": 70
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "You Iribi",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 11,
+      "name": "oddish",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ram",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "HYOGONOSUKE",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 12,
+      "name": "gloom",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "oddish",
+      "attacks": [
+        {
+          "name": "drool",
+          "cost": ["grass", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "Anesaki Dynamic",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 13,
+      "name": "vileplume",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 140,
+      "pokemon_type": "grass",
+      "stage": 2,
+      "preevolution": "gloom",
+      "attacks": [
+        {
+          "name": "soothing_scent",
+          "cost": ["grass", "grass", "colorless"],
+          "damage": 80,
+          "effect": [
+            {
+              "type": "sleep",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "artist": "Kyoko Umemoto",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 14,
+      "name": "paras",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "scratch",
+          "cost": ["grass", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Naoyo Kimura",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 15,
+      "name": "parasect",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 120,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "paras",
+      "attacks": [
+        {
+          "name": "slash",
+          "cost": ["grass", "grass", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "Eri Yamaki",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 16,
+      "name": "venonat",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "HYOGONOSUKE",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 17,
+      "name": "venomoth",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "venonat",
+      "attacks": [
+        {
+          "name": "poison_powder",
+          "cost": ["grass"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "poison",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Mina Nakai",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 18,
+      "name": "bellsprout",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "vine_whip",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "HYOGONOSUKE",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 19,
+      "name": "weepinbell",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "bellsprout",
+      "attacks": [
+        {
+          "name": "razor_leaf",
+          "cost": ["grass", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "Miki Tanaka",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 20,
+      "name": "victreebel",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 140,
+      "pokemon_type": "grass",
+      "stage": 2,
+      "preevolution": "weepinbell",
+      "ability": {
+        "name": "fragrance_trap",
+        "activate": "once_per_turn",
+        "condition": "user_active",
+        "effect": [
+          {
+            "type": "switch",
+            "target": "opponent_basic",
+            "choice": "user",
+            "into": "active"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "vine_whip",
+          "cost": ["grass", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "Sumiyoshi Kizuki",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 21,
+      "name": "exeggcute",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "seed_bomb",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "kawayoo",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 22,
+      "name": "exeggutor",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "exeggcute",
+      "attacks": [
+        {
+          "name": "stomp",
+          "cost": ["grass"],
+          "damage": 30,
+          "damage_type": "add",
+          "flip": 1,
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 30,
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "artist": "Yukiko Baba",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 23,
+      "name": "exeggutor_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 160,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "exeggcute",
+      "attacks": [
+        {
+          "name": "tropical_swing",
+          "cost": ["grass"],
+          "damage": 40,
+          "damage_type": "add",
+          "flip": 1,
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 40,
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "artist": "PLANETA CG Works",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 24,
+      "name": "tangela",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "absorb",
+          "cost": ["grass", "colorless"],
+          "damage": 40,
+          "effect": [
+            {
+              "type": "heal",
+              "amount": 10,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "Midori Harada",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 25,
+      "name": "scyther",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "sharp_scythe",
+          "cost": ["grass"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Hasuno",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 26,
+      "name": "pinsir",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "double_horn",
+          "cost": ["grass", "grass"],
+          "damage": 50,
+          "damage_type": "multiply",
+          "flip": 2,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "Eri Yamaki",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 27,
+      "name": "cottonee",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "attach",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Kanako Eo",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 28,
+      "name": "whimsicott",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "cottonee",
+      "attacks": [
+        {
+          "name": "rolling_tackle",
+          "cost": ["colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Atsuko Nishida",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 29,
+      "name": "petilil",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "blot",
+          "cost": ["grass"],
+          "damage": 10,
+          "effect": [
+            {
+              "type": "heal",
+              "amount": 10,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Naoyo Kimura",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 30,
+      "name": "lilligant",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "petilil",
+      "attacks": [
+        {
+          "name": "leaf_supply",
+          "cost": ["grass", "grass"],
+          "damage": 50,
+          "effect": [
+            {
+              "type": "leaf_supply"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "You Iribi",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 31,
+      "name": "skiddo",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "surprise_attack",
+          "cost": ["colorless"],
+          "damage": 40,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "fail",
+              "tails": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Naoki Saito",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 32,
+      "name": "gogoat",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 120,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "preevolution": "skiddo",
+      "attacks": [
+        {
+          "name": "razor_leaf",
+          "cost": ["grass", "colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "You Iribi",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 33,
+      "name": "charmander",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ember",
+          "cost": ["fire"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "fire",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Teeziro",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 34,
+      "name": "charmeleon",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "preevolution": "charmander",
+      "attacks": [
+        {
+          "name": "fire_claws",
+          "cost": ["fire", "colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "artist": "kantaro",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 35,
+      "name": "charizard",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "fire",
+      "stage": 2,
+      "preevolution": "charmeleon",
+      "attacks": [
+        {
+          "name": "fire_spin",
+          "cost": ["fire", "fire", "colorless", "colorless"],
+          "damage": 150,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "fire",
+              "amount": 2,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "artist": "takuyoa",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 36,
+      "name": "charizard_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 180,
+      "pokemon_type": "fire",
+      "stage": 2,
+      "preevolution": "charmeleon",
+      "attacks": [
+        {
+          "name": "slash",
+          "cost": ["fire", "colorless", "colorless"],
+          "damage": 60
+        },
+        {
+          "name": "crimson_storm",
+          "cost": ["fire", "fire", "colorless", "colorless"],
+          "damage": 200,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "fire",
+              "amount": 2,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "artist": "PLANETA Mochizuki",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 37,
+      "name": "vulpix",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tail_whip",
+          "cost": ["colorless"],
+          "flip": 1,
+          "effect": [
+            {
+              "type": "cant_attack_next",
+              "target": "attack_target",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Toshinao Aoki",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 38,
+      "name": "ninetales",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "preevolution": "vulpix",
+      "attacks": [
+        {
+          "name": "flamethrower",
+          "cost": ["fire", "fire"],
+          "damage": 90,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "fire",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "You Iribi",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 39,
+      "name": "growlithe",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "bite",
+          "cost": ["colorless", "colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Mizue",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 40,
+      "name": "arcanine",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "preevolution": "growlithe",
+      "attacks": [
+        {
+          "name": "heat_tackle",
+          "cost": ["fire", "fire", "colorless"],
+          "damage": 100,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 20,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "artist": "kodama",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 41,
+      "name": "arcanine_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 150,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "preevolution": "growlithe",
+      "attacks": [
+        {
+          "name": "inferno_onrush",
+          "cost": ["fire", "fire", "colorless"],
+          "damage": 120,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 20,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "artist": "PLANETA Saito",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 42,
+      "name": "ponyta",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "flare",
+          "cost": ["fire"],
+          "damage": 20
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Uta",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 43,
+      "name": "rapidash",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "preevolution": "ponyta",
+      "attacks": [
+        {
+          "name": "fire_mane",
+          "cost": ["fire"],
+          "damage": 40
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Misa Tsutsui",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 44,
+      "name": "magmar",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "magma_punch",
+          "cost": ["fire", "fire"],
+          "damage": 50
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "artist": "Ryuta Fuse",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 45,
+      "name": "flareon",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "preevolution": "eevee",
+      "attacks": [
+        {
+          "name": "flamethrower",
+          "cost": ["fire", "colorless", "colorless"],
+          "damage": 110,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "fire",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "artist": "sui",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 46,
+      "name": "moltres",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "sky_attack",
+          "cost": ["fire", "colorless", "colorless"],
+          "damage": 130,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "fail",
+              "tails": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Hitoshi Ariga",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 47,
+      "name": "moltres_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 140,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "inferno_dance",
+          "cost": ["fire"],
+          "effect": [
+            {
+              "type": "inferno_dance"
+            }
+          ]
+        },
+        {
+          "name": "heat_blast",
+          "cost": ["fire", "colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "PLANETA Tsuji",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 48,
+      "name": "heatmor",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "combustion",
+          "cost": ["fire"],
+          "damage": 30
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Suwama Chiaki",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 49,
+      "name": "salandit",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "scratch",
+          "cost": ["fire"],
+          "damage": 20
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Kyoko Umemoto",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 50,
+      "name": "salazzle",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "preevolution": "salandit",
+      "attacks": [
+        {
+          "name": "fire_claws",
+          "cost": ["fire", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "hatachu",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 51,
+      "name": "sizzlipede",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gnaw",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Teeziro",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 52,
+      "name": "centiskorch",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 130,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "preevolution": "sizzlipede",
+      "attacks": [
+        {
+          "name": "fire_blast",
+          "cost": ["fire", "colorless", "colorless", "colorless"],
+          "damage": 130,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "fire",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 3,
+      "artist": "GOSSAN",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 53,
+      "name": "squirtle",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ater_gun",
+          "cost": ["water"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Mizue",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 54,
+      "name": "wartortle",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "squirtle",
+      "attacks": [
+        {
+          "name": "wave_splash",
+          "cost": ["water", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Nelnal",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 55,
+      "name": "blastoise",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "water",
+      "stage": 2,
+      "preevolution": "wartortle",
+      "attacks": [
+        {
+          "name": "hydro_pump",
+          "cost": ["water", "water", "colorless"],
+          "damage": 80,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "extra_energy",
+              "energy_type": "water",
+              "energy_amount": 2
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 3,
+      "artist": "Nurikabe",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 56,
+      "name": "blastoise_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 180,
+      "pokemon_type": "water",
+      "stage": 2,
+      "preevolution": "wartortle",
+      "attacks": [
+        {
+          "name": "surf",
+          "cost": ["water", "colorless"],
+          "damage": 40
+        },
+        {
+          "name": "hydro_bazooka",
+          "cost": ["water", "water", "colorless"],
+          "damage": 100,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "extra_energy",
+              "energy_type": "water",
+              "energy_amount": 2
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 3,
+      "artist": "PLANETA Tsuji",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 57,
+      "name": "psyduck",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "headache",
+          "cost": ["colorless"],
+          "damage": 10,
+          "effect": [
+            {
+              "type": "block_supporter"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Shibuzoh.",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 58,
+      "name": "golduck",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "psyduck",
+      "attacks": [
+        {
+          "name": "aqua_edge",
+          "cost": ["water", "water"],
+          "damage": 70
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Naoki Saito",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 59,
+      "name": "poliwag",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "razor_fin",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Shibuzoh.",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 60,
+      "name": "poliwhirl",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "poliwag",
+      "attacks": [
+        {
+          "name": "knuckle_punch",
+          "cost": ["colorless", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "Yuka Morii",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 61,
+      "name": "poliwrath",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "water",
+      "stage": 2,
+      "preevolution": "poliwhirl",
+      "ability": {
+        "name": "counterattack",
+        "condition": "user_active",
+        "effect": [
+          {
+            "type": "counter",
+            "damage": 20
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "mega_punch",
+          "cost": ["water", "colorless", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "Akira Komayama",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 62,
+      "name": "tentacool",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gentle_slap",
+          "cost": ["water"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Shinya Komatsu",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 63,
+      "name": "tentacruel",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "tentacool",
+      "attacks": [
+        {
+          "name": "poison_tentacles",
+          "cost": ["water", "colorless"],
+          "damage": 50,
+          "effect": [
+            {
+              "type": "poison",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "kodama",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 64,
+      "name": "seel",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "headbutt",
+          "cost": ["colorless", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "Masako Yamashita",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 65,
+      "name": "dewgong",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 120,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "seel",
+      "attacks": [
+        {
+          "name": "surf",
+          "cost": ["water", "water", "water"],
+          "damage": 90
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 3,
+      "artist": "Kanako Eo",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 66,
+      "name": "shellder",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tongue_slap",
+          "cost": ["water"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Sumiyoshi Kizuki",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 67,
+      "name": "cloyster",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 120,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "shellder",
+      "ability": {
+        "name": "shell_armor",
+        "effect": [
+          {
+            "type": "mitigate_attacks",
+            "amount": 10
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "surf",
+          "cost": ["water", "water", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 3,
+      "artist": "Saya Tsuruta",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 68,
+      "name": "krabby",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "vise_grip",
+          "cost": ["water", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "Tomokazu Komiya",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 69,
+      "name": "kingler",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 120,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "krabby",
+      "attacks": [
+        {
+          "name": "ko_crab",
+          "cost": ["water", "water", "colorless"],
+          "damage": 80,
+          "damage_type": "add",
+          "flip": 2,
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 80,
+              "heads": 2
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 3,
+      "artist": "Shigenori Negishi",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 70,
+      "name": "horsea",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ater_gun",
+          "cost": ["water"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Saya Tsuruta",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 71,
+      "name": "seadra",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 70,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "horsea",
+      "attacks": [
+        {
+          "name": "water",
+          "cost": ["water", "water", "water"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 50,
+              "target": "opponent_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Sanosuke Sakuma",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 72,
+      "name": "goldeen",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "flop",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Kyoko Umemoto",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 73,
+      "name": "seaking",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 100,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "goldeen",
+      "attacks": [
+        {
+          "name": "horn_hazard",
+          "cost": ["water"],
+          "damage": 80,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "fail",
+              "tails": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Kyoko Umemoto",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 74,
+      "name": "staryu",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "smack",
+          "cost": ["water"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Hiroki Asanuma",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 75,
+      "name": "starmie",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "staryu",
+      "attacks": [
+        {
+          "name": "ave_splash",
+          "cost": ["water"],
+          "damage": 40
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 0,
+      "artist": "Yukiko Baba",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 76,
+      "name": "starmie_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 130,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "staryu",
+      "attacks": [
+        {
+          "name": "hydro_splash",
+          "cost": ["water", "water"],
+          "damage": 90
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 0,
+      "artist": "PLANETA Igarashi",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 77,
+      "name": "magikarp",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 30,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "splash",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Sekio",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 78,
+      "name": "gyarados",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "magikarp",
+      "attacks": [
+        {
+          "name": "hyper_beam",
+          "cost": ["water", "water", "water", "water"],
+          "damage": 100,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "random",
+              "amount": 1,
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 4,
+      "artist": "Mitsuhiro Arita",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 79,
+      "name": "lapras",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "hydro_pump",
+          "cost": ["water"],
+          "damage": 20,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 70,
+              "condition": "extra_energy",
+              "energy_type": "water",
+              "energy_amount": 3
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "Sekio",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 80,
+      "name": "vaporeon",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "eevee",
+      "attacks": [
+        {
+          "name": "bubble_drain",
+          "cost": ["water", "colorless", "colorless"],
+          "damage": 60,
+          "effect": [
+            {
+              "type": "heal",
+              "amount": 30,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "Kagemaru Himeno",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 81,
+      "name": "omanyte",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "helix_fossil",
+      "attacks": [
+        {
+          "name": "ater_gun",
+          "cost": ["water"],
+          "damage": 40
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Suwama Chiaki",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 82,
+      "name": "omastar",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 140,
+      "pokemon_type": "water",
+      "stage": 2,
+      "preevolution": "omanyte",
+      "attacks": [
+        {
+          "name": "ancient_whirlpool",
+          "cost": ["water", "colorless", "colorless"],
+          "damage": 70,
+          "effect": [
+            {
+              "type": "cant_attack_next",
+              "target": "attack_target"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "kirisAki",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 83,
+      "name": "articuno",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ice_beam",
+          "cost": ["water", "water", "colorless"],
+          "damage": 60,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "paralyze",
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Hitoshi Ariga",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 84,
+      "name": "articuno_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 140,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ice_wing",
+          "cost": ["water", "colorless"],
+          "damage": 40
+        },
+        {
+          "name": "blizzard",
+          "cost": ["water", "water", "water"],
+          "damage": 80,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 10,
+              "target": "opponent_bench_all"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "PLANETA Saito",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 85,
+      "name": "ducklett",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "flap",
+          "cost": ["colorless", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Yumi",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 86,
+      "name": "swanna",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "ducklett",
+      "attacks": [
+        {
+          "name": "wing_attack",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "sui",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 87,
+      "name": "froakie",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "flop",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Aya Kusube",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 88,
+      "name": "frogadier",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "froakie",
+      "attacks": [
+        {
+          "name": "water_drip",
+          "cost": ["colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Akira Komayama",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 89,
+      "name": "greninja",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "water",
+      "stage": 2,
+      "preevolution": "frogadier",
+      "ability": {
+        "name": "water_shuriken",
+        "activate": "once_per_turn",
+        "effect": [
+          {
+            "type": "damage",
+            "amount": 20,
+            "target": "opponent_any"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "mist_slash",
+          "cost": ["water", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "5ban Graphics",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 90,
+      "name": "pyukumuku",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "rain_splash",
+          "cost": ["water"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "OOYAMA",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 91,
+      "name": "bruxish",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "second_strike",
+          "cost": ["water", "colorless"],
+          "damage": 10,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "opponent_active_damaged"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Mizue",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 92,
+      "name": "snom",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ram",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "artist": "ryoma uratsuka",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 93,
+      "name": "frosmoth",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "snom",
+      "attacks": [
+        {
+          "name": "powder_snow",
+          "cost": ["water", "colorless"],
+          "damage": 40,
+          "effect": [
+            {
+              "type": "sleep",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "artist": "aoki",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 94,
+      "name": "pikachu",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gnaw",
+          "cost": ["lightning"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Mitsuhiro Arita",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 95,
+      "name": "raichu",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "preevolution": "pikachu",
+      "attacks": [
+        {
+          "name": "thunderbolt",
+          "cost": ["lightning", "lightning", "lightning"],
+          "damage": 140,
+          "effect": [
+            {
+              "type": "discard_energy_all",
+              "energy_type": "random",
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "AKIRA EGAWA",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 96,
+      "name": "pikachu_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 120,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "circle_circuit",
+          "cost": ["lightning", "lightning"],
+          "damage": 30,
+          "damage_type": "multiply",
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "benched_electric"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "PLANETA CG Works",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 97,
+      "name": "magnemite",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "lightning_ball",
+          "cost": ["lightning"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "sowsow",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 98,
+      "name": "magneton",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 80,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "preevolution": "magnemite",
+      "ability": {
+        "name": "volt_charge",
+        "activate": "once_per_turn",
+        "effect": [
+          {
+            "type": "ramp",
+            "source": "energy_zone",
+            "energy_type": "lightning",
+            "amount": 1,
+            "target": "self"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "spinning_attack",
+          "cost": ["lightning", "colorless", "colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "kirisAki",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 99,
+      "name": "voltorb",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["lightning"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "SATOSHI NAKAI",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 100,
+      "name": "electrode",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "preevolution": "voltorb",
+      "attacks": [
+        {
+          "name": "electro_ball",
+          "cost": ["lightning", "lightning"],
+          "damage": 70
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 0,
+      "artist": "Asako Ito",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 101,
+      "name": "electabuzz",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "thunder_punch",
+          "cost": ["lightning", "lightning"],
+          "damage": 40,
+          "damage_type": "add",
+          "flip": 1,
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 40,
+              "heads": 1
+            },
+            {
+              "type": "damage",
+              "target": "self",
+              "amount": 20,
+              "tails": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Ryuta Fuse",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 102,
+      "name": "jolteon",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 90,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "preevolution": "eevee",
+      "attacks": [
+        {
+          "name": "pin_missile",
+          "cost": ["lightning", "colorless"],
+          "damage": 40,
+          "damage_type": "multiply",
+          "flip": 4,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Kouki Saitou",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 103,
+      "name": "zapdos",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "raging_thunder",
+          "cost": ["lightning", "lightning", "colorless"],
+          "damage": 100,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 30,
+              "target": "ally_bench_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Hitoshi Ariga",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 104,
+      "name": "zapdos_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 130,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "peck",
+          "cost": ["lightning"],
+          "damage": 20
+        },
+        {
+          "name": "thundering_hurricane",
+          "cost": ["lightning", "lightning", "lightning"],
+          "damage": 50,
+          "damage_type": "multiply",
+          "flip": 4,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "PLANETA CG Works",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 105,
+      "name": "blitzle",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "zap_kick",
+          "cost": ["lightning"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Shin Nagasawa",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 106,
+      "name": "zebstrika",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "preevolution": "blitzle",
+      "attacks": [
+        {
+          "name": "thunder_spear",
+          "cost": ["lightning"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 30,
+              "target": "opponent_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Misa Tsutsui",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 107,
+      "name": "tynamo",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 30,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tiny_charge",
+          "cost": ["lightning"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Asako Ito",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 108,
+      "name": "eelektrik",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "preevolution": "tynamo",
+      "attacks": [
+        {
+          "name": "head_bolt",
+          "cost": ["lightning"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "Midori Harada",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 109,
+      "name": "eelektross",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 140,
+      "pokemon_type": "lightning",
+      "stage": 2,
+      "preevolution": "eelektrik",
+      "attacks": [
+        {
+          "name": "thunder_fang",
+          "cost": ["lightning", "lightning", "colorless"],
+          "damage": 80,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "paralyze",
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "artist": "hatachu",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 110,
+      "name": "helioptile",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tail_whap",
+          "cost": ["lightning"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "5ban Graphics",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 111,
+      "name": "heliolisk",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "preevolution": "helioptile",
+      "attacks": [
+        {
+          "name": "quick_attack",
+          "cost": ["colorless", "colorless"],
+          "damage": 40,
+          "damage_type": "add",
+          "flip": 1,
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 40,
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "otumami",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 112,
+      "name": "pincurchin",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 70,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "thunder_shock",
+          "cost": ["lightning", "lightning"],
+          "damage": 30,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "paralyze",
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Tika Matsuno",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 113,
+      "name": "clefairy",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "slap",
+          "cost": ["psychic"],
+          "damage": 20
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "artist": "kirisAki",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 114,
+      "name": "clefable",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "clefairy",
+      "attacks": [
+        {
+          "name": "magical_shot",
+          "cost": ["psychic"],
+          "damage": 40
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "artist": "Sanosuke Sakuma",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 115,
+      "name": "abra",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "teleport",
+          "cost": ["colorless"],
+          "effect": [
+            {
+              "type": "switch",
+              "target": "self",
+              "choice": "user"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Aya Kusube",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 116,
+      "name": "kadabra",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "abra",
+      "attacks": [
+        {
+          "name": "super_psy_bolt",
+          "cost": ["psychic", "colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Ken Sugimori",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 117,
+      "name": "alakazam",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "psychic",
+      "stage": 2,
+      "preevolution": "kadabra",
+      "attacks": [
+        {
+          "name": "psychic",
+          "cost": ["psychic", "colorless", "colorless"],
+          "damage": 60,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage_multiplied",
+              "amount": 30,
+              "factor": "opponent_active_energy"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "Kouki Saitou",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 118,
+      "name": "slowpoke",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tail_whap",
+          "cost": ["psychic", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "Miki Tanaka",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 119,
+      "name": "slowbro",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 130,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "slowpoke",
+      "attacks": [
+        {
+          "name": "super_psy_bolt",
+          "cost": ["psychic", "psychic", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 3,
+      "artist": "Kagemaru Himeno",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 120,
+      "name": "gastly",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "suffocating_gas",
+          "cost": ["psychic"],
+          "damage": 20
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Masako Yamashita",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 121,
+      "name": "haunter",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "gastly",
+      "attacks": [
+        {
+          "name": "will_o_wisp",
+          "cost": ["psychic"],
+          "damage": 30
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Nisata Niso",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 122,
+      "name": "gengar",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "psychic",
+      "stage": 2,
+      "preevolution": "haunter",
+      "attacks": [
+        {
+          "name": "bother",
+          "cost": ["psychic"],
+          "damage": 50,
+          "effect": [
+            {
+              "type": "block_supporter"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "Naoyo Kimura",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 123,
+      "name": "gengar_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 170,
+      "pokemon_type": "psychic",
+      "stage": 2,
+      "preevolution": "haunter",
+      "ability": {
+        "name": "shadowy_spellbind",
+        "activate": "always",
+        "effect": [
+          {
+            "type": "block_supporter"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "spooky_shot",
+          "cost": ["psychic", "psychic", "psychic"],
+          "damage": 100
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "PLANETA CG Works",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 124,
+      "name": "drowzee",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "mumble",
+          "cost": ["psychic", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "Yukiko Baba",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 125,
+      "name": "hypno",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "drowzee",
+      "ability": {
+        "name": "sleep_pendulum",
+        "activate": "once_per_turn",
+        "flip": 1,
+        "effect": [
+          {
+            "type": "sleep",
+            "heads": 1,
+            "target": "opponent_active"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "psypunch",
+          "cost": ["psychic", "psychic", "colorless"],
+          "damage": 50
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "Shigenori Negishi",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 126,
+      "name": "mr_mime",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "barrier_attack",
+          "cost": ["psychic", "colorless"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "mitigate_attacks",
+              "amount": 20,
+              "target": "self",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Kagemaru Himeno",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 127,
+      "name": "jynx",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "psychic",
+          "cost": ["psychic", "colorless"],
+          "damage": 30,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage_multiplied",
+              "amount": 20,
+              "factor": "opponent_active_energy"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Oswaldo KATO",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 128,
+      "name": "mewtwo",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "power_blast",
+          "cost": ["psychic", "psychic", "colorless", "colorless"],
+          "damage": 120,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "psychic",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "kawayoo",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 129,
+      "name": "mewtwo_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 150,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "psychic_sphere",
+          "cost": ["psychic", "colorless"],
+          "damage": 50
+        },
+        {
+          "name": "psydrive",
+          "cost": ["psychic", "psychic", "colorless", "colorless"],
+          "damage": 150,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "psychic",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "PLANETA Mochizuki",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 130,
+      "name": "ralts",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ram",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Yuka Morii",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 131,
+      "name": "kirlia",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "ralts",
+      "attacks": [
+        {
+          "name": "smack",
+          "cost": ["psychic", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "sowsow",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 132,
+      "name": "gardevoir",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 110,
+      "pokemon_type": "psychic",
+      "stage": 2,
+      "preevolution": "kirlia",
+      "ability": {
+        "name": "psy_shadow",
+        "activate": "once_per_turn",
+        "effect": [
+          {
+            "type": "ramp",
+            "source": "energy_zone",
+            "energy_type": "psychic",
+            "amount": 1,
+            "target": "ally_active"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "psyshot",
+          "cost": ["psychic", "psychic", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "Yuu Nishida",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 133,
+      "name": "woobat",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gnaw",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "MAHOU",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 134,
+      "name": "swoobat",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "woobat",
+      "attacks": [
+        {
+          "name": "heart_stamp",
+          "cost": ["psychic", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Masakazu Fukuda",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 135,
+      "name": "golett",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "mega_punch",
+          "cost": ["psychic", "colorless", "colorless"],
+          "damage": 50
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 3,
+      "artist": "Kyoko Umemoto",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 136,
+      "name": "golurk",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 140,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "golett",
+      "attacks": [
+        {
+          "name": "double_lariat",
+          "cost": ["psychic", "psychic", "colorless", "colorless"],
+          "damage": 100,
+          "damage_type": "multiply",
+          "flip": 2,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 4,
+      "artist": "match",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 137,
+      "name": "sandshrew",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "scratch",
+          "cost": ["fighting"],
+          "damage": 10
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "Miki Tanaka",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 138,
+      "name": "sandslash",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "sandshrew",
+      "attacks": [
+        {
+          "name": "slash",
+          "cost": ["fighting", "fighting"],
+          "damage": 70
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 2,
+      "artist": "Miki Tanaka",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 139,
+      "name": "diglett",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "mud_slap",
+          "cost": ["fighting"],
+          "damage": 20
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "Masako Yamashita",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 140,
+      "name": "dugtrio",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 70,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "diglett",
+      "attacks": [
+        {
+          "name": "dig",
+          "cost": ["fighting"],
+          "damage": 40,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "dodge",
+              "target": "self",
+              "duration": "opponent_next_turn",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "Akira Komayama",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 141,
+      "name": "mankey",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "low_kick",
+          "cost": ["fighting"],
+          "damage": 20
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 1,
+      "artist": "Kanako Eo",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 142,
+      "name": "primeape",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "mankey",
+      "attacks": [
+        {
+          "name": "fight_back",
+          "cost": ["fighting", "fighting"],
+          "damage": 40,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "self_damaged"
+            }
+          ]
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 1,
+      "artist": "Kagemaru Himeno",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 143,
+      "name": "machop",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "knuckle_punch",
+          "cost": ["fighting"],
+          "damage": 20
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 2,
+      "artist": "Kyoko Umemoto",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 144,
+      "name": "machoke",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "machop",
+      "attacks": [
+        {
+          "name": "strength",
+          "cost": ["fighting", "fighting"],
+          "damage": 50
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 2,
+      "artist": "match",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 145,
+      "name": "machamp",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "fighting",
+      "stage": 2,
+      "preevolution": "machoke",
+      "attacks": [
+        {
+          "name": "seismic_toss",
+          "cost": ["fighting", "fighting", "fighting"],
+          "damage": 100
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 3,
+      "artist": "Hitoshi Ariga",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 146,
+      "name": "machamp_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 180,
+      "pokemon_type": "fighting",
+      "stage": 2,
+      "preevolution": "machoke",
+      "attacks": [
+        {
+          "name": "mega_punch",
+          "cost": ["fighting", "fighting", "fighting"],
+          "damage": 120
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 3,
+      "artist": "PLANETA CG Works",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 147,
+      "name": "geodude",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["fighting"],
+          "damage": 20
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 2,
+      "artist": "Kouki Saitou",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 148,
+      "name": "graveler",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "geodude",
+      "attacks": [
+        {
+          "name": "rollout",
+          "cost": ["fighting", "colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 3,
+      "artist": "Naoyo Kimura",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 149,
+      "name": "golem",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 160,
+      "pokemon_type": "fighting",
+      "stage": 2,
+      "preevolution": "graveler",
+      "attacks": [
+        {
+          "name": "double_edge",
+          "cost": ["fighting", "colorless", "colorless", "colorless"],
+          "damage": 150,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 50,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 4,
+      "artist": "Sumiyoshi Kizuki",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 150,
+      "name": "onix",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "land_crush",
+          "cost": ["fighting", "fighting", "fighting"],
+          "damage": 70
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 4,
+      "artist": "otumami",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 151,
+      "name": "cubone",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "growl",
+          "cost": ["colorless"],
+          "effect": [
+            {
+              "type": "mitigate_attacks",
+              "amount": 20,
+              "target": "attack_target",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "sowsow",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 152,
+      "name": "marowak",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "cubone",
+      "attacks": [
+        {
+          "name": "bone_beatdown",
+          "cost": ["fighting"],
+          "damage": 40
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "Shin Nagasawa",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 153,
+      "name": "marowak_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 140,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "cubone",
+      "attacks": [
+        {
+          "name": "bonemerang",
+          "cost": ["fighting", "fighting"],
+          "damage": 80,
+          "damage_type": "multiply",
+          "flip": 2,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "PLANETA Mochizuki",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 154,
+      "name": "hitmonlee",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "stretch_kick",
+          "cost": ["fighting"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 30,
+              "target": "opponent_bench_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 1,
+      "artist": "Yukiko Baba",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 155,
+      "name": "hitmonchan",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "jab",
+          "cost": ["fighting"],
+          "damage": 30
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 1,
+      "artist": "Ken Sugimori",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 156,
+      "name": "rhyhorn",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["fighting", "fighting", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 3,
+      "artist": "Midori Harada",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 157,
+      "name": "rhydon",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 120,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "rhyhorn",
+      "attacks": [
+        {
+          "name": "horn_drill",
+          "cost": ["fighting", "fighting", "fighting", "colorless"],
+          "damage": 100
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 4,
+      "artist": "Masakazu Fukuda",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 158,
+      "name": "kabuto",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "dome_fossil",
+      "attacks": [
+        {
+          "name": "shell_attack",
+          "cost": ["fighting"],
+          "damage": 40
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "sui",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 159,
+      "name": "kabutops",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 140,
+      "pokemon_type": "fighting",
+      "stage": 2,
+      "preevolution": "kabuto",
+      "attacks": [
+        {
+          "name": "leech_life",
+          "cost": ["fighting"],
+          "damage": 50,
+          "effect": [
+            {
+              "type": "drain_opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "Shin Nagasawa",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 160,
+      "name": "mienfoo",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "pound",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 1,
+      "artist": "match",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 161,
+      "name": "mienshao",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "mienfoo",
+      "attacks": [
+        {
+          "name": "spiral_kick",
+          "cost": ["colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 1,
+      "artist": "Atsuko Nishida",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 162,
+      "name": "clobbopus",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "knuckle_punch",
+          "cost": ["fighting", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 2,
+      "artist": "Yuu Nishida",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 163,
+      "name": "grapploct",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 130,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "preevolution": "clobbopus",
+      "attacks": [
+        {
+          "name": "knock_back",
+          "cost": ["fighting", "fighting", "colorless"],
+          "damage": 70,
+          "effect": [
+            {
+              "type": "switch",
+              "target": "opponent_active",
+              "choice": "opponent",
+              "into": "bench"
+            }
+          ]
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 3,
+      "artist": "kurumitsu",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 164,
+      "name": "ekans",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "bite",
+          "cost": ["darkness"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "MAHOU",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 165,
+      "name": "arbok",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "preevolution": "ekans",
+      "attacks": [
+        {
+          "name": "corner",
+          "cost": ["darkness", "colorless"],
+          "damage": 60,
+          "effect": [
+            {
+              "type": "cant_retreat",
+              "target": "opponent_active",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "Naoki Saito",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 166,
+      "name": "nidoran_female",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "call_for_family",
+          "cost": ["darkness"],
+          "effect": [
+            {
+              "type": "draw",
+              "amount": 1,
+              "target": "nidoran_male",
+              "into": "bench"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Miki Tanaka",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 167,
+      "name": "nidorina",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "preevolution": "nidoran_female",
+      "attacks": [
+        {
+          "name": "bite",
+          "cost": ["darkness"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Kagemaru Himeno",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 168,
+      "name": "nidoqueen",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 140,
+      "pokemon_type": "darkness",
+      "stage": 2,
+      "preevolution": "nidorina",
+      "attacks": [
+        {
+          "name": "lovestrike",
+          "cost": ["darkness", "darkness", "colorless"],
+          "damage": 80,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage_multiplied",
+              "amount": 50,
+              "factor": "nidoking_bench"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "nagimiso",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 169,
+      "name": "nidoran_male",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "peck",
+          "cost": ["darkness"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Naoyo Kimura",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 170,
+      "name": "nidorino",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "preevolution": "nidoran_male",
+      "attacks": [
+        {
+          "name": "horn_attack",
+          "cost": ["darkness", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "Kouki Saitou",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 171,
+      "name": "nidoking",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "darkness",
+      "stage": 2,
+      "preevolution": "nidorino",
+      "attacks": [
+        {
+          "name": "poison_horn",
+          "cost": ["darkness", "darkness", "colorless"],
+          "damage": 90,
+          "effect": [
+            {
+              "type": "poison",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "artist": "kawayoo",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 172,
+      "name": "zubat",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "glide",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "match",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 173,
+      "name": "golbat",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 70,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "preevolution": "zubat",
+      "attacks": [
+        {
+          "name": "wing_attack",
+          "cost": ["colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Masakazu Fukuda",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 174,
+      "name": "grimer",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "poison_gas",
+          "cost": ["darkness"],
+          "damage": 10,
+          "effect": [
+            {
+              "type": "poison",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "artist": "Pani Kobayashi",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 175,
+      "name": "muk",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "preevolution": "grimer",
+      "attacks": [
+        {
+          "name": "venoshock",
+          "cost": ["darkness", "darkness", "colorless"],
+          "damage": 70,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 50,
+              "condition": "opponent_active_poisoned"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "artist": "Hajime Kusajima",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 176,
+      "name": "koffing",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "suffocating_gas",
+          "cost": ["darkness"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Saya Tsuruta",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 177,
+      "name": "weezing",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 110,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "preevolution": "koffing",
+      "ability": {
+        "name": "gas_leak",
+        "activate": "once_per_turn",
+        "condition": "user_active",
+        "effect": [
+          {
+            "type": "poison",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["darkness"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "artist": "OOYAMA",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 178,
+      "name": "mawile",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "metal",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "crunch",
+          "cost": ["metal"],
+          "damage": 20,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "random",
+              "amount": 1,
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Kagemaru Himeno",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 179,
+      "name": "pawniard",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "metal",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "pierce",
+          "cost": ["metal"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Kouki Saitou",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 180,
+      "name": "bisharp",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "metal",
+      "stage": 1,
+      "preevolution": "pawniard",
+      "attacks": [
+        {
+          "name": "metal_claw",
+          "cost": ["metal", "metal"],
+          "damage": 70
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Anesaki Dynamic",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 181,
+      "name": "meltan",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "metal",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "amass",
+          "cost": ["metal"],
+          "effect": [
+            {
+              "type": "ramp",
+              "source": "energy_zone",
+              "energy_type": "metal",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Shin Nagasawa",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 182,
+      "name": "melmetal",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "metal",
+      "stage": 1,
+      "preevolution": "meltan",
+      "ability": {
+        "name": "hard_coat",
+        "effect": [
+          {
+            "type": "mitigate_attacks",
+            "amount": 20,
+            "target": "self"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "heavy_impact",
+          "cost": ["metal", "metal", "metal", "colorless"],
+          "damage": 120
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "artist": "Kouki Saitou",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 183,
+      "name": "dratini",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "dragon",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "ram",
+          "cost": ["water", "lightning"],
+          "damage": 40
+        }
+      ],
+      "weakness": "none",
+      "retreat_cost": 1,
+      "artist": "Ayaka Yoshida",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 184,
+      "name": "dragonair",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "dragon",
+      "stage": 1,
+      "preevolution": "dratini",
+      "attacks": [
+        {
+          "name": "tail_smack",
+          "cost": ["water", "lightning", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "none",
+      "retreat_cost": 1,
+      "artist": "kirisAki",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 185,
+      "name": "dragonite",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 160,
+      "pokemon_type": "dragon",
+      "stage": 2,
+      "preevolution": "dragonair",
+      "attacks": [
+        {
+          "name": "draco_meteor",
+          "cost": ["water", "lightning", "colorless", "colorless"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 50,
+              "target": "opponent_random",
+              "times": 4
+            }
+          ]
+        }
+      ],
+      "weakness": "none",
+      "retreat_cost": 3,
+      "artist": "Hiroyuki Yamamoto",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 186,
+      "name": "pidgey",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gust",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Scav",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 187,
+      "name": "pidgeotto",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "pidgey",
+      "attacks": [
+        {
+          "name": "gust",
+          "cost": ["colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Scav",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 188,
+      "name": "pidgeot",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "colorless",
+      "stage": 2,
+      "preevolution": "pidgeotto",
+      "ability": {
+        "name": "drive_off",
+        "activate": "once_per_turn",
+        "effect": [
+          {
+            "type": "switch",
+            "target": "opponent_active",
+            "choice": "opponent",
+            "into": "bench"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "wing_attack",
+          "cost": ["colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Scav",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 189,
+      "name": "rattata",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 40,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gnaw",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Atsushi Furusawa",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 190,
+      "name": "raticate",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "rattata",
+      "attacks": [
+        {
+          "name": "bite",
+          "cost": ["colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Shigenori Negishi",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 191,
+      "name": "spearow",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "peck",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Shiburingaru",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 192,
+      "name": "fearow",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "spearow",
+      "attacks": [
+        {
+          "name": "drill_run",
+          "cost": ["colorless", "colorless"],
+          "damage": 50,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "random",
+              "amount": 1,
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Satoshi Shirai",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 193,
+      "name": "jigglypuff",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "pound",
+          "cost": ["colorless", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Mizue",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 194,
+      "name": "wigglytuff",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "jigglypuff",
+      "attacks": [
+        {
+          "name": "hyper_voice",
+          "cost": ["colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "Atsuko Nishida",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 195,
+      "name": "wigglytuff_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 140,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "jigglypuff",
+      "attacks": [
+        {
+          "name": "sleepy_song",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 80,
+          "effect": [
+            {
+              "type": "sleep",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "PLANETA Igarashi",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 196,
+      "name": "meowth",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "pay_day",
+          "cost": ["colorless"],
+          "damage": 10,
+          "effect": [
+            {
+              "type": "draw",
+              "amount": 1,
+              "target": "card",
+              "into": "hand"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Mitsuhiro Arita",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 197,
+      "name": "persian",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "meowth",
+      "attacks": [
+        {
+          "name": "shadow_claw",
+          "cost": ["colorless", "colorless"],
+          "damage": 40,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "discard_card",
+              "amount": 1,
+              "target": "oppoonent_hand_random",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "nagimiso",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 198,
+      "name": "farfetchd",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "leek_slap",
+          "cost": ["colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Miki Tanaka",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 199,
+      "name": "doduo",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "peck",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Yuya Oka",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 200,
+      "name": "dodrio",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "doduo",
+      "attacks": [
+        {
+          "name": "drill_peck",
+          "cost": ["colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 0,
+      "artist": "Miki Tanaka",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 201,
+      "name": "lickitung",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "continuous_lick",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 60,
+          "damage_type": "multiply",
+          "flip_for": "head_until_tails",
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "artist": "Kagemaru Himeno",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 202,
+      "name": "chansey",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 120,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gentle_slap",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "artist": "MAHOU",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 203,
+      "name": "kangaskhan",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "dizzy_punch",
+          "cost": ["colorless"],
+          "damage": 30,
+          "damage_type": "multiply",
+          "flip": 2,
+          "efffect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "artist": "Ken Sugimori",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 204,
+      "name": "tauros",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "horn_attack",
+          "cost": ["colorless", "colorless"],
+          "damage": 50
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "kodama",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 205,
+      "name": "ditto",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 70,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "copy_anything",
+          "cost": ["colorless"],
+          "effect": [
+            {
+              "type": "copy_anything"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Miki Tanaka",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 206,
+      "name": "eevee",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Atsuko Nishida",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 207,
+      "name": "eevee",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Hasuno",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 208,
+      "name": "eevee",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Sekio",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 209,
+      "name": "porygon",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 50,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "ability": {
+        "name": "data_scan",
+        "activate": "once_per_turn",
+        "effect": [
+          {
+            "type": "look_top_deck",
+            "amount": 1,
+            "target": "self"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "sharpen",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Ayaka Yoshida",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 210,
+      "name": "aerodactyl",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "old_amber",
+      "attacks": [
+        {
+          "name": "primal_wingbeat",
+          "cost": ["colorless", "colorless"],
+          "flip": 1,
+          "effect": [
+            {
+              "type": "shuffle_into_deck",
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Naoyo Kimura",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 211,
+      "name": "snorlax",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "rollout",
+          "cost": ["colorless", "colorless", "colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 4,
+      "artist": "Naoki Saito",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 212,
+      "name": "minccino",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tail_smack",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "sui",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 213,
+      "name": "cinccino",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "minccino",
+      "attacks": [
+        {
+          "name": "do_the_wave",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 30,
+          "damage_type": "multiply",
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "benched_ally"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "0313",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 214,
+      "name": "wooloo",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["colorless", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Yoriyuki Ikegami",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 215,
+      "name": "dubwool",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 120,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "preevolution": "wooloo",
+      "attacks": [
+        {
+          "name": "rolling_tackle",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "saino misaki",
+      "packs": ["mewtwo", "pikachu", "charizard"]
+    },
+    {
+      "id": 216,
+      "name": "helix_fossil",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "rarity": 1,
+      "hp": 40,
+      "tags": ["fossil"],
+      "artist": "Toyste Beach",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 217,
+      "name": "dome_fossil",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "rarity": 1,
+      "hp": 40,
+      "tags": ["fossil"],
+      "artist": "Toyste Beach",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 218,
+      "name": "old_amber",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "rarity": 1,
+      "hp": 40,
+      "tags": ["fossil"],
+      "artist": "Toyste Beach",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 219,
+      "name": "erika",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "one_ally_grass",
+      "effect": [
+        {
+          "type": "heal",
+          "amount": 50
+        }
+      ],
+      "artist": "kirisAki",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 220,
+      "name": "misty",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "flip_for": "head_until_tails",
+      "target": "one_ally_water",
+      "effect": [
+        {
+          "type": "ramp",
+          "source": "energy_zone",
+          "energy_type": "water",
+          "amount_complex": "heads"
+        }
+      ],
+      "artist": "Sanosuke Sakuma",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 221,
+      "name": "blaine",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_specific",
+      "specific": ["ninetales", "rapidash", "magmar"],
+      "effect": [
+        {
+          "type": "attack_boost",
+          "amount": 30,
+          "duration": "this_turn",
+          "against": "opponent_active"
+        }
+      ],
+      "artist": "GOSSAN",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 222,
+      "name": "koga",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_active_specific",
+      "specific": ["weezing", "muk"],
+      "effect": [
+        {
+          "type": "back_to_hand"
+        }
+      ],
+      "artist": "Souichirou Gunjima",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 223,
+      "name": "giovanni",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "effect": [
+        {
+          "type": "attack_boost",
+          "amount": 10,
+          "duration": "this_turn",
+          "for": "ally_field",
+          "against": "opponent_active"
+        }
+      ],
+      "artist": "Hideki Ishikawa",
+      "packs": ["mewtwo"]
+    },
+    {
+      "id": 224,
+      "name": "brock",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_specific",
+      "specific": ["onix", "golem"],
+      "effect": [
+        {
+          "type": "ramp",
+          "source": "energy_zone",
+          "energy_type": "fighting",
+          "amount": 1
+        }
+      ],
+      "artist": "Taira Akitsu",
+      "packs": ["pikachu"]
+    },
+    {
+      "id": 225,
+      "name": "sabrina",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "effect": [
+        {
+          "type": "switch",
+          "target": "opponent_active",
+          "choice": "opponent",
+          "into": "bench"
+        }
+      ],
+      "artist": "Yuu Nishida",
+      "packs": ["charizard"]
+    },
+    {
+      "id": 226,
+      "name": "lt_surge",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_active_specific",
+      "specific": ["raichu", "electrode", "electabuzz"],
+      "effect": [
+        {
+          "type": "move_energy",
+          "amount_complex": "all",
+          "source": "ally_benched_all"
+        }
+      ],
+      "artist": "nagimiso",
+      "packs": ["pikachu"]
+    }
+  ]
+}

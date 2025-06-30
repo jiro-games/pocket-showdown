@@ -1,0 +1,593 @@
+{
+  "setInfo": {
+    "id": "promo_a"
+  },
+  "cards": [
+    {
+      "id": 1,
+      "name": "potion",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "effect": [
+        {
+          "type": "heal",
+          "amount": 20,
+          "target": "one_ally"
+        }
+      ],
+      "artist": "5ban Graphics"
+    },
+    {
+      "id": 2,
+      "name": "x_speed",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "effect": [
+        {
+          "type": "lower_retreat",
+          "amount": 1,
+          "duration": "this_turn",
+          "target": "ally_active"
+        }
+      ],
+      "artist": "Toyste Beach"
+    },
+    {
+      "id": 3,
+      "name": "hand_scope",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "effect": [
+        {
+          "type": "reveal_hand",
+          "target": "opponent"
+        }
+      ],
+      "artist": "Toyste Beach"
+    },
+    {
+      "id": 4,
+      "name": "pokédex",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "effect": [
+        {
+          "type": "look_top_deck",
+          "amount": 3,
+          "target": "self"
+        }
+      ],
+      "artist": "Ryo Ueda"
+    },
+    {
+      "id": 5,
+      "name": "poké_ball",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "effect": [
+        {
+          "type": "draw",
+          "amount": 1,
+          "target": "basic_pokemon",
+          "choice": "random",
+          "into": "hand"
+        }
+      ],
+      "artist": "Ryo Ueda"
+    },
+    {
+      "id": 6,
+      "name": "red_card",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "effect": [
+        {
+          "type": "shuffle_hand",
+          "target": "opponent",
+          "draw": 3
+        }
+      ],
+      "artist": "5ban Graphics"
+    },
+    {
+      "id": 7,
+      "name": "professors_research",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "effect": [
+        {
+          "type": "draw",
+          "amount": 2,
+          "target": "any_card",
+          "choice": "random",
+          "into": "hand"
+        }
+      ],
+      "artist": "Naoki Saito"
+    },
+    {
+      "id": 14,
+      "name": "lapras_ex",
+      "card_type": "pokemon",
+      "hp": 140,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "bubble_drain",
+          "cost": ["water", "water", "colorless"],
+          "damage": 80,
+          "effect": [
+            {
+              "type": "heal",
+              "amount": 20,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 3,
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 17,
+      "name": "mankey",
+      "card_type": "pokemon",
+      "hp": 50,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "reckless_charge",
+          "cost": ["fighting"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 10,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 1,
+      "artist": "Souichirou Gunjima"
+    },
+    {
+      "id": 20,
+      "name": "haunter",
+      "card_type": "pokemon",
+      "hp": 70,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "preevolution": "gastly",
+      "attacks": [
+        {
+          "name": "surprise_attack",
+          "cost": ["psychic"],
+          "damage": 50,
+          "effect": [
+            {
+              "type": "fail",
+              "tails": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Mékayu"
+    },
+    {
+      "id": 22,
+      "name": "jigglypuff",
+      "card_type": "pokemon",
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "sing",
+          "cost": ["colorless"],
+          "effect": [
+            {
+              "type": "sleep",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Kurata So"
+    },
+    {
+      "id": 27,
+      "name": "snivy",
+      "card_type": "pokemon",
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Yoriyuki Ikegami"
+    },
+    {
+      "id": 30,
+      "name": "eevee",
+      "card_type": "pokemon",
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "growl",
+          "cost": ["colorless"],
+          "effect": [
+            {
+              "type": "mitigate_attacks",
+              "amount": 20,
+              "target": "attack_target",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "En Morikura"
+    },
+    {
+      "id": 37,
+      "name": "cresselia_ex",
+      "card_type": "pokemon",
+      "hp": 140,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "ability": {
+        "name": "lunar_plumage",
+        "activate": "attach_energy",
+        "energy_type": "psychic",
+        "source": "energy_zone",
+        "effect": [
+          {
+            "type": "heal",
+            "amount": 20,
+            "target": "self"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "psychic_flash",
+          "cost": ["psychic", "psychic", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "PLANETA Mochizuki"
+    },
+    {
+      "id": 38,
+      "name": "misdreavus",
+      "card_type": "pokemon",
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "confuse_ray",
+          "cost": ["psychic"],
+          "effect": [
+            {
+              "type": "confuse",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Miki Tanaka"
+    },
+    {
+      "id": 45,
+      "name": "nosepass",
+      "card_type": "pokemon",
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "iron_defense",
+          "cost": ["colorless", "colorless"],
+          "flip": 1,
+          "effect": [
+            {
+              "type": "mitigate_attacks",
+              "target": "self",
+              "duration": "opponent_next_turn",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "Tomokazu Komiya"
+    },
+    {
+      "id": 47,
+      "name": "staraptor",
+      "card_type": "pokemon",
+      "hp": 140,
+      "pokemon_type": "colorless",
+      "stage": 2,
+      "preevolution": "staravia",
+      "ability": {
+        "name": "defensive_whirlwind",
+        "effect": [
+          {
+            "type": "mitigate_attacks",
+            "amount": 30,
+            "source": "fighting_pokemon",
+            "target": "self"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "wing_attack",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 90
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Hasuno"
+    },
+    {
+      "id": 53,
+      "name": "floatzel",
+      "card_type": "pokemon",
+      "hp": 100,
+      "pokemon_type": "water",
+      "stage": 1,
+      "preevolution": "buizel",
+      "attacks": [
+        {
+          "name": "attack_the_wound",
+          "cost": ["water"],
+          "damage": "10",
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "opponent_active_damaged"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Shin Nagasawa"
+    },
+    {
+      "id": 56,
+      "name": "ekans",
+      "card_type": "pokemon",
+      "hp": 60,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "poison_sting",
+          "cost": ["darkness"],
+          "effect": [
+            {
+              "type": "poison",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Krgc"
+    },
+    {
+      "id": 63,
+      "name": "rayquaza",
+      "card_type": "pokemon",
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "spiral_rush",
+          "cost": ["colorless", "colorless", "colorless", "colorless"],
+          "damage": "70",
+          "damage_type": "add",
+          "flip_for": "head_until_tails",
+          "effect": [
+            {
+              "type": "add_damage_multiplied",
+              "amount": 30,
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Yoshinobu Saito"
+    },
+    {
+      "id": 64,
+      "name": "rayquaza_ex",
+      "card_type": "pokemon",
+      "hp": 140,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "draco_meteor",
+          "cost": ["colorless", "colorless", "colorless", "colorless"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 40,
+              "target": "opponent_random",
+              "times": 4
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 72,
+      "name": "alolan_grimer",
+      "card_type": "pokemon",
+      "hp": 70,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "poison_gas",
+          "cost": ["darkness"],
+          "effect": [
+            {
+              "type": "poison",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "Naoki Saito"
+    },
+    {
+      "id": 73,
+      "name": "toucannon",
+      "card_type": "pokemon",
+      "hp": 140,
+      "pokemon_type": "colorless",
+      "stage": 2,
+      "preevolution": "trumbeak",
+      "attacks": [
+        {
+          "name": "beak_blast",
+          "cost": ["colorless", "colorless"],
+          "damage": 80,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "burn",
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "Sekio"
+    },
+    {
+      "id": 78,
+      "name": "dawn_wings_necrozma",
+      "card_type": "pokemon",
+      "hp": "110",
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "psychobilly",
+          "cost": ["psychic", "colorless", "colorless"],
+          "damage": 100,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 30,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "artist": "nagimiso"
+    },
+    {
+      "id": 79,
+      "name": "dusk_mane_necrozma",
+      "card_type": "pokemon",
+      "hp": "110",
+      "pokemon_type": "metal",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "black_metal",
+          "cost": ["metal", "colorless", "colorless"],
+          "damage": 100,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "metal",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "artist": "nagimiso"
+    },
+    {
+      "id": 81,
+      "name": "ultra_necrozma_ex",
+      "card_type": "pokemon",
+      "hp": "150",
+      "pokemon_type": "dragon",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "photon_claw",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 60
+        },
+        {
+          "name": "shoegaze",
+          "cost": ["psychic", "psychic", "metal", "metal"],
+          "damage": 120,
+          "effect": [
+            {
+              "type": "discard_card",
+              "amount": 5,
+              "target": "both_decks"
+            }
+          ]
+        }
+      ],
+      "weakness": "none",
+      "retreat_cost": 2,
+      "artist": "PLANETA Tsuji"
+    }
+  ]
+}

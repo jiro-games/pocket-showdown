@@ -4416,6 +4416,7 @@
       "preevolution": "meltan",
       "ability": {
         "name": "hard_coat",
+        "activate": "always",
         "effect": [
           {
             "type": "mitigate_attacks",

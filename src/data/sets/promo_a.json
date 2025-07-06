@@ -234,9 +234,9 @@
           "cost": ["colorless"],
           "effect": [
             {
-              "type": "mitigate_attacks",
+              "type": "reduce_attacks",
               "amount": 20,
-              "target": "attack_target",
+              "from": "attack_target",
               "duration": "opponent_next_turn"
             }
           ]

@@ -1625,6 +1625,7 @@
               "type": "buff_attack",
               "amount": 60,
               "target": "self",
+              "attack": "overdrive_smash",
               "duration": "next_turn"
             }
           ]

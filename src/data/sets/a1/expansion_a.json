@@ -135,24 +135,22 @@
       "pokemon_type": "grass",
       "stage": 2,
       "preevolution": "servine",
+      "ability": {
+        "name": "jungle_totem",
+        "effect": [
+          {
+            "type": "double_energy",
+            "target": "ally_grass",
+            "energy_type": "grass",
+            "stack": false
+          }
+        ]
+      },
       "attacks": [
         {
           "name": "solar_beam",
           "cost": ["grass", "colorless", "colorless", "colorless"],
           "damage": 70
-        }
-      ],
-      "abilities": [
-        {
-          "name": "jungle_totem",
-          "effect": [
-            {
-              "type": "double_energy",
-              "target": "ally_grass",
-              "energy_type": "grass",
-              "stack": false
-            }
-          ]
         }
       ],
       "weakness": "fire",
@@ -481,26 +479,24 @@
       "pokemon_type": "water",
       "stage": 1,
       "preevolution": "eevee",
+      "ability": {
+        "name": "wash_out",
+        "activate": "manual_no_limit",
+        "effect": [
+          {
+            "type": "move_energy",
+            "amount_complex": "all",
+            "energy_type": "water",
+            "from": "ally_benched_water",
+            "to": "ally_active_water"
+          }
+        ]
+      },
       "attacks": [
         {
           "name": "wave_splash",
           "cost": ["water", "colorless", "colorless"],
           "damage": 60
-        }
-      ],
-      "abilities": [
-        {
-          "name": "wash_out",
-          "activate": "manual_no_limit",
-          "effect": [
-            {
-              "type": "move_energy",
-              "amount_complex": "all",
-              "energy_type": "water",
-              "from": "ally_benched_water",
-              "to": "ally_active_water"
-            }
-          ]
         }
       ],
       "weakness": "lightning",
@@ -1145,21 +1141,19 @@
       "pokemon_type": "fighting",
       "stage": 1,
       "preevolution": "old_amber",
+      "ability": {
+        "name": "primeval_law",
+        "effect": [
+          {
+            "type": "primeval_law"
+          }
+        ]
+      },
       "attacks": [
         {
           "name": "land_crush",
           "cost": ["fighting", "colorless"],
           "damage": 80
-        }
-      ],
-      "abilities": [
-        {
-          "name": "primeval_law",
-          "effect": [
-            {
-              "type": "primeval_law"
-            }
-          ]
         }
       ],
       "weakness": "lightning",
@@ -1387,23 +1381,21 @@
       "hp": 100,
       "pokemon_type": "dragon",
       "stage": 0,
+      "ability": {
+        "name": "rough_skin",
+        "condition": "user_active",
+        "effect": [
+          {
+            "type": "counter",
+            "damage": 20
+          }
+        ]
+      },
       "attacks": [
         {
           "name": "dragon_claw",
           "cost": ["fire", "water", "colorless"],
           "damage": 90
-        }
-      ],
-      "abilities": [
-        {
-          "name": "rough_skin",
-          "condition": "user_active",
-          "effect": [
-            {
-              "type": "counter",
-              "damage": 20
-            }
-          ]
         }
       ],
       "retreat_cost": 2,

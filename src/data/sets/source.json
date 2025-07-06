@@ -1,247 +1,245 @@
 [
   {
-    "id": "a2a-001",
-    "name": "Heracross",
+    "id": "a2b-001",
+    "name": "Weedle",
     "element": "Grass",
     "type": "Pokemon",
     "subtype": "Basic",
-    "health": 100,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 50,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Single-Horn Throw",
-        "effect": "Flip 2 coins. If both of them are heads, this attack does 70 more damage.",
+        "name": "Multiply",
+        "effect": "Put 1 random Weedle from your deck onto your Bench.",
+        "damage": "",
+        "cost": ["Grass"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fire",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-002",
+    "name": "Kakuna",
+    "element": "Grass",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 80,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "String Shot",
+        "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "damage": "20",
+        "cost": ["Grass"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Fire",
+    "abilities": [],
+    "evolvesFrom": "Weedle",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-003",
+    "name": "Beedrill ex",
+    "element": "Grass",
+    "type": "Pokemon",
+    "subtype": "Stage 2",
+    "health": 170,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Crushing Spear",
+        "effect": "Discard a random Energy from your opponent's Active Pokémon.",
+        "damage": "80",
+        "cost": ["Grass", "Grass"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fire",
+    "abilities": [],
+    "evolvesFrom": "Kakuna",
+    "rarity": "Rare EX"
+  },
+  {
+    "id": "a2b-004",
+    "name": "Pinsir",
+    "element": "Grass",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Guillotine Rush",
+        "effect": "Flip a coin until you get tails. This attack does 40 more damage for each heads.",
         "damage": "50+",
         "cost": ["Grass", "Colorless", "Colorless"]
       }
     ],
     "retreatCost": 2,
     "weakness": "Fire",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
-    "rarity": "Uncommon"
+    "rarity": "Common"
   },
   {
-    "id": "a2a-002",
-    "name": "Burmy",
+    "id": "a2b-005",
+    "name": "Sprigatito",
     "element": "Grass",
     "type": "Pokemon",
     "subtype": "Basic",
-    "health": 50,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 60,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Ram",
-        "damage": "20",
+        "name": "Cry for Help",
+        "effect": "Put 1 random Grass Pokémon from your deck into your hand.",
+        "damage": "",
         "cost": ["Grass"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fire",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-003",
-    "name": "Mothim",
+    "id": "a2b-006",
+    "name": "Floragato",
     "element": "Grass",
     "type": "Pokemon",
     "subtype": "Stage 1",
     "health": 90,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Gust",
-        "damage": "50",
-        "cost": ["Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 0,
-    "weakness": "Lightning",
-    "ability": [],
-    "evolvesFrom": "Burmy",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-004",
-    "name": "Combee",
-    "element": "Grass",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 50,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Bug Bite",
-        "damage": "20",
-        "cost": ["Grass"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-005",
-    "name": "Vespiquen",
-    "element": "Grass",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 100,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Reckless Charge",
-        "effect": "This Pokémon also does 30 damage to itself.",
-        "damage": "120",
-        "cost": ["Grass", "Grass", "Grass"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": "Combee",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-006",
-    "name": "Cherubi",
-    "element": "Grass",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 50,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Leafage",
-        "damage": "20",
-        "cost": ["Grass"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-007",
-    "name": "Cherrim",
-    "element": "Grass",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Worry Seed",
-        "effect": "Your opponent's Active Pokémon is now Confused.",
+        "name": "Slash",
         "damage": "40",
-        "cost": ["Grass"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": "Cherubi",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-008",
-    "name": "Cherrim",
-    "element": "Grass",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Leech Seed",
-        "effect": "Heal 20 damage from this Pokémon.",
-        "damage": "60",
         "cost": ["Grass", "Grass"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": "Cherubi",
+    "abilities": [],
+    "evolvesFrom": "Sprigatito",
     "rarity": "Uncommon"
   },
   {
-    "id": "a2a-009",
-    "name": "Carnivine",
+    "id": "a2b-007",
+    "name": "Meowscarada",
     "element": "Grass",
     "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "subtype": "Stage 2",
+    "health": 140,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Vine Whip",
-        "damage": "20",
-        "cost": ["Grass"]
+        "name": "Fighting Claws",
+        "effect": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.",
+        "damage": "60+",
+        "cost": ["Grass", "Grass"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fire",
-    "ability": [
-      {
-        "name": "Power Link",
-        "effect": "If you have Arceus or Arceus ex in play, attacks used by this Pokémon do +30 damage to your opponent's Active Pokémon."
-      }
-    ],
-    "evolvesFrom": null,
+    "abilities": [],
+    "evolvesFrom": "Floragato",
     "rarity": "Rare"
   },
   {
-    "id": "a2a-010",
-    "name": "Leafeon ex",
-    "element": "Grass",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 140,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Solar Beam",
-        "damage": "70",
-        "cost": ["Grass", "Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Fire",
-    "ability": [
-      {
-        "name": "Forest Breath",
-        "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may take a Grass Energy from your Energy Zone and attach it to 1 of your Grass Pokémon."
-      }
-    ],
-    "evolvesFrom": "Eevee",
-    "rarity": "Rare EX"
-  },
-  {
-    "id": "a2a-011",
-    "name": "Houndour",
+    "id": "a2b-008",
+    "name": "Charmander",
     "element": "Fire",
     "type": "Pokemon",
     "subtype": "Basic",
     "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Combustion",
+        "damage": "20",
+        "cost": ["Fire"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Water",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-009",
+    "name": "Charmeleon",
+    "element": "Fire",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Combustion",
+        "damage": "40",
+        "cost": ["Fire", "Fire"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Water",
+    "abilities": [],
+    "evolvesFrom": "Charmander",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-010",
+    "name": "Charizard ex",
+    "element": "Fire",
+    "type": "Pokemon",
+    "subtype": "Stage 2",
+    "health": 180,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Stoke",
+        "effect": "Take 3 Fire Energy from your Energy Zone and attach it to this Pokémon.",
+        "damage": "",
+        "cost": ["Fire"]
+      },
+      {
+        "name": "Steam Artillery",
+        "damage": "150",
+        "cost": ["Fire", "Fire", "Fire", "Colorless", "Colorless"]
+      }
+    ],
+    "retreatCost": 3,
+    "weakness": "Water",
+    "abilities": [],
+    "evolvesFrom": "Charmeleon",
+    "rarity": "Rare EX"
+  },
+  {
+    "id": "a2b-011",
+    "name": "Magmar",
+    "element": "Fire",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
         "name": "Flare",
@@ -251,1479 +249,1377 @@
     ],
     "retreatCost": 1,
     "weakness": "Water",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-012",
-    "name": "Houndoom",
+    "id": "a2b-012",
+    "name": "Magmortar",
     "element": "Fire",
     "type": "Pokemon",
     "subtype": "Stage 1",
-    "health": 100,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 120,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Corner",
-        "effect": "During your opponent's next turn, the Defending Pokémon can't retreat.",
-        "damage": "60",
-        "cost": ["Fire", "Colorless"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Water",
-    "ability": [],
-    "evolvesFrom": "Houndour",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-013",
-    "name": "Heatran",
-    "element": "Fire",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 110,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Ragin’ Mad Strike",
-        "effect": "If this Pokémon has damage on it, this attack does 40 more damage.",
-        "damage": "40+",
-        "cost": ["Fire", "Fire"]
+        "name": "Smoke Bomb",
+        "effect": "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.",
+        "damage": "70",
+        "cost": ["Fire", "Fire", "Colorless"]
       }
     ],
     "retreatCost": 3,
     "weakness": "Water",
-    "ability": [
-      {
-        "name": "Speed Link",
-        "effect": "If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost."
-      }
-    ],
-    "evolvesFrom": null,
+    "abilities": [],
+    "evolvesFrom": "Magmar",
     "rarity": "Rare"
   },
   {
-    "id": "a2a-014",
-    "name": "Marill",
+    "id": "a2b-013",
+    "name": "Paldean Tauros",
+    "element": "Fire",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 110,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Blaze Tackle",
+        "effect": "This Pokémon also does 10 damage to itself.",
+        "damage": "80",
+        "cost": ["Fire", "Colorless", "Colorless"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Water",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-014",
+    "name": "Tentacool",
     "element": "Water",
     "type": "Pokemon",
     "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Water Gun",
-        "damage": "20",
+        "name": "Rain Splash",
+        "damage": "10",
         "cost": ["Water"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Lightning",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-015",
-    "name": "Azumarill",
+    "id": "a2b-015",
+    "name": "Tentacruel",
     "element": "Water",
     "type": "Pokemon",
     "subtype": "Stage 1",
     "health": 100,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Waterfall",
-        "damage": "60",
-        "cost": ["Water", "Colorless"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Lightning",
-    "ability": [],
-    "evolvesFrom": "Marill",
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-016",
-    "name": "Barboach",
-    "element": "Water",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Mud-Slap",
-        "damage": "30",
-        "cost": ["Water", "Colorless"]
+        "name": "Wave Splash",
+        "damage": "40",
+        "cost": ["Water"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Lightning",
-    "ability": [],
+    "abilities": [],
+    "evolvesFrom": "Tentacool",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-016",
+    "name": "Buizel",
+    "element": "Water",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": "10",
+        "cost": ["Water"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Lightning",
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-017",
-    "name": "Whiscash",
+    "id": "a2b-017",
+    "name": "Floatzel",
     "element": "Water",
     "type": "Pokemon",
     "subtype": "Stage 1",
-    "health": 120,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Thrash",
-        "effect": "Flip a coin. If heads, this attack does 60 more damage. If tails, this Pokémon also does 20 damage to itself.",
-        "damage": "80+",
+        "name": "Water Arrow",
+        "effect": "This attack does 30 damage to 1 of your opponent's Pokémon.",
+        "damage": "",
+        "cost": ["Water"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Lightning",
+    "abilities": [],
+    "evolvesFrom": "Buizel",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-018",
+    "name": "Wiglett",
+    "element": "Water",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 60,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Spring Out",
+        "effect": "1 of your opponent's Pokémon is chosen at random. Do 30 damage to it.",
+        "damage": "",
+        "cost": ["Water"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Lightning",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-019",
+    "name": "Wugtrio ex",
+    "element": "Water",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 140,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Pop Out Throughout",
+        "effect": "1 of your opponent's Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, do 50 damage to it.",
+        "damage": "",
+        "cost": ["Water", "Water", "Water"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Lightning",
+    "abilities": [],
+    "evolvesFrom": "Wiglett",
+    "rarity": "Rare EX"
+  },
+  {
+    "id": "a2b-020",
+    "name": "Dondozo",
+    "element": "Water",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 120,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Ocean Cyclone",
+        "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
+        "damage": "80",
         "cost": ["Water", "Water", "Colorless", "Colorless"]
       }
     ],
     "retreatCost": 3,
     "weakness": "Lightning",
-    "ability": [],
-    "evolvesFrom": "Barboach",
-    "rarity": "Uncommon"
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Rare"
   },
   {
-    "id": "a2a-018",
-    "name": "Snorunt",
+    "id": "a2b-021",
+    "name": "Tatsugiri",
     "element": "Water",
     "type": "Pokemon",
     "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Icicle",
+        "name": "Rain Splash",
         "damage": "20",
         "cost": ["Water"]
       }
     ],
     "retreatCost": 1,
-    "weakness": "Metal",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-019",
-    "name": "Froslass",
-    "element": "Water",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 90,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Blizzard",
-        "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
-        "damage": "40",
-        "cost": ["Water", "Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Metal",
-    "ability": [],
-    "evolvesFrom": "Snorunt",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-020",
-    "name": "Snover",
-    "element": "Water",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 70,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Corkscrew Punch",
-        "damage": "30",
-        "cost": ["Water", "Colorless"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Metal",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-021",
-    "name": "Abomasnow",
-    "element": "Water",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 120,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Mega Punch",
-        "damage": "80",
-        "cost": ["Water", "Water", "Colorless"]
-      }
-    ],
-    "retreatCost": 3,
-    "weakness": "Metal",
-    "ability": [
-      {
-        "name": "Vigor Link",
-        "effect": "If you have Arceus or Arceus ex in play, attacks used by this Pokémon cost 1 less Colorless Energy."
-      }
-    ],
-    "evolvesFrom": "Snover",
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-022",
-    "name": "Glaceon ex",
-    "element": "Water",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 140,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Freezing Wind",
-        "damage": "90",
-        "cost": ["Water", "Water", "Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Metal",
-    "ability": [
-      {
-        "name": "Snowy Terrain",
-        "effect": "During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to your opponent's Active Pokémon."
-      }
-    ],
-    "evolvesFrom": "Eevee",
-    "rarity": "Rare EX"
-  },
-  {
-    "id": "a2a-023",
-    "name": "Origin Forme Palkia",
-    "element": "Water",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 120,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Zone Smash",
-        "effect": "Flip a coin. If heads, this attack does 60 more damage.",
-        "damage": "60+",
-        "cost": ["Water", "Water", "Water"]
-      }
-    ],
-    "retreatCost": 2,
     "weakness": "Lightning",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-024",
-    "name": "Phione",
-    "element": "Water",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
+    "abilities": [
       {
-        "name": "Water Pulse",
-        "effect": "Your opponent's Active Pokémon is now Asleep.",
-        "damage": "40",
-        "cost": ["Water", "Water"]
+        "name": "Retreat Directive",
+        "effect": "Your Active Dondozo has no Retreat Cost."
       }
     ],
-    "retreatCost": 1,
-    "weakness": "Lightning",
-    "ability": [],
     "evolvesFrom": null,
     "rarity": "Uncommon"
   },
   {
-    "id": "a2a-025",
-    "name": "Pikachu",
+    "id": "a2b-022",
+    "name": "Pikachu ex",
     "element": "Lightning",
     "type": "Pokemon",
     "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 120,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Spark",
-        "effect": "This attack also does 10 damage to 1 of your opponent's Benched Pokémon.",
+        "name": "Thunderbolt",
+        "effect": "Discard all Energy from this Pokémon.",
+        "damage": "150",
+        "cost": ["Lightning", "Lightning", "Lightning"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Rare EX"
+  },
+  {
+    "id": "a2b-023",
+    "name": "Voltorb",
+    "element": "Lightning",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Lightning Ball",
         "damage": "10",
         "cost": ["Lightning"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fighting",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-026",
-    "name": "Raichu",
+    "id": "a2b-024",
+    "name": "Electrode",
     "element": "Lightning",
     "type": "Pokemon",
     "subtype": "Stage 1",
     "health": 90,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Spark",
-        "effect": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon.",
+        "name": "Tumbling Attack",
+        "effect": "Flip a coin. If heads, this attack does 30 more damage.",
+        "damage": "50+",
+        "cost": ["Lightning", "Lightning"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": "Voltorb",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-025",
+    "name": "Pachirisu",
+    "element": "Lightning",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Plasma",
+        "effect": "Take a [L] Energy from your Energy Zone and attach it to 1 of your Benched [L] Pokémon.",
+        "damage": "10",
+        "cost": ["Lightning"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-026",
+    "name": "Pawmi",
+    "element": "Lightning",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 60,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Punch",
+        "damage": "20",
+        "cost": ["Lightning"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-027",
+    "name": "Pawmo",
+    "element": "Lightning",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Punch",
         "damage": "40",
         "cost": ["Lightning", "Lightning"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fighting",
-    "ability": [
-      {
-        "name": "Resilience Link",
-        "effect": "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
-      }
-    ],
-    "evolvesFrom": "Pikachu",
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-027",
-    "name": "Electrike",
-    "element": "Lightning",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Zap Kick",
-        "damage": "20",
-        "cost": ["Lightning"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Fighting",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-028",
-    "name": "Manectric",
-    "element": "Lightning",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 90,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Flash",
-        "effect": "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.",
-        "damage": "40",
-        "cost": ["Lightning"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Fighting",
-    "ability": [],
-    "evolvesFrom": "Electrike",
+    "abilities": [],
+    "evolvesFrom": "Pawmi",
     "rarity": "Uncommon"
   },
   {
-    "id": "a2a-029",
-    "name": "Clefairy",
-    "element": "Psychic",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Smack",
-        "damage": "30",
-        "cost": ["Psychic", "Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Metal",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-030",
-    "name": "Clefable",
-    "element": "Psychic",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 100,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Moonblast",
-        "effect": "During your opponent's next turn, attacks used by the Defending Pokémon do −30 damage.",
-        "damage": "60",
-        "cost": ["Psychic", "Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Metal",
-    "ability": [],
-    "evolvesFrom": "Clefairy",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-031",
-    "name": "Gastly",
-    "element": "Psychic",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 50,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Astonish",
-        "effect": "Flip a coin. If heads, your opponent reveals a random card from their hand and shuffles it into their deck.",
-        "damage": "0",
-        "cost": ["Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Darkness",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-032",
-    "name": "Haunter",
-    "element": "Psychic",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Mumble",
-        "damage": "40",
-        "cost": ["Psychic", "Psychic"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Darkness",
-    "ability": [],
-    "evolvesFrom": "Gastly",
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-033",
-    "name": "Gengar",
-    "element": "Psychic",
+    "id": "a2b-028",
+    "name": "Pawmot",
+    "element": "Lightning",
     "type": "Pokemon",
     "subtype": "Stage 2",
     "health": 140,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Hypnoblast",
-        "effect": "Your opponent's Active Pokémon is now Asleep.",
+        "name": "Electric Punch",
         "damage": "70",
-        "cost": ["Psychic", "Psychic"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Darkness",
-    "ability": [],
-    "evolvesFrom": "Haunter",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-034",
-    "name": "Unown",
-    "element": "Psychic",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Hidden Power",
-        "damage": "20",
-        "cost": ["Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Darkness",
-    "ability": [
-      {
-        "name": "CHECK",
-        "effect": "Once during your turn, you may choose either player. Look at the top card of that player's deck."
-      }
-    ],
-    "evolvesFrom": null,
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-035",
-    "name": "Rotom",
-    "element": "Psychic",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 70,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Dash Attack",
-        "effect": "This attack does 20 damage to 1 of your opponent's Benched Pokémon.",
-        "damage": "0",
-        "cost": ["Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Darkness",
-    "ability": [
-      {
-        "name": "Speed Link",
-        "effect": "If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost."
-      }
-    ],
-    "evolvesFrom": null,
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-036",
-    "name": "Sudowoodo",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Fighting Headbutt",
-        "effect": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 30 more damage.",
-        "damage": "20+",
-        "cost": ["Fighting"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-037",
-    "name": "Phanpy",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Rollout",
-        "damage": "20",
-        "cost": ["Fighting"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-038",
-    "name": "Donphan",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 120,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Rolling Spin",
-        "effect": "During your next turn, this Pokémon's Rolling Spin attack does +60 damage.",
-        "damage": "60",
-        "cost": ["Fighting", "Fighting", "Fighting"]
-      }
-    ],
-    "retreatCost": 3,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": "Phanpy",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-039",
-    "name": "Larvitar",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Corkscrew Punch",
-        "damage": "30",
-        "cost": ["Fighting", "Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-040",
-    "name": "Pupitar",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Speed Attack",
-        "damage": "50",
-        "cost": ["Fighting", "Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": "Larvitar",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-041",
-    "name": "Tyranitar",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Stage 2",
-    "health": 160,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Land Crush",
-        "damage": "130",
-        "cost": ["Fighting", "Fighting", "Fighting", "Colorless"]
-      }
-    ],
-    "retreatCost": 4,
-    "weakness": "Grass",
-    "ability": [
-      {
-        "name": "Power Link",
-        "effect": "If you have Arceus or Arceus ex in play, attacks used by this Pokémon do +30 damage to your opponent's Active Pokémon."
-      }
-    ],
-    "evolvesFrom": "Pupitar",
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-042",
-    "name": "Nosepass",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Tackle",
-        "damage": "10",
-        "cost": ["Colorless"]
-      }
-    ],
-    "retreatCost": 3,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-043",
-    "name": "Meditite",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Kick",
-        "damage": "20",
-        "cost": ["Fighting"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Psychic",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-044",
-    "name": "Medicham",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 100,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Kick Shot",
-        "effect": "Flip a coin. If tails, this attack does nothing.",
-        "damage": "80",
-        "cost": ["Fighting"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Psychic",
-    "ability": [],
-    "evolvesFrom": "Meditite",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-045",
-    "name": "Gible",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Tackle",
-        "damage": "20",
-        "cost": ["Fighting"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-046",
-    "name": "Gabite",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Sharp Scythe",
-        "damage": "30",
-        "cost": ["Fighting"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": "Gible",
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-047",
-    "name": "Garchomp ex",
-    "element": "Fighting",
-    "type": "Pokemon",
-    "subtype": "Stage 2",
-    "health": 170,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Linear Attack",
-        "effect": "This attack does 50 damage to 1 of your opponent's Pokémon.",
-        "damage": "0",
-        "cost": ["Fighting"]
-      },
-      {
-        "name": "Dragon Claw",
-        "damage": "100",
-        "cost": ["Fighting", "Fighting", "Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Grass",
-    "ability": [],
-    "evolvesFrom": "Gabite",
-    "rarity": "Rare EX"
-  },
-  {
-    "id": "a2a-048",
-    "name": "Zubat",
-    "element": "Darkness",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 50,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Bite",
-        "damage": "20",
-        "cost": ["Darkness"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Fighting",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-049",
-    "name": "Golbat",
-    "element": "Darkness",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Bite",
-        "damage": "30",
-        "cost": ["Darkness"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Fighting",
-    "ability": [],
-    "evolvesFrom": "Zubat",
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-050",
-    "name": "Crobat",
-    "element": "Darkness",
-    "type": "Pokemon",
-    "subtype": "Stage 2",
-    "health": 110,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Darkness Fang",
-        "damage": "50",
-        "cost": ["Darkness"]
+        "cost": ["Lightning", "Lightning"]
       }
     ],
     "retreatCost": 0,
     "weakness": "Fighting",
-    "ability": [
+    "abilities": [
       {
-        "name": "Cunning Link",
-        "effect": "Once during your turn, if you have Arceus or Arceus ex in play, you may do 30 damage to your opponent's Active Pokémon."
+        "name": "Counterattack",
+        "effect": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
       }
     ],
-    "evolvesFrom": "Golbat",
+    "evolvesFrom": "Pawmo",
     "rarity": "Rare"
   },
   {
-    "id": "a2a-051",
-    "name": "Croagunk",
+    "id": "a2b-029",
+    "name": "Abra",
+    "element": "Psychic",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 60,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Psyshot",
+        "damage": "20",
+        "cost": ["Psychic"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Darkness",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-030",
+    "name": "Kadabra",
+    "element": "Psychic",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 80,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Psyshot",
+        "damage": "30",
+        "cost": ["Psychic"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Darkness",
+    "abilities": [],
+    "evolvesFrom": "Abra",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-031",
+    "name": "Alakazam",
+    "element": "Psychic",
+    "type": "Pokemon",
+    "subtype": "Stage 2",
+    "health": 130,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Psychic Suppression",
+        "effect": "This attack also does 20 damage to each of your opponent's Benched Pokémon that has any Energy attached.",
+        "damage": "80",
+        "cost": ["Psychic", "Psychic"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Darkness",
+    "abilities": [],
+    "evolvesFrom": "Kadabra",
+    "rarity": "Rare"
+  },
+  {
+    "id": "a2b-032",
+    "name": "Mr. Mime",
+    "element": "Psychic",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Juggling 20x",
+        "effect": "Flip 4 coins. This attack does 20 damage for each heads.",
+        "damage": "",
+        "cost": ["Psychic", "Colorless"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Darkness",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-033",
+    "name": "Drifloon",
+    "element": "Psychic",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 60,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Ram",
+        "damage": "20",
+        "cost": ["Psychic"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Darkness",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-034",
+    "name": "Drifblim",
+    "element": "Psychic",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Gust",
+        "damage": "40",
+        "cost": ["Psychic"]
+      }
+    ],
+    "retreatCost": 0,
+    "weakness": "Darkness",
+    "abilities": [],
+    "evolvesFrom": "Drifloon",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-035",
+    "name": "Giratina ex",
+    "element": "Psychic",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 150,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Chaotic Impact",
+        "effect": "This Pokémon also does 20 damage to itself.",
+        "damage": "130",
+        "cost": ["Psychic", "Psychic", "Psychic", "Colorless"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Darkness",
+    "abilities": [
+      {
+        "name": "Broken-Space Bellow",
+        "effect": "Once during your turn, you may take a Psychic Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends."
+      }
+    ],
+    "evolvesFrom": null,
+    "rarity": "Rare EX"
+  },
+  {
+    "id": "a2b-036",
+    "name": "Gimmighoul",
+    "element": "Psychic",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 60,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Chest-ouflage",
+        "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
+        "damage": "",
+        "cost": ["Colorless"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Darkness",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-037",
+    "name": "Machop",
+    "element": "Fighting",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 60,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Low Kick",
+        "damage": "20",
+        "cost": ["Fighting"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Psychic",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-038",
+    "name": "Machoke",
+    "element": "Fighting",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 100,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Pummel",
+        "effect": "Flip a coin. If heads, this attack does 30 more damage.",
+        "damage": "30+",
+        "cost": ["Fighting", "Fighting"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Psychic",
+    "abilities": [],
+    "evolvesFrom": "Machop",
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-039",
+    "name": "Machamp",
+    "element": "Fighting",
+    "type": "Pokemon",
+    "subtype": "Stage 2",
+    "health": 150,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Power Press",
+        "effect": "If this Pokémon has at least 2 extra Fighting Energy attached, this attack does 50 more damage.",
+        "damage": "70+",
+        "cost": ["Fighting", "Fighting"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Psychic",
+    "abilities": [],
+    "evolvesFrom": "Machoke",
+    "rarity": "Rare"
+  },
+  {
+    "id": "a2b-040",
+    "name": "Hitmonlee",
+    "element": "Fighting",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 80,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Kick",
+        "damage": "30",
+        "cost": ["Fighting"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Psychic",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-041",
+    "name": "Hitmonchan",
+    "element": "Fighting",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Magnum Punch",
+        "damage": "90",
+        "cost": ["Fighting", "Fighting", "Fighting"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Psychic",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-042",
+    "name": "Riolu",
+    "element": "Fighting",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Punch",
+        "damage": "40",
+        "cost": ["Fighting", "Fighting"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Psychic",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-043",
+    "name": "Lucario ex",
+    "element": "Fighting",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 150,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Aura Sphere",
+        "effect": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon.",
+        "damage": "100",
+        "cost": ["Fighting", "Fighting", "Fighting"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Psychic",
+    "abilities": [],
+    "evolvesFrom": "Riolu",
+    "rarity": "Rare EX"
+  },
+  {
+    "id": "a2b-044",
+    "name": "Flamigo",
+    "element": "Fighting",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 80,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Double Kick",
+        "effect": "Flip 2 coins. This attack does 50 damage for each heads.",
+        "damage": "50x",
+        "cost": ["Fighting", "Fighting"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Psychic",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-045",
+    "name": "Ekans",
+    "element": "Darkness",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Ram",
+        "damage": "30",
+        "cost": ["Darkness", "Colorless"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-046",
+    "name": "Arbok",
+    "element": "Darkness",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 110,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Venomous Fang",
+        "effect": "Your opponent's Active Pokémon is now Poisoned.",
+        "damage": "70",
+        "cost": ["Darkness", "Darkness", "Colorless"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": "Ekans",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-047",
+    "name": "Paldean Wooper",
+    "element": "Darkness",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 50,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Poison Jab",
+        "effect": "Your opponent's Active Pokémon is now Poisoned.",
+        "damage": "10",
+        "cost": ["Darkness"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-048",
+    "name": "Paldean Clodsire ex",
+    "element": "Darkness",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 160,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Venoshock",
+        "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.",
+        "damage": "60+",
+        "cost": ["Darkness", "Darkness"]
+      }
+    ],
+    "retreatCost": 3,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": "Paldean Wooper",
+    "rarity": "Rare EX"
+  },
+  {
+    "id": "a2b-049",
+    "name": "Spiritomb",
+    "element": "Darkness",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 80,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Confuse Ray",
+        "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
+        "damage": "20",
+        "cost": ["Darkness"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Grass",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-050",
+    "name": "Shroodle",
     "element": "Darkness",
     "type": "Pokemon",
     "subtype": "Basic",
     "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Beat",
+        "name": "Gnaw",
         "damage": "20",
         "cost": ["Darkness"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fighting",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-052",
-    "name": "Toxicroak",
+    "id": "a2b-051",
+    "name": "Grafaiai",
     "element": "Darkness",
     "type": "Pokemon",
     "subtype": "Stage 1",
-    "health": 100,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Toxic",
-        "effect": "Your opponent's Active Pokémon is now Poisoned. Do 20 damage to this Pokémon instead of the usual amount for this Special Condition.",
-        "damage": "0",
-        "cost": ["Darkness"]
+        "name": "Bite",
+        "damage": "40",
+        "cost": ["Darkness", "Darkness"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fighting",
-    "ability": [],
-    "evolvesFrom": "Croagunk",
-    "rarity": "Uncommon"
+    "abilities": [
+      {
+        "name": "Poison Coating",
+        "effect": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "evolvesFrom": "Shroodle",
+    "rarity": "Rare"
   },
   {
-    "id": "a2a-053",
-    "name": "Magnemite",
+    "id": "a2b-052",
+    "name": "Tinkatink",
     "element": "Metal",
     "type": "Pokemon",
     "subtype": "Basic",
     "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Tackle",
+        "name": "Corkscrew Punch",
         "damage": "20",
         "cost": ["Metal"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fire",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-054",
-    "name": "Magneton",
+    "id": "a2b-053",
+    "name": "Tinkatuff",
     "element": "Metal",
     "type": "Pokemon",
     "subtype": "Stage 1",
     "health": 90,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Rolling Attack",
-        "damage": "30",
-        "cost": ["Metal", "Colorless"]
+        "name": "Tenacious Hammer",
+        "effect": "Flip a coin. If heads, this attack does 30 more damage.",
+        "damage": "30+",
+        "cost": ["Metal", "Metal"]
       }
     ],
     "retreatCost": 2,
     "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": "Magnemite",
-    "rarity": "Common"
+    "abilities": [],
+    "evolvesFrom": "Tinkatink",
+    "rarity": "Uncommon"
   },
   {
-    "id": "a2a-055",
-    "name": "Magnezone",
+    "id": "a2b-054",
+    "name": "Tinkaton ex",
     "element": "Metal",
     "type": "Pokemon",
     "subtype": "Stage 2",
-    "health": 140,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 170,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Power Beam",
-        "damage": "80",
+        "name": "Terrific Thumping",
+        "effect": "Flip a coin. If heads, this attack does 80 more damage.",
+        "damage": "80+",
         "cost": ["Metal", "Metal", "Colorless"]
       }
     ],
     "retreatCost": 2,
     "weakness": "Fire",
-    "ability": [
-      {
-        "name": "Resilience Link",
-        "effect": "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
-      }
-    ],
-    "evolvesFrom": "Magneton",
-    "rarity": "Rare"
+    "abilities": [],
+    "evolvesFrom": "Tinkatuff",
+    "rarity": "Rare EX"
   },
   {
-    "id": "a2a-056",
-    "name": "Mawile",
+    "id": "a2b-055",
+    "name": "Varoom",
     "element": "Metal",
     "type": "Pokemon",
     "subtype": "Basic",
     "health": 70,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Iron Beam Breaker",
-        "effect": "If your opponent's Active Pokémon is a [M] Pokémon, this attack does 30 more damage.",
-        "damage": "20+",
-        "cost": ["Colorless"]
+        "name": "Headbutt",
+        "damage": "10",
+        "cost": ["Metal"]
       }
     ],
     "retreatCost": 1,
     "weakness": "Fire",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-057",
-    "name": "Probopass ex",
+    "id": "a2b-056",
+    "name": "Revavroom",
     "element": "Metal",
     "type": "Pokemon",
     "subtype": "Stage 1",
-    "health": 160,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 110,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Defensive Unit",
-        "effect": "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
-        "damage": "90",
+        "name": "Spinning Drift",
+        "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
+        "damage": "70",
         "cost": ["Metal", "Metal", "Colorless"]
       }
     ],
-    "retreatCost": 3,
+    "retreatCost": 2,
     "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": "Nosepass",
-    "rarity": "Rare EX"
+    "abilities": [],
+    "evolvesFrom": "Varoom",
+    "rarity": "Uncommon"
   },
   {
-    "id": "a2a-058",
-    "name": "Bronzor",
+    "id": "a2b-057",
+    "name": "Gholdengo",
     "element": "Metal",
     "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "subtype": "Stage 1",
+    "health": 120,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Ram",
+        "name": "Scintillating Surfing",
+        "effect": "Flip a coin for each [M] Energy attached to this Pokémon. This attack does 50 damage for each heads.",
+        "damage": "50x",
+        "cost": ["Metal", "Colorless", "Colorless"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Fire",
+    "abilities": [],
+    "evolvesFrom": "Gimmighoul",
+    "rarity": "Rare"
+  },
+  {
+    "id": "a2b-058",
+    "name": "Rattata",
+    "element": "Colorless",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 50,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Tackle",
         "damage": "10",
         "cost": ["Colorless"]
       }
     ],
     "retreatCost": 1,
-    "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-059",
-    "name": "Bronzong",
-    "element": "Metal",
-    "type": "Pokemon",
-    "subtype": "Stage 1",
-    "health": 120,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Psychic",
-        "effect": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
-        "damage": "50+",
-        "cost": ["Colorless", "Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 3,
-    "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": "Bronzor",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-060",
-    "name": "Origin Forme Dialga",
-    "element": "Metal",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 120,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Time Mash",
-        "effect": "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
-        "damage": "100",
-        "cost": ["Metal", "Metal", "Colorless"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Fire",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-061",
-    "name": "Giratina",
-    "element": "Dragon",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 120,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Crisis Dive",
-        "effect": "Discard 2 random Energy from this Pokémon.",
-        "damage": "120",
-        "cost": ["Grass", "Psychic", "Colorless"]
-      }
-    ],
-    "retreatCost": 3,
-    "weakness": null,
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-062",
-    "name": "Eevee",
-    "element": "Colorless",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Tail Whap",
-        "damage": "30",
-        "cost": ["Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 1,
     "weakness": "Fighting",
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-063",
-    "name": "Snorlax",
-    "element": "Colorless",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 140,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Collapse",
-        "effect": "This Pokémon is now Asleep.",
-        "damage": "100",
-        "cost": ["Colorless", "Colorless", "Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 4,
-    "weakness": "Fighting",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-064",
-    "name": "Hoothoot",
-    "element": "Colorless",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Peck",
-        "damage": "20",
-        "cost": ["Colorless"]
-      }
-    ],
-    "retreatCost": 1,
-    "weakness": "Lightning",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Common"
-  },
-  {
-    "id": "a2a-065",
-    "name": "Noctowl",
+    "id": "a2b-059",
+    "name": "Raticate",
     "element": "Colorless",
     "type": "Pokemon",
     "subtype": "Stage 1",
-    "health": 100,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 90,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Silent Wing",
-        "effect": "Your opponent reveals their hand.",
+        "name": "Tackle",
         "damage": "50",
         "cost": ["Colorless", "Colorless"]
       }
     ],
     "retreatCost": 1,
-    "weakness": "Lightning",
-    "ability": [],
-    "evolvesFrom": "Hoothoot",
-    "rarity": "Uncommon"
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": "Rattata",
+    "rarity": "Common"
   },
   {
-    "id": "a2a-066",
-    "name": "Starly",
+    "id": "a2b-060",
+    "name": "Jigglypuff",
     "element": "Colorless",
     "type": "Pokemon",
     "subtype": "Basic",
     "health": 60,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Glide",
+        "name": "Rollout",
         "damage": "20",
         "cost": ["Colorless"]
       }
     ],
     "retreatCost": 1,
-    "weakness": "Lightning",
-    "ability": [],
+    "weakness": "Fighting",
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Common"
   },
   {
-    "id": "a2a-067",
-    "name": "Staravia",
+    "id": "a2b-061",
+    "name": "Wigglytuff",
     "element": "Colorless",
     "type": "Pokemon",
     "subtype": "Stage 1",
-    "health": 80,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 100,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Wing Attack",
+        "name": "Gentle Slap",
+        "damage": "50",
+        "cost": ["Colorless", "Colorless"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Fighting",
+    "abilities": [
+      {
+        "name": "Comforting Song",
+        "effect": "Once during your turn, you may heal 20 damage from your Active Pokémon."
+      }
+    ],
+    "evolvesFrom": "Jigglypuff",
+    "rarity": "Rare"
+  },
+  {
+    "id": "a2b-062",
+    "name": "Lickitung",
+    "element": "Colorless",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 80,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Rollout",
+        "damage": "30",
+        "cost": ["Colorless", "Colorless"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-063",
+    "name": "Lickilicky",
+    "element": "Colorless",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 130,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Rollout",
+        "damage": "70",
+        "cost": ["Colorless", "Colorless", "Colorless"]
+      }
+    ],
+    "retreatCost": 3,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": "Lickitung",
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-064",
+    "name": "Bidoof",
+    "element": "Colorless",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 70,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Headbutt",
+        "damage": "30",
+        "cost": ["Colorless", "Colorless"]
+      }
+    ],
+    "retreatCost": 2,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-065",
+    "name": "Bibarel ex",
+    "element": "Colorless",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 160,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Carefree Press",
+        "effect": "Heal 30 damage from this Pokémon.",
+        "damage": "100",
+        "cost": ["Colorless", "Colorless", "Colorless", "Colorless"]
+      }
+    ],
+    "retreatCost": 3,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": "Bidoof",
+    "rarity": "Rare EX"
+  },
+  {
+    "id": "a2b-066",
+    "name": "Buneary",
+    "element": "Colorless",
+    "type": "Pokemon",
+    "subtype": "Basic",
+    "health": 50,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Pound",
+        "damage": "20",
+        "cost": ["Colorless"]
+      }
+    ],
+    "retreatCost": 1,
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Common"
+  },
+  {
+    "id": "a2b-067",
+    "name": "Lopunny",
+    "element": "Colorless",
+    "type": "Pokemon",
+    "subtype": "Stage 1",
+    "health": 100,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [
+      {
+        "name": "Hopping Shot",
         "damage": "30",
         "cost": ["Colorless"]
       }
     ],
     "retreatCost": 1,
-    "weakness": "Lightning",
-    "ability": [],
-    "evolvesFrom": "Starly",
+    "weakness": "Fighting",
+    "abilities": [],
+    "evolvesFrom": "Buneary",
     "rarity": "Common"
   },
   {
-    "id": "a2a-068",
-    "name": "Staraptor",
-    "element": "Colorless",
-    "type": "Pokemon",
-    "subtype": "Stage 2",
-    "health": 150,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Brave Bird",
-        "effect": "This Pokémon also does 20 damage to itself.",
-        "damage": "130",
-        "cost": ["Colorless", "Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Lightning",
-    "ability": [],
-    "evolvesFrom": "Staravia",
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "a2a-069",
-    "name": "Shaymin",
+    "id": "a2b-068",
+    "name": "Cyclizar",
     "element": "Colorless",
     "type": "Pokemon",
     "subtype": "Basic",
-    "health": 70,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "health": 80,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [
       {
-        "name": "Flap",
-        "damage": "30",
-        "cost": ["Colorless", "Colorless"]
+        "name": "Overacceleration",
+        "effect": "During your next turn, this Pokémon's Overacceleration attack does +20 damage.",
+        "damage": "20",
+        "cost": ["Colorless"]
       }
     ],
     "retreatCost": 1,
-    "weakness": "Lightning",
-    "ability": [
-      {
-        "name": "Sky Support",
-        "effect": "As long as this Pokémon is on your Bench, your Active Basic Pokemon's Retreat Cost is 1 less."
-      }
-    ],
-    "evolvesFrom": null,
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-070",
-    "name": "Arceus",
-    "element": "Colorless",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 120,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Power Blast",
-        "effect": "Discard a random Energy from this Pokémon.",
-        "damage": "100",
-        "cost": ["Colorless", "Colorless", "Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 2,
     "weakness": "Fighting",
-    "ability": [],
-    "evolvesFrom": null,
-    "rarity": "Rare"
-  },
-  {
-    "id": "a2a-071",
-    "name": "Arceus ex",
-    "element": "Colorless",
-    "type": "Pokemon",
-    "subtype": "Basic",
-    "health": 140,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [
-      {
-        "name": "Ultimate Force",
-        "effect": "This attack does 20 more damage for each of your Benched Pokémon.",
-        "damage": "70+",
-        "cost": ["Colorless", "Colorless", "Colorless"]
-      }
-    ],
-    "retreatCost": 2,
-    "weakness": "Fighting",
-    "ability": [
-      {
-        "name": "Fabled Luster",
-        "effect": "This Pokémon can't be affected by any Special Conditions."
-      }
-    ],
-    "evolvesFrom": null,
-    "rarity": "Rare EX"
-  },
-  {
-    "id": "a2a-072",
-    "name": "Irida",
-    "element": null,
-    "type": "Trainer",
-    "subtype": "Supporter",
-    "health": null,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
-    "attacks": [],
-    "retreatCost": null,
-    "weakness": null,
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Uncommon"
   },
   {
-    "id": "a2a-073",
-    "name": "Celestic Town Elder",
+    "id": "a2b-069",
+    "name": "Iono",
     "element": null,
     "type": "Trainer",
     "subtype": "Supporter",
     "health": null,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [],
     "retreatCost": null,
     "weakness": null,
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Uncommon"
   },
   {
-    "id": "a2a-074",
-    "name": "Barry",
+    "id": "a2b-070",
+    "name": "Pokémon Center Lady",
     "element": null,
     "type": "Trainer",
     "subtype": "Supporter",
     "health": null,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [],
     "retreatCost": null,
     "weakness": null,
-    "ability": [],
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Uncommon"
   },
   {
-    "id": "a2a-075",
-    "name": "Adaman",
+    "id": "a2b-071",
+    "name": "Red",
     "element": null,
     "type": "Trainer",
     "subtype": "Supporter",
     "health": null,
-    "set": "Triumphant Light (A2a)",
-    "pack": "Arceus",
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
     "attacks": [],
     "retreatCost": null,
     "weakness": null,
-    "ability": [],
+    "abilities": [],
+    "evolvesFrom": null,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "a2b-072",
+    "name": "Team Rocket Grunt",
+    "element": null,
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "health": null,
+    "set": "Shining Revelry (A2b)",
+    "pack": null,
+    "attacks": [],
+    "retreatCost": null,
+    "weakness": null,
+    "abilities": [],
     "evolvesFrom": null,
     "rarity": "Uncommon"
   }

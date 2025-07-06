@@ -1,6 +1,7 @@
 {
   "setInfo": {
     "id": "a1",
+    "name": "genetic_apex",
     "releaseDate": "2024-10-30",
     "packs": ["mewtwo", "pikachu", "charizard"]
   },
@@ -2310,7 +2311,6 @@
           "effect": [
             {
               "type": "discard_energy_all",
-              "energy_type": "random",
               "target": "self"
             }
           ]

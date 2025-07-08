@@ -1,0 +1,3740 @@
+{
+  "setInfo": {
+    "id": "a3",
+    "name": "celestial_guardians",
+    "releaseDate": "2025-04-30",
+    "packs": ["lunala", "solgaleo"]
+  },
+  "cards": [
+    {
+      "id": 1,
+      "name": "exeggcute",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "rolling_tackle",
+          "cost": ["grass", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "HYOGONOSUKE"
+    },
+    {
+      "id": 2,
+      "name": "alolan_exeggutor",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "tropical_hammer",
+          "cost": ["grass", "colorless", "colorless"],
+          "damage": 150,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "fail",
+              "tails": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 4,
+      "preevolution": "exeggcute",
+      "packs": ["lunala"],
+      "artist": "Anesaki Dynamic"
+    },
+    {
+      "id": 3,
+      "name": "surskit",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "quick_attack",
+          "cost": ["colorless"],
+          "damage": 10,
+          "damage_type": "add",
+          "flip": 1,
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 20,
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Miki Tanaka"
+    },
+    {
+      "id": 4,
+      "name": "masquerain",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "bug_buzz",
+          "cost": ["grass"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 0,
+      "preevolution": "surskit",
+      "artist": "Kanako Eo"
+    },
+    {
+      "id": 5,
+      "name": "maractus",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "sting",
+          "cost": ["grass", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Kagemaru Himeno"
+    },
+    {
+      "id": 6,
+      "name": "karrablast",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "headbutt",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "OOYAMA"
+    },
+    {
+      "id": 7,
+      "name": "phantump",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "hook",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "miki kudo"
+    },
+    {
+      "id": 8,
+      "name": "trevenant",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 130,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "claw_slash",
+          "cost": ["grass", "grass", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "preevolution": "phantump",
+      "packs": ["solgaleo"],
+      "artist": "Shin Nagasawa"
+    },
+    {
+      "id": 9,
+      "name": "rowlet",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "leafage",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Megumi Mizutani"
+    },
+    {
+      "id": 10,
+      "name": "rowlet",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "skill_dive",
+          "cost": ["grass"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 10,
+              "target": "opponent_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Saya Tsuruta"
+    },
+    {
+      "id": 11,
+      "name": "dartrix",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "razor_wing",
+          "cost": ["grass"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "preevolution": "rowlet",
+      "packs": ["lunala"],
+      "artist": "Mizue"
+    },
+    {
+      "id": 12,
+      "name": "decidueye_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 170,
+      "pokemon_type": "grass",
+      "stage": 2,
+      "attacks": [
+        {
+          "name": "pierce_the_pain",
+          "cost": ["colorless", "colorless"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 100,
+              "target": "opponent_one_damaged"
+            }
+          ]
+        },
+        {
+          "name": "razor_leaf",
+          "cost": ["grass", "grass"],
+          "damage": 80
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "preevolution": "dartrix",
+      "packs": ["lunala"],
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 13,
+      "name": "grubbin",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gnaw",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Yuka Morii"
+    },
+    {
+      "id": 14,
+      "name": "fomantis",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "leafage",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Kagemaru Himeno"
+    },
+    {
+      "id": 15,
+      "name": "lurantis",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "petal_blizzard",
+          "cost": ["grass"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 20,
+              "target": "opponent_all"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "preevolution": "fomantis",
+      "artist": "AKIRA EGAWA"
+    },
+    {
+      "id": 16,
+      "name": "morelull",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "stampede",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "You Iribi"
+    },
+    {
+      "id": 17,
+      "name": "shiinotic",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "flickering_light",
+          "cost": ["grass", "colorless"],
+          "damage": 50,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "cant_attack_next",
+              "target": "attack_target",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "preevolution": "morelull",
+      "packs": ["lunala"],
+      "artist": "Suwama Chiaki"
+    },
+    {
+      "id": 18,
+      "name": "bounsweet",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "stampede",
+          "cost": ["grass"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Akira Komayama"
+    },
+    {
+      "id": 19,
+      "name": "steenee",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "double_spin",
+          "cost": ["grass"],
+          "damage": 30,
+          "damage_type": "multiply",
+          "flip": 2,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "preevolution": "bounsweet",
+      "packs": ["solgaleo"],
+      "artist": "Mizue"
+    },
+    {
+      "id": 20,
+      "name": "tsareena",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "grass",
+      "stage": 2,
+      "attacks": [
+        {
+          "name": "three_kick_combo",
+          "cost": ["grass"],
+          "damage": 50,
+          "damage_type": "multiply",
+          "flip": 3,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "preevolution": "steenee",
+      "packs": ["solgaleo"],
+      "artist": "Hasuno"
+    },
+    {
+      "id": 21,
+      "name": "wimpod",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "ability": {
+        "name": "wimp_out",
+        "activate": "your_first_turn",
+        "effect": [
+          {
+            "type": "no_retreat_cost"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "gnaw",
+          "cost": ["grass", "colorless", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "packs": ["solgaleo"],
+      "artist": "Kagemaru Himeno"
+    },
+    {
+      "id": 22,
+      "name": "golisopod",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "grass",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "first_impression",
+          "cost": ["grass", "grass", "grass"],
+          "damage": 60,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "moved_from_bench"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "preevolution": "wimpod",
+      "packs": ["solgaleo"],
+      "artist": "Kouki Saitou"
+    },
+    {
+      "id": 23,
+      "name": "dhelmise_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 140,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "anchor_shot",
+          "cost": ["grass", "grass", "colorless"],
+          "damage": 80,
+          "effect": [
+            {
+              "type": "cant_retreat",
+              "target": "opponent_active",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "PLANETA Tsuji"
+    },
+    {
+      "id": 24,
+      "name": "tapu_bulu",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "grass",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "stuckin_tackle",
+          "cost": ["grass", "grass", "colorless"],
+          "damage": 100,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 20,
+              "target": "self",
+              "tails": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "Satoshi Shirai"
+    },
+    {
+      "id": 25,
+      "name": "growlithe",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "combustion",
+          "cost": ["fire", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "artist": "Naoyo Kimura"
+    },
+    {
+      "id": 26,
+      "name": "arcanine",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 130,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "fire_mane",
+          "cost": ["fire", "fire", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 3,
+      "preevolution": "growlithe",
+      "artist": "match"
+    },
+    {
+      "id": 27,
+      "name": "alolan_marowak",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "burning_bonemerang",
+          "cost": ["fire", "fire", "colorless"],
+          "damage": 70,
+          "damage_type": "multiply",
+          "flip": 2,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            },
+            {
+              "type": "apply_status",
+              "status": ["burn"],
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "preevolution": "cubone",
+      "packs": ["lunala"],
+      "artist": "miki kudo"
+    },
+    {
+      "id": 28,
+      "name": "fletchinder",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "steady_firebreathing",
+          "cost": ["fire"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "preevolution": "fletchling",
+      "packs": ["solgaleo"],
+      "artist": "Mina Nakai"
+    },
+    {
+      "id": 29,
+      "name": "talonflame",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "fire",
+      "stage": 2,
+      "attacks": [
+        {
+          "name": "fire_wing",
+          "cost": ["fire", "fire"],
+          "damage": 90
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "preevolution": "fletchinder",
+      "packs": ["solgaleo"],
+      "artist": "Masakazu Fukuda"
+    },
+    {
+      "id": 30,
+      "name": "litten",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "heat_tackle",
+          "cost": ["fire"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 10,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Akira Komayama"
+    },
+    {
+      "id": 31,
+      "name": "litten",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "scratch",
+          "cost": ["fire"],
+          "damage": 20
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "sui"
+    },
+    {
+      "id": 32,
+      "name": "torracat",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "heat_tackle",
+          "cost": ["fire"],
+          "damage": 40,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 10,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "preevolution": "litten",
+      "packs": ["solgaleo"],
+      "artist": "tetsuya koizumi"
+    },
+    {
+      "id": 33,
+      "name": "incineroar_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 180,
+      "pokemon_type": "fire",
+      "stage": 2,
+      "attacks": [
+        {
+          "name": "fire_fang",
+          "cost": ["fire"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "apply_status",
+              "status": ["burn"],
+              "target": "opponent_active"
+            }
+          ]
+        },
+        {
+          "name": "scarcharged_smash",
+          "cost": ["fire", "fire", "colorless"],
+          "damage": 80,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "user_damaged"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 2,
+      "preevolution": "torracat",
+      "packs": ["solgaleo"],
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 34,
+      "name": "oricorio",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 70,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "kindle",
+          "cost": ["fire", "fire"],
+          "damage": 40,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "random",
+              "amount": 1,
+              "target": "both_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Jerky"
+    },
+    {
+      "id": 35,
+      "name": "salandit",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "gnaw",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "artist": "Yukiko Baba"
+    },
+    {
+      "id": 36,
+      "name": "salazzle",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "fire",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "heated_poison",
+          "cost": ["fire", "fire"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "apply_status",
+              "status": ["poison", "burn"],
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 1,
+      "preevolution": "salandit",
+      "artist": "Naoki Saito"
+    },
+    {
+      "id": 37,
+      "name": "turtonator",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "fire",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "fire_spin",
+          "cost": ["fire", "fire", "colorless"],
+          "damage": 90,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "fire",
+              "amount": 1,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "water",
+      "retreat_cost": 4,
+      "packs": ["lunala"],
+      "artist": "Shin Nagasawa"
+    },
+    {
+      "id": 38,
+      "name": "alolan_sandshrew",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "scratch",
+          "cost": ["water"],
+          "damage": 20
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "artist": "ryoma uratsuka"
+    },
+    {
+      "id": 39,
+      "name": "alolan_sandslash",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "water",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "spike_armor",
+          "cost": ["water"],
+          "damage": 20,
+          "effect": [
+            {
+              "type": "counter",
+              "damage": 40,
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "preevolution": "alolan_sandshrew",
+      "artist": "Hasuno"
+    },
+    {
+      "id": 40,
+      "name": "alolan_vulpix",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "call_forth_cold",
+          "cost": ["water"],
+          "effect": [
+            {
+              "type": "ramp",
+              "target": "self",
+              "source": "energy_zone",
+              "energy_type": "water",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "You Iribi"
+    },
+    {
+      "id": 41,
+      "name": "alolan_ninetales",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 110,
+      "pokemon_type": "water",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "blizzard",
+          "cost": ["water", "water", "water"],
+          "damage": 60,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 20,
+              "target": "opponent_bench_all"
+            }
+          ]
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "preevolution": "alolan_vulpix",
+      "packs": ["lunala"],
+      "artist": "Eri Yamaki"
+    },
+    {
+      "id": 42,
+      "name": "shellder",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["water"],
+          "damage": 10
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Midori Harada"
+    },
+    {
+      "id": 43,
+      "name": "cloyster",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "water",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "guard_press",
+          "cost": ["water", "water"],
+          "damage": 50,
+          "effect": [
+            {
+              "type": "mitigate_attacks",
+              "amount": 20,
+              "target": "self",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 3,
+      "preevolution": "shellder",
+      "packs": ["solgaleo"],
+      "artist": "Masakazu Fukuda"
+    },
+    {
+      "id": 44,
+      "name": "lapras",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "surf",
+          "cost": ["water", "water", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "artist": "Hitoshi Ariga"
+    },
+    {
+      "id": 45,
+      "name": "popplio",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "sing",
+          "cost": ["colorless"],
+          "effect": [
+            {
+              "type": "apply_status",
+              "status": ["sleep"],
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Kanami Ogata"
+    },
+    {
+      "id": 46,
+      "name": "popplio",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "water_gun",
+          "cost": ["water"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Kouki Saitou"
+    },
+    {
+      "id": 47,
+      "name": "brionne",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "water",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "wave_splash",
+          "cost": ["water"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "preevolution": "popplio",
+      "packs": ["lunala"],
+      "artist": "Saya Tsuruta"
+    },
+    {
+      "id": 48,
+      "name": "primarina",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 140,
+      "pokemon_type": "water",
+      "stage": 2,
+      "ability": {
+        "name": "melodious_healing",
+        "activate": "once_per_turn",
+        "effect": [
+          {
+            "type": "heal",
+            "amount": 30,
+            "target": "ally_all_water"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "surf",
+          "cost": ["water", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "preevolution": "brionne",
+      "packs": ["lunala"],
+      "artist": "Kagemaru Himeno"
+    },
+    {
+      "id": 49,
+      "name": "crabominable_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 160,
+      "pokemon_type": "water",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "insatiable_striking",
+          "cost": ["water"],
+          "damage": 40,
+          "effect": [
+            {
+              "type": "buff_attack",
+              "amount": 40,
+              "target": "self",
+              "attack": "insatiable_striking",
+              "duration": "next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 3,
+      "preevolution": "crabrawler",
+      "packs": ["solgaleo"],
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 50,
+      "name": "wishiwashi",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 30,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "call_for_family",
+          "cost": ["water"],
+          "effect": [
+            {
+              "type": "draw",
+              "amount": 1,
+              "target": "specific",
+              "specific": ["wishiwashi", "wishiwashi_ex"],
+              "choice": "random",
+              "into": "bench"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Kouki Saitou"
+    },
+    {
+      "id": 51,
+      "name": "wishiwashi_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 170,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "school_storm",
+          "cost": ["water", "water", "water"],
+          "damage": 30,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage_multiplied",
+              "amount": 40,
+              "factor": "ally_benched_specific",
+              "specific": ["wishiwashi", "wishiwashi_ex"]
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 3,
+      "packs": ["lunala"],
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 52,
+      "name": "dewpider",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "hook",
+          "cost": ["water", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Atsuko Nishida"
+    },
+    {
+      "id": 53,
+      "name": "araquanid",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "water",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "dangerous_claws",
+          "cost": ["water", "water", "colorless"],
+          "damage": 60,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "opponent_active_basic"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "preevolution": "dewpider",
+      "packs": ["solgaleo"],
+      "artist": "kodama"
+    },
+    {
+      "id": 54,
+      "name": "pyukumuku",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "water",
+      "stage": 0,
+      "ability": {
+        "name": "innards_out",
+        "condition": "user_active",
+        "effect": [
+          {
+            "type": "innards_out",
+            "damage": 50
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "sprinkle_water",
+          "cost": ["water"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "You Iribi"
+    },
+    {
+      "id": 55,
+      "name": "bruxish",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "wave_splash",
+          "cost": ["water", "colorless"],
+          "damage": 50
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Masakazu Fukuda"
+    },
+    {
+      "id": 56,
+      "name": "tapu_fini",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "water",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "spiral_drain",
+          "cost": ["water", "water", "colorless"],
+          "damage": 60,
+          "effect": [
+            {
+              "type": "heal",
+              "amount": 20,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "chibi"
+    },
+    {
+      "id": 57,
+      "name": "pikachu",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tail_smack",
+          "cost": ["colorless", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Naoyo Kimura"
+    },
+    {
+      "id": 58,
+      "name": "alolan_raichu_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 140,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "psychic",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 60,
+          "effect": [
+            {
+              "type": "add_damage_multiplied",
+              "amount": 30,
+              "factor": "opponent_active_energy"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "preevolution": "pikachu",
+      "packs": ["solgaleo"],
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 59,
+      "name": "alolan_geodude",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "knuckle_punch",
+          "cost": ["lightning", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "Hitoshi Ariga"
+    },
+    {
+      "id": 60,
+      "name": "alolan_graveler",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "heavy_impact",
+          "cost": ["lightning", "colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "preevolution": "alolan_geodude",
+      "packs": ["solgaleo"],
+      "artist": "match"
+    },
+    {
+      "id": 61,
+      "name": "alolan_golem",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 160,
+      "pokemon_type": "lightning",
+      "stage": 2,
+      "attacks": [
+        {
+          "name": "super_zap_cannon",
+          "cost": ["lightning", "lightning", "colorless", "colorless"],
+          "damage": 150,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "lightning",
+              "amount": 2,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 4,
+      "preevolution": "alolan_graveler",
+      "packs": ["solgaleo"],
+      "artist": "kawayoo"
+    },
+    {
+      "id": 62,
+      "name": "helioptile",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "smash_kick",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "0313"
+    },
+    {
+      "id": 63,
+      "name": "heliolisk",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "rear_kick",
+          "cost": ["colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "preevolution": "helioptile",
+      "artist": "Kagemaru Himeno"
+    },
+    {
+      "id": 64,
+      "name": "charjabug",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "lightning",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "vise_grip",
+          "cost": ["lightning"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "preevolution": "grubbin",
+      "packs": ["lunala"],
+      "artist": "Naoki Saito"
+    },
+    {
+      "id": 65,
+      "name": "vikavolt",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 140,
+      "pokemon_type": "lightning",
+      "stage": 2,
+      "attacks": [
+        {
+          "name": "disconnect",
+          "cost": ["lightning", "lightning"],
+          "damage": 70,
+          "effect": [
+            {
+              "type": "item_lock",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "preevolution": "charjabug",
+      "packs": ["lunala"],
+      "artist": "Hitoshi Ariga"
+    },
+    {
+      "id": 66,
+      "name": "oricorio",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 70,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "ability": {
+        "name": "safeguard",
+        "activate": "always",
+        "effect": [
+          {
+            "type": "mitigate_attacks",
+            "target": "self",
+            "condition": "attacker_ex"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "zzzap",
+          "cost": ["lightning", "colorless"],
+          "damage": 50
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Jerky"
+    },
+    {
+      "id": 67,
+      "name": "togedemaru",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "electrosmash",
+          "cost": ["lightning"],
+          "damage": 20,
+          "damage_type": "add",
+          "flip": 1,
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 30,
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Misa Tsutsui"
+    },
+    {
+      "id": 68,
+      "name": "tapu_koko",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "lightning",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "volt_switch",
+          "cost": ["lightning", "lightning", "lightning"],
+          "damage": 70,
+          "effect": [
+            {
+              "type": "switch",
+              "target": "self",
+              "choice": "user",
+              "into": "ally_benched_lightning"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "kirisAki"
+    },
+    {
+      "id": 69,
+      "name": "mr_mime",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "barrier_shove",
+          "cost": ["psychic", "colorless"],
+          "damage": 30,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "dodge",
+              "target": "self",
+              "duration": "opponent_next_turn",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Yukihiro Tada"
+    },
+    {
+      "id": 70,
+      "name": "sableye",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "corner",
+          "cost": ["psychic", "colorless"],
+          "damage": 40,
+          "effect": [
+            {
+              "type": "cant_retreat",
+              "target": "opponent_active",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Aya Kusube"
+    },
+    {
+      "id": 71,
+      "name": "spoink",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "psycharge",
+          "cost": ["psychic"],
+          "effect": [
+            {
+              "type": "ramp",
+              "target": "self",
+              "source": "energy_zone",
+              "energy_type": "psychic",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Sekio"
+    },
+    {
+      "id": 72,
+      "name": "grumpig",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "zen_headbutt",
+          "cost": ["psychic", "colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "preevolution": "spoink",
+      "artist": "Yukiko Baba"
+    },
+    {
+      "id": 73,
+      "name": "lunatone",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "moon_press",
+          "cost": ["psychic", "colorless"],
+          "damage": 50
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "packs": ["lunala"],
+      "artist": "Hisao Nakamura"
+    },
+    {
+      "id": 74,
+      "name": "shuppet",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "willowisp",
+          "cost": ["psychic"],
+          "damage": 20
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "Kyoko Umemoto"
+    },
+    {
+      "id": 75,
+      "name": "banette",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "night_bind",
+          "cost": ["psychic"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "night_bind",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "preevolution": "shuppet",
+      "artist": "Aya Kusube"
+    },
+    {
+      "id": 76,
+      "name": "oricorio",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 70,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "dazzle_dance",
+          "cost": ["psychic", "psychic"],
+          "damage": 40,
+          "effect": [
+            {
+              "type": "apply_status",
+              "status": ["confusion"],
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Jerky"
+    },
+    {
+      "id": 77,
+      "name": "oricorio",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 70,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "spiteful_dance",
+          "cost": ["psychic"],
+          "damage": 20,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "revenge_attack"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Jerky"
+    },
+    {
+      "id": 78,
+      "name": "cutiefly",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 30,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "flap",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 0,
+      "packs": ["solgaleo"],
+      "artist": "Hitoshi Ariga"
+    },
+    {
+      "id": 79,
+      "name": "ribombee",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "fairy_wind",
+          "cost": ["colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 0,
+      "preevolution": "cutiefly",
+      "packs": ["solgaleo"],
+      "artist": "Megumi Mizutani"
+    },
+    {
+      "id": 80,
+      "name": "comfey",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 70,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "ability": {
+        "name": "flower_shield",
+        "effect": [
+          {
+            "type": "flower_shield"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "spinning_attack",
+          "cost": ["psychic", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Sanosuke Sakuma"
+    },
+    {
+      "id": 81,
+      "name": "sandygast",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "vibration",
+          "cost": ["psychic", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "Akira Komayama"
+    },
+    {
+      "id": 82,
+      "name": "palossand",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "spooky_shot",
+          "cost": ["psychic", "colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 3,
+      "preevolution": "sandygast",
+      "packs": ["solgaleo"],
+      "artist": "OOYAMA"
+    },
+    {
+      "id": 83,
+      "name": "mimikyu",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "shadow_hit",
+          "cost": ["psychic", "colorless"],
+          "damage": 60,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 20,
+              "target": "ally_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "HYOGONOSUKE"
+    },
+    {
+      "id": 84,
+      "name": "tapu_lele",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 90,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "energy_arrow",
+          "cost": ["psychic"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 20,
+              "factor": "target_energy",
+              "target": "opponent_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "metal",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Misa Tsutsui"
+    },
+    {
+      "id": 85,
+      "name": "cosmog",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "teleport",
+          "cost": ["colorless"],
+          "effect": [
+            {
+              "type": "switch",
+              "target": "self",
+              "choice": "user"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "artist": "sui"
+    },
+    {
+      "id": 86,
+      "name": "cosmoem",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "psychic",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "stiffen",
+          "cost": ["colorless", "colorless"],
+          "effect": [
+            {
+              "type": "mitigate_attacks",
+              "amount": 50,
+              "target": "self",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 3,
+      "preevolution": "cosmog",
+      "artist": "Aya Kusube"
+    },
+    {
+      "id": 87,
+      "name": "lunala_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 180,
+      "pokemon_type": "psychic",
+      "stage": 2,
+      "ability": {
+        "name": "psychic_connect",
+        "activate": "once_per_turn",
+        "effect": [
+          {
+            "type": "move_all_energy",
+            "energy_type": "psychic",
+            "from": "ally_benched_psychic",
+            "to": "ally_active"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "lunar_blast",
+          "cost": ["psychic", "colorless", "colorless"],
+          "damage": 100
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 1,
+      "preevolution": "cosmoem",
+      "packs": ["lunala"],
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 88,
+      "name": "necrozma",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 120,
+      "pokemon_type": "psychic",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "prismatic_laser",
+          "cost": ["psychic", "psychic", "colorless", "colorless"],
+          "damage": 120,
+          "effect": [
+            {
+              "type": "cant_attack_next",
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "darkness",
+      "retreat_cost": 2,
+      "packs": ["lunala"],
+      "artist": "Masakazu Fukuda"
+    },
+    {
+      "id": 89,
+      "name": "cubone",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "beat",
+          "cost": ["colorless", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "kawayoo"
+    },
+    {
+      "id": 90,
+      "name": "makuhita",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "slap_push",
+          "cost": ["fighting"],
+          "damage": 20
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 2,
+      "artist": "Mina Nakai"
+    },
+    {
+      "id": 91,
+      "name": "hariyama",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 120,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "push_out",
+          "cost": ["fighting", "colorless"],
+          "damage": 50,
+          "effect": [
+            {
+              "type": "switch",
+              "target": "opponent_active",
+              "choice": "opponent",
+              "into": "bench"
+            }
+          ]
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 3,
+      "preevolution": "makuhita",
+      "artist": "Miki Tanaka"
+    },
+    {
+      "id": 92,
+      "name": "solrock",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "solar_beam",
+          "cost": ["fighting", "fighting"],
+          "damage": 60
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "Kyoko Umemoto"
+    },
+    {
+      "id": 93,
+      "name": "drilbur",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "scratch",
+          "cost": ["colorless"],
+          "damage": 10
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "artist": "Tomokazu Komiya"
+    },
+    {
+      "id": 94,
+      "name": "timburr",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "corkscrew_punch",
+          "cost": ["fighting"],
+          "damage": 20
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Mizue"
+    },
+    {
+      "id": 95,
+      "name": "gurdurr",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "strength",
+          "cost": ["fighting", "colorless"],
+          "damage": 40
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 2,
+      "preevolution": "timburr",
+      "packs": ["lunala"],
+      "artist": "Naoki Saito"
+    },
+    {
+      "id": 96,
+      "name": "conkeldurr",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "fighting",
+      "stage": 2,
+      "ability": {
+        "name": "guts",
+        "activate": "user_ko_from_attack",
+        "flip": 1,
+        "effect": [
+          {
+            "type": "guts",
+            "heads": 1
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "mega_punch",
+          "cost": ["fighting", "colorless", "colorless"],
+          "damage": 80
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 3,
+      "preevolution": "gurdurr",
+      "packs": ["lunala"],
+      "artist": "kawayoo"
+    },
+    {
+      "id": 97,
+      "name": "crabrawler",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "punch",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "kirisAki"
+    },
+    {
+      "id": 98,
+      "name": "rockruff",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "signs_of_evolution",
+          "cost": ["fighting"],
+          "effect": [
+            {
+              "type": "draw",
+              "amount": 1,
+              "target": "card_that_evolves_from",
+              "preevolution": "rockruff",
+              "choice": "random",
+              "into": "hand"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Oswaldo KATO"
+    },
+    {
+      "id": 99,
+      "name": "rockruff",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["fighting"],
+          "damage": 20
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Oswaldo KATO"
+    },
+    {
+      "id": 100,
+      "name": "lycanroc",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "crunch",
+          "cost": ["fighting", "fighting", "colorless"],
+          "damage": 80,
+          "flip": 1,
+          "effect": [
+            {
+              "type": "discard_energy",
+              "energy_type": "random",
+              "amount": 1,
+              "target": "opponent_active",
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "preevolution": "rockruff",
+      "packs": ["solgaleo"],
+      "artist": "Atsushi Furusawa"
+    },
+    {
+      "id": 101,
+      "name": "lycanroc",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "blood_fang",
+          "cost": ["fighting", "fighting"],
+          "damage": 50,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 50,
+              "condition": "opponent_active_more_hp"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "preevolution": "rockruff",
+      "packs": ["lunala"],
+      "artist": "5ban Graphics"
+    },
+    {
+      "id": 102,
+      "name": "mudbray",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "rear_kick",
+          "cost": ["fighting", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "Saya Tsuruta"
+    },
+    {
+      "id": 103,
+      "name": "mudsdale",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 140,
+      "pokemon_type": "fighting",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "high_horsepower",
+          "cost": ["fighting", "fighting", "fighting", "colorless"],
+          "damage": 140,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 40,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 4,
+      "preevolution": "mudbray",
+      "packs": ["solgaleo"],
+      "artist": "Takeshi Nakamura"
+    },
+    {
+      "id": 104,
+      "name": "passimian_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 130,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "ability": {
+        "name": "offload_pass",
+        "activate": "user_ko_from_attack",
+        "effect": [
+          {
+            "type": "move_all_energy",
+            "condition": "user_active",
+            "energy_type": "fighting",
+            "from": "self",
+            "to": "ally_bench_one"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "seismic_toss",
+          "cost": ["fighting", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "psychic",
+      "retreat_cost": 2,
+      "packs": ["lunala"],
+      "artist": "PLANETA Tsuji"
+    },
+    {
+      "id": 105,
+      "name": "minior",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "fighting",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "star_drop",
+          "cost": ["fighting", "fighting"],
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 40,
+              "target": "opponent_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Amelicart"
+    },
+    {
+      "id": 106,
+      "name": "alolan_rattata",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "bite",
+          "cost": ["darkness"],
+          "damage": 20
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "nagimiso"
+    },
+    {
+      "id": 107,
+      "name": "alolan_raticate",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "scroungeandscarf",
+          "cost": ["darkness", "darkness"],
+          "damage": 50,
+          "effect": [
+            {
+              "type": "discard_item_card",
+              "amount": 1,
+              "target": "oppoonent_hand_random"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 3,
+      "preevolution": "alolan_rattata",
+      "packs": ["lunala"],
+      "artist": "nagimiso"
+    },
+    {
+      "id": 108,
+      "name": "alolan_meowth",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "scratch",
+          "cost": ["darkness"],
+          "damage": 20
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "sui"
+    },
+    {
+      "id": 109,
+      "name": "alolan_persian",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "ability": {
+        "name": "fur_coat",
+        "activate": "always",
+        "effect": [
+          {
+            "type": "mitigate_attacks",
+            "amount": 20,
+            "target": "self"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "claw_slash",
+          "cost": ["darkness", "colorless"],
+          "damage": 50
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "preevolution": "alolan_meowth",
+      "packs": ["solgaleo"],
+      "artist": "kirisAki"
+    },
+    {
+      "id": 110,
+      "name": "alolan_grimer",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "sludge_toss",
+          "cost": ["darkness", "colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "packs": ["lunala"],
+      "artist": "Akira Komayama"
+    },
+    {
+      "id": 111,
+      "name": "alolan_muk_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 160,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "chemical_panic",
+          "cost": ["darkness", "darkness", "colorless"],
+          "damage": 80,
+          "effect": [
+            {
+              "type": "chemical_panic",
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "preevolution": "alolan_grimer",
+      "packs": ["lunala"],
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 112,
+      "name": "absol",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 80,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "unseen_claw",
+          "cost": ["darkness", "colorless"],
+          "damage": 20,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 60,
+              "condition": "opponent_active_statused"
+            }
+          ]
+        }
+      ],
+      "weakness": "grass",
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Anesaki Dynamic"
+    },
+    {
+      "id": 113,
+      "name": "trubbish",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "pound",
+          "cost": ["darkness"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Tomokazu Komiya"
+    },
+    {
+      "id": 114,
+      "name": "garbodor",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 120,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "super_poison_breath",
+          "cost": ["darkness", "darkness", "colorless"],
+          "damage": 70,
+          "effect": [
+            {
+              "type": "apply_status",
+              "status": ["poison"],
+              "target": "opponent_active"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "preevolution": "trubbish",
+      "artist": "match"
+    },
+    {
+      "id": 115,
+      "name": "mareanie",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "darkness",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "pierce",
+          "cost": ["darkness"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "packs": ["lunala"],
+      "artist": "Saya Tsuruta"
+    },
+    {
+      "id": 116,
+      "name": "toxapex",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 110,
+      "pokemon_type": "darkness",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "spike_cannon",
+          "cost": ["darkness"],
+          "damage": 20,
+          "damage_type": "multiply",
+          "flip": 4,
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "preevolution": "mareanie",
+      "packs": ["lunala"],
+      "artist": "chibi"
+    },
+    {
+      "id": 117,
+      "name": "alolan_diglett",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "metal",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "headbutt",
+          "cost": ["metal"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "artist": "Naoyo Kimura"
+    },
+    {
+      "id": 118,
+      "name": "alolan_dugtrio",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 90,
+      "pokemon_type": "metal",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "iron_head",
+          "cost": ["metal", "metal"],
+          "damage": 70,
+          "damage_type": "multiply",
+          "flip_for": "head_until_tails",
+          "effect": [
+            {
+              "type": "multiply_damage",
+              "factor": "heads"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "preevolution": "alolan_diglett",
+      "artist": "Yuka Morii"
+    },
+    {
+      "id": 119,
+      "name": "excadrill",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "metal",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "slash",
+          "cost": ["metal"],
+          "damage": 50
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "preevolution": "drilbur",
+      "artist": "SATOSHI NAKAI"
+    },
+    {
+      "id": 120,
+      "name": "escavalier",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 110,
+      "pokemon_type": "metal",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "pike",
+          "cost": ["metal"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 20,
+              "target": "opponent_bench_one"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 3,
+      "preevolution": "karrablast",
+      "artist": "Satoshi Shirai"
+    },
+    {
+      "id": 121,
+      "name": "klefki",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 70,
+      "pokemon_type": "metal",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "unlock",
+          "cost": ["metal"],
+          "damage": 10,
+          "effect": [
+            {
+              "type": "draw",
+              "amount": 1,
+              "target": "card",
+              "into": "hand"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Shin Nagasawa"
+    },
+    {
+      "id": 122,
+      "name": "solgaleo_ex",
+      "card_type": "pokemon",
+      "rarity": 4,
+      "hp": 180,
+      "pokemon_type": "metal",
+      "stage": 2,
+      "ability": {
+        "name": "rising_road",
+        "activate": "once_per_turn",
+        "condition": "user_benched",
+        "effect": [
+          {
+            "type": "switch",
+            "target": "self",
+            "into": "active"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "sol_breaker",
+          "cost": ["metal", "metal"],
+          "damage": 120,
+          "effect": [
+            {
+              "type": "damage",
+              "amount": 10,
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 2,
+      "preevolution": "cosmoem",
+      "packs": ["solgaleo"],
+      "artist": "PLANETA CG Works"
+    },
+    {
+      "id": 123,
+      "name": "magearna",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 90,
+      "pokemon_type": "metal",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "silver_cannon",
+          "cost": ["metal", "metal"],
+          "damage": 40,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 40,
+              "condition": "opponent_active_ability"
+            }
+          ]
+        }
+      ],
+      "weakness": "fire",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "kawayoo"
+    },
+    {
+      "id": 124,
+      "name": "drampa",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "dragon",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "berserk",
+          "cost": ["colorless", "colorless"],
+          "damage": 20,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 50,
+              "condition": "ally_benched_damaged"
+            }
+          ]
+        }
+      ],
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "Anesaki Dynamic"
+    },
+    {
+      "id": 125,
+      "name": "jangmoo",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "dragon",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "headbutt",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "retreat_cost": 1,
+      "packs": ["lunala"],
+      "artist": "Naoki Saito"
+    },
+    {
+      "id": 126,
+      "name": "hakamoo",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "dragon",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "dragon_claw",
+          "cost": ["lightning", "fighting"],
+          "damage": 60
+        }
+      ],
+      "retreat_cost": 2,
+      "preevolution": "jangmoo",
+      "packs": ["lunala"],
+      "artist": "Ryuta Fuse"
+    },
+    {
+      "id": 127,
+      "name": "kommoo",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 150,
+      "pokemon_type": "dragon",
+      "stage": 2,
+      "attacks": [
+        {
+          "name": "clanging_scales",
+          "cost": ["lightning", "fighting"],
+          "damage": 130,
+          "effect": [
+            {
+              "type": "increase_attack_taken",
+              "amount": 30,
+              "target": "self",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "retreat_cost": 2,
+      "preevolution": "hakamoo",
+      "packs": ["lunala"],
+      "artist": "hatachu"
+    },
+    {
+      "id": 128,
+      "name": "tauros",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "rising_lunge",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 50,
+          "damage_type": "add",
+          "flip": 1,
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 50,
+              "heads": 1
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "artist": "Kazumasa Yasukuni"
+    },
+    {
+      "id": 129,
+      "name": "skitty",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "artist": "Sumiyoshi Kizuki"
+    },
+    {
+      "id": 130,
+      "name": "delcatty",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "energy_assist",
+          "cost": ["colorless"],
+          "damage": 30,
+          "effect": [
+            {
+              "type": "ramp",
+              "source": "energy_zone",
+              "energy_type": "colorless",
+              "amount": 1,
+              "target": "one_ally_benched"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "preevolution": "skitty",
+      "artist": "0313"
+    },
+    {
+      "id": 131,
+      "name": "fletchling",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "flap",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "5ban Graphics"
+    },
+    {
+      "id": 132,
+      "name": "hawlucha",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 80,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "justified_press",
+          "cost": ["colorless"],
+          "damage": 20,
+          "damage_type": "add",
+          "effect": [
+            {
+              "type": "add_damage",
+              "amount": 30,
+              "condition": "opponent_active_darkness"
+            }
+          ]
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "miki kudo"
+    },
+    {
+      "id": 133,
+      "name": "pikipek",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 50,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "peck",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "artist": "Shin Nagasawa"
+    },
+    {
+      "id": 134,
+      "name": "trumbeak",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 80,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "glide",
+          "cost": ["colorless"],
+          "damage": 30
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 1,
+      "preevolution": "pikipek",
+      "artist": "Kouki Saitou"
+    },
+    {
+      "id": 135,
+      "name": "toucannon",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 140,
+      "pokemon_type": "colorless",
+      "stage": 2,
+      "attacks": [
+        {
+          "name": "drill_peck",
+          "cost": ["colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "lightning",
+      "retreat_cost": 2,
+      "preevolution": "trumbeak",
+      "artist": "Megumi Mizutani"
+    },
+    {
+      "id": 136,
+      "name": "yungoos",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 60,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "tackle",
+          "cost": ["colorless"],
+          "damage": 20
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "packs": ["solgaleo"],
+      "artist": "Shigenori Negishi"
+    },
+    {
+      "id": 137,
+      "name": "gumshoos",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "headbang",
+          "cost": ["colorless", "colorless"],
+          "damage": 50
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 1,
+      "preevolution": "yungoos",
+      "packs": ["solgaleo"],
+      "artist": "Shigenori Negishi"
+    },
+    {
+      "id": 138,
+      "name": "stufful",
+      "card_type": "pokemon",
+      "rarity": 1,
+      "hp": 70,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "hammer_in",
+          "cost": ["colorless", "colorless", "colorless"],
+          "damage": 60
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "packs": ["lunala"],
+      "artist": "Sanosuke Sakuma"
+    },
+    {
+      "id": 139,
+      "name": "bewear",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 130,
+      "pokemon_type": "colorless",
+      "stage": 1,
+      "attacks": [
+        {
+          "name": "tantrum",
+          "cost": ["colorless", "colorless", "colorless", "colorless"],
+          "damage": 130,
+          "effect": [
+            {
+              "type": "apply_status",
+              "status": ["confusion"],
+              "target": "self"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 3,
+      "preevolution": "stufful",
+      "packs": ["lunala"],
+      "artist": "kirisAki"
+    },
+    {
+      "id": 140,
+      "name": "oranguru",
+      "card_type": "pokemon",
+      "rarity": 3,
+      "hp": 100,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "attacks": [
+        {
+          "name": "primates_trap",
+          "cost": ["colorless", "colorless"],
+          "damage": 40,
+          "effect": [
+            {
+              "type": "primates_trap",
+              "target": "attack_target",
+              "duration": "opponent_next_turn"
+            }
+          ]
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "packs": ["lunala"],
+      "artist": "Naoki Saito"
+    },
+    {
+      "id": 141,
+      "name": "komala",
+      "card_type": "pokemon",
+      "rarity": 2,
+      "hp": 90,
+      "pokemon_type": "colorless",
+      "stage": 0,
+      "ability": {
+        "name": "comatose",
+        "activate": "attach_energy_zone_self",
+        "condition": "user_active",
+        "effect": [
+          {
+            "type": "apply_status",
+            "status": ["sleep"],
+            "target": "self"
+          }
+        ]
+      },
+      "attacks": [
+        {
+          "name": "rolling_tackle",
+          "cost": ["colorless", "colorless"],
+          "damage": 70
+        }
+      ],
+      "weakness": "fighting",
+      "retreat_cost": 2,
+      "packs": ["solgaleo"],
+      "artist": "Kouki Saitou"
+    },
+    {
+      "id": 142,
+      "name": "big_malasada",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "rarity": 2,
+      "effect": [
+        {
+          "type": "heal",
+          "amount": 10,
+          "target": "one_ally"
+        },
+        {
+          "type": "recover_one_status",
+          "status": "random",
+          "target": "one_ally"
+        }
+      ],
+      "artist": "5ban Graphics"
+    },
+    {
+      "id": 143,
+      "name": "fishing_net",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "rarity": 2,
+      "effect": [
+        {
+          "type": "recycle_discard",
+          "amount": 1,
+          "target": "basic_water_pokemon",
+          "choice": "random",
+          "into": "hand"
+        }
+      ],
+      "artist": "Toyste Beach",
+      "packs": ["lunala"]
+    },
+    {
+      "id": 144,
+      "name": "rare_candy",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "rarity": 2,
+      "effect": [
+        {
+          "type": "rare_candy"
+        }
+      ],
+      "artist": "Toyste Beach"
+    },
+    {
+      "id": 145,
+      "name": "rotom_dex",
+      "card_type": "trainer",
+      "trainer_type": "item",
+      "rarity": 2,
+      "artist": "5ban Graphics",
+      "effect": [
+        {
+          "type": "rotom_dex"
+        }
+      ],
+      "packs": ["solgaleo"]
+    },
+    {
+      "id": 146,
+      "name": "poison_barb",
+      "card_type": "trainer",
+      "trainer_type": "tool",
+      "rarity": 2,
+      "condition": "user_active",
+      "effect": [
+        {
+          "type": "counter_status",
+          "status": ["poison"],
+          "target": "holder"
+        }
+      ],
+      "artist": "Toyste Beach",
+      "packs": ["lunala"]
+    },
+    {
+      "id": 147,
+      "name": "leaf_cape",
+      "card_type": "trainer",
+      "trainer_type": "tool",
+      "rarity": 2,
+      "effect": [
+        {
+          "type": "extra_health",
+          "amount": 30,
+          "condition": "user_grass",
+          "target": "holder"
+        }
+      ],
+      "artist": "Toyste Beach",
+      "packs": ["solgaleo"]
+    },
+    {
+      "id": 148,
+      "name": "acerola",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_specific_damaged",
+      "specific": ["palossand", "mimikyu"],
+      "effect": [
+        {
+          "type": "move_damage",
+          "amount": 40,
+          "from": "target",
+          "to": "opponent_active"
+        }
+      ],
+      "artist": "Susumu Maeya",
+      "packs": ["lunala"]
+    },
+    {
+      "id": 149,
+      "name": "ilima",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_colorless_damaged",
+      "effect": [
+        {
+          "type": "back_to_hand"
+        }
+      ],
+      "artist": "Teeziro",
+      "packs": ["lunala"]
+    },
+    {
+      "id": 150,
+      "name": "kiawe",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_specific",
+      "specific": ["alolan_marowak", "turtonator"],
+      "effect": [
+        {
+          "type": "ramp",
+          "source": "energy_zone",
+          "energy_type": "fire",
+          "amount": 2
+        },
+        {
+          "type": "turn_ends"
+        }
+      ],
+      "artist": "Hideki Ishikawa",
+      "packs": ["lunala"]
+    },
+    {
+      "id": 151,
+      "name": "guzma",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "effect": [
+        {
+          "type": "discard_tool",
+          "target": "opponent_all"
+        }
+      ],
+      "artist": "GOSSAN",
+      "packs": ["lunala"]
+    },
+    {
+      "id": 152,
+      "name": "lana",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "condition": "ally_specific_in_play",
+      "specific": ["araquanid"],
+      "effect": [
+        {
+          "type": "switch",
+          "target": "opponent_bench",
+          "choice": "yours",
+          "into": "active"
+        }
+      ],
+      "artist": "Yuu Nishida",
+      "packs": ["solgaleo"]
+    },
+    {
+      "id": 153,
+      "name": "sophocles",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_specific",
+      "specific": ["alolan_golem", "vikavolt", "togedemaru"],
+      "effect": [
+        {
+          "type": "attack_boost",
+          "amount": 30,
+          "duration": "this_turn",
+          "against": "opponent_active"
+        }
+      ],
+      "artist": "Akira Komayama",
+      "packs": ["solgaleo"]
+    },
+    {
+      "id": 154,
+      "name": "mallow",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "ally_specific",
+      "specific": ["shiinotic", "tsareena"],
+      "effect": [
+        {
+          "type": "heal_all_damage"
+        },
+        {
+          "type": "discard_energy_all"
+        }
+      ],
+      "artist": "En Morikura",
+      "packs": ["solgaleo"]
+    },
+    {
+      "id": 155,
+      "name": "lillie",
+      "card_type": "trainer",
+      "trainer_type": "supporter",
+      "rarity": 2,
+      "target": "one_ally_stage2",
+      "effect": [
+        {
+          "type": "heal",
+          "amount": 60
+        }
+      ],
+      "artist": "hechima",
+      "packs": ["solgaleo"]
+    }
+  ]
+}

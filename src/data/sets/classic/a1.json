@@ -308,7 +308,8 @@
           "damage": 80,
           "effect": [
             {
-              "type": "sleep",
+              "type": "apply_status",
+              "status": ["sleep"],
               "target": "opponent_active"
             }
           ]
@@ -396,7 +397,8 @@
           "damage": 30,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -721,7 +723,11 @@
           "damage": 50,
           "effect": [
             {
-              "type": "leaf_supply"
+              "type": "ramp",
+              "source": "energy_zone",
+              "energy_type": "grass",
+              "amount": 1,
+              "target": "one_ally_benched_grass"
             }
           ]
         }
@@ -1541,7 +1547,8 @@
           "damage": 50,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -2021,7 +2028,8 @@
           "flip": 1,
           "effect": [
             {
-              "type": "paralyze",
+              "type": "apply_status",
+              "status": ["paralysis"],
               "target": "opponent_active",
               "heads": 1
             }
@@ -2263,7 +2271,8 @@
           "damage": 40,
           "effect": [
             {
-              "type": "sleep",
+              "type": "apply_status",
+              "status": ["sleep"],
               "target": "opponent_active"
             }
           ]
@@ -2672,7 +2681,8 @@
           "flip": 1,
           "effect": [
             {
-              "type": "paralyze",
+              "type": "apply_status",
+              "status": ["paralysis"],
               "target": "opponent_active",
               "heads": 1
             }
@@ -2750,7 +2760,8 @@
           "flip": 1,
           "effect": [
             {
-              "type": "paralyze",
+              "type": "apply_status",
+              "status": ["paralysis"],
               "target": "opponent_active",
               "heads": 1
             }
@@ -3052,7 +3063,8 @@
         "flip": 1,
         "effect": [
           {
-            "type": "sleep",
+            "type": "apply_status",
+            "status": ["sleep"],
             "heads": 1,
             "target": "opponent_active"
           }
@@ -4147,7 +4159,8 @@
           "damage": 90,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -4214,7 +4227,8 @@
           "damage": 10,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -4289,7 +4303,8 @@
         "condition": "user_active",
         "effect": [
           {
-            "type": "poison",
+            "type": "apply_status",
+            "status": ["poison"],
             "target": "opponent_active"
           }
         ]
@@ -4729,7 +4744,8 @@
           "damage": 80,
           "effect": [
             {
-              "type": "sleep",
+              "type": "apply_status",
+              "status": ["sleep"],
               "target": "opponent_active"
             }
           ]

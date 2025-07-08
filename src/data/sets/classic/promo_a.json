@@ -47,7 +47,7 @@
     },
     {
       "id": 4,
-      "name": "pokédex",
+      "name": "pokedex",
       "card_type": "trainer",
       "trainer_type": "item",
       "effect": [
@@ -193,7 +193,8 @@
           "cost": ["colorless"],
           "effect": [
             {
-              "type": "sleep",
+              "type": "apply_status",
+              "status": ["sleep"],
               "target": "opponent_active"
             }
           ]
@@ -290,7 +291,8 @@
           "cost": ["psychic"],
           "effect": [
             {
-              "type": "confuse",
+              "type": "apply_status",
+              "status": ["confusion"],
               "target": "opponent_active"
             }
           ]
@@ -396,7 +398,8 @@
           "cost": ["darkness"],
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -471,7 +474,8 @@
           "cost": ["darkness"],
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -497,7 +501,8 @@
           "flip": 1,
           "effect": [
             {
-              "type": "burn",
+              "type": "apply_status",
+              "status": ["burn"],
               "target": "opponent_active",
               "heads": 1
             }

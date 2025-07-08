@@ -50,7 +50,8 @@
           "flip": 1,
           "effect": [
             {
-              "type": "paralyze",
+              "type": "apply_status",
+              "status": ["paralysis"],
               "target": "opponent_active",
               "heads": 1
             }
@@ -1122,7 +1123,8 @@
           "damage": 70,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -1148,7 +1150,8 @@
           "damage": 10,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -1202,7 +1205,8 @@
           "flip": 1,
           "effect": [
             {
-              "type": "confuse",
+              "type": "apply_status",
+              "status": ["confusion"],
               "target": "opponent_active",
               "heads": 1
             }
@@ -1246,7 +1250,8 @@
         "flip": 1,
         "effect": [
           {
-            "type": "poison",
+            "type": "apply_status",
+            "status": ["poison"],
             "heads": 1,
             "target": "opponent_active"
           }

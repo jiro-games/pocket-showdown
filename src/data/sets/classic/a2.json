@@ -203,7 +203,8 @@
           "damage": 50,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -318,7 +319,8 @@
           "damage": 50,
           "effect": [
             {
-              "type": "confuse",
+              "type": "apply_status",
+              "status": ["confusion"],
               "target": "opponent_active"
             }
           ]
@@ -586,7 +588,8 @@
           "damage": 100,
           "effect": [
             {
-              "type": "burn",
+              "type": "apply_status",
+              "status": ["burn"],
               "target": "opponent_active"
             }
           ]
@@ -632,7 +635,8 @@
           "damage": 30,
           "effect": [
             {
-              "type": "burn",
+              "type": "apply_status",
+              "status": ["burn"],
               "target": "opponent_active"
             }
           ]
@@ -1136,7 +1140,8 @@
           "flip": 1,
           "effect": [
             {
-              "type": "paralyze",
+              "type": "apply_status",
+              "status": ["paralysis"],
               "target": "opponent_active",
               "heads": 1
             }
@@ -1672,7 +1677,8 @@
           "damage": 70,
           "effect": [
             {
-              "type": "confuse",
+              "type": "apply_status",
+              "status": ["confusion"],
               "target": "opponent_active"
             }
           ]
@@ -2544,7 +2550,8 @@
           "damage": 50,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -2622,7 +2629,8 @@
               "factor": "heads"
             },
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active",
               "heads": 2
             }
@@ -2706,7 +2714,8 @@
           "damage": 60,
           "effect": [
             {
-              "type": "sleep",
+              "type": "apply_status",
+              "status": ["sleep"],
               "target": "opponent_active"
             }
           ]

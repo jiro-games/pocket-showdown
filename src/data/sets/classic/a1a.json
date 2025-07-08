@@ -193,7 +193,8 @@
           "damage": 50,
           "effect": [
             {
-              "type": "sleep",
+              "type": "apply_status",
+              "status": ["sleep"],
               "target": "opponent_active"
             }
           ]
@@ -410,7 +411,8 @@
           "damage": 30,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]
@@ -486,7 +488,6 @@
         "effect": [
           {
             "type": "move_energy",
-            "amount_complex": "all",
             "energy_type": "water",
             "from": "ally_benched_water",
             "to": "ally_active_water"
@@ -765,7 +766,8 @@
           "damage": 10,
           "effect": [
             {
-              "type": "paralyze",
+              "type": "apply_status",
+              "status": ["paralysis"],
               "target": "opponent_active",
               "heads": 1
             }
@@ -917,7 +919,8 @@
           "cost": ["psychic"],
           "effect": [
             {
-              "type": "sleep",
+              "type": "apply_status",
+              "status": ["sleep"],
               "target": "opponent_active"
             }
           ]
@@ -1336,7 +1339,8 @@
           "damage": 20,
           "effect": [
             {
-              "type": "poison",
+              "type": "apply_status",
+              "status": ["poison"],
               "target": "opponent_active"
             }
           ]

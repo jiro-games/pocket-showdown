@@ -822,7 +822,8 @@
           "cost": ["colorless", "colorless", "colorless"],
           "effect": [
             {
-              "type": "genome_hacking"
+              "type": "copy_attack",
+              "target": "opponent_active"
             }
           ]
         }

@@ -3656,7 +3656,7 @@
       "rarity": 2,
       "effect": [
         {
-          "type": "discard_tool",
+          "type": "discard_tools",
           "target": "opponent_all"
         }
       ],

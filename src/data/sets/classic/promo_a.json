@@ -370,7 +370,7 @@
         {
           "name": "attack_the_wound",
           "cost": ["water"],
-          "damage": "10",
+          "damage": 10,
           "damage_type": "add",
           "effect": [
             {
@@ -420,7 +420,7 @@
         {
           "name": "spiral_rush",
           "cost": ["colorless", "colorless", "colorless", "colorless"],
-          "damage": "70",
+          "damage": 70,
           "damage_type": "add",
           "flip_for": "head_until_tails",
           "effect": [

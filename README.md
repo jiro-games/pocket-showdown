@@ -9,6 +9,7 @@ The definitive simulator and database for Pokémon TCG Pocket. Build and test de
 - **Hand Draw Simulator**: Test opening hands
 - **Battle Simulator**: Play against other players or different difficulties of AI
 - **Custom Card and Set Creator**: Create and even PLAY with your custom cards!
+- **Custom Rules!**: Modify the basic rules of the game. 30 card decks, banned cards, and more
 - **Rankings**: Competitive matchmaking system
 - **Card Database**: Complete Pokemon TCG Pocket card collection
 

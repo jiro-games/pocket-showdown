@@ -48,7 +48,7 @@ export class CardDataLoader {
 
     try {
       // Dynamic import of JSON files
-      const setData = await import(`@/data/sets/${setId}.json`);
+      const setData = await import(`../../data/sets/${setId}.json`);
       const rawData = setData.default;
 
       // Convert raw data to proper CardSet format

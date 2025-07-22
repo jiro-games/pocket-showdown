@@ -1,0 +1,41 @@
+{
+  "types": {
+    "grass": "Grass",
+    "fire": "Fire",
+    "water": "Water",
+    "lightning": "Lightning",
+    "psychic": "Psychic",
+    "fighting": "Fighting",
+    "darkness": "Darkness",
+    "metal": "Metal",
+    "colorless": "Colorless"
+  },
+  "rarities": {
+    "common": "Common",
+    "uncommon": "Uncommon",
+    "rare": "Rare",
+    "ultra-rare": "Ultra Rare"
+  },
+  "effects": {
+    "heal": "Heal",
+    "ramp": "Energy Ramp",
+    "damage": "Damage",
+    "status": "Status Effect",
+    "draw": "Draw Cards",
+    "search": "Search Deck",
+    "discard": "Discard",
+    "switch": "Switch Pokémon",
+    "evolve": "Evolve",
+    "attach": "Attach Energy"
+  },
+  "stages": {
+    "basic": "Basic",
+    "stage1": "Stage 1",
+    "stage2": "Stage 2"
+  },
+  "trainer_types": {
+    "supporter": "Supporter",
+    "item": "Item",
+    "tool": "Tool"
+  }
+}

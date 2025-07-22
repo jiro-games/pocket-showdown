@@ -1,8 +1,8 @@
 {
-  "setInfo": {
+  "set_info": {
     "id": "a2a",
     "name": "triumphant_light",
-    "releaseDate": "2025-02-28",
+    "release_date": "2025-02-28",
     "packs": ["arceus"]
   },
   "cards": [

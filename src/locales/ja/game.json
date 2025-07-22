@@ -1,0 +1,41 @@
+{
+  "types": {
+    "grass": "草",
+    "fire": "炎",
+    "water": "水",
+    "lightning": "雷",
+    "psychic": "超",
+    "fighting": "闘",
+    "darkness": "悪",
+    "metal": "鋼",
+    "colorless": "無"
+  },
+  "rarities": {
+    "common": "コモン",
+    "uncommon": "アンコモン",
+    "rare": "レア",
+    "ultra-rare": "ウルトラレア"
+  },
+  "effects": {
+    "heal": "回復",
+    "ramp": "エネルギー加速",
+    "damage": "ダメージ",
+    "status": "状態異常",
+    "draw": "カードを引く",
+    "search": "デッキを探す",
+    "discard": "捨てる",
+    "switch": "ポケモンを交代",
+    "evolve": "進化",
+    "attach": "エネルギーをつける"
+  },
+  "stages": {
+    "basic": "たね",
+    "stage1": "1進化",
+    "stage2": "2進化"
+  },
+  "trainer_types": {
+    "supporter": "サポート",
+    "item": "グッズ",
+    "tool": "ポケモンのどうぐ"
+  }
+}

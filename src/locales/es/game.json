@@ -1,0 +1,41 @@
+{
+  "types": {
+    "grass": "Planta",
+    "fire": "Fuego",
+    "water": "Agua",
+    "lightning": "Eléctrico",
+    "psychic": "Psíquico",
+    "fighting": "Lucha",
+    "darkness": "Siniestro",
+    "metal": "Metal",
+    "colorless": "Incoloro"
+  },
+  "rarities": {
+    "common": "Común",
+    "uncommon": "Poco Común",
+    "rare": "Raro",
+    "ultra-rare": "Ultra Raro"
+  },
+  "effects": {
+    "heal": "Curar",
+    "ramp": "Acelerar Energía",
+    "damage": "Daño",
+    "status": "Efecto de Estado",
+    "draw": "Robar Cartas",
+    "search": "Buscar en Mazo",
+    "discard": "Descartar",
+    "switch": "Cambiar Pokémon",
+    "evolve": "Evolucionar",
+    "attach": "Unir Energía"
+  },
+  "stages": {
+    "basic": "Básico",
+    "stage1": "Fase 1",
+    "stage2": "Fase 2"
+  },
+  "trainer_types": {
+    "supporter": "Partidario",
+    "item": "Objeto",
+    "tool": "Herramienta"
+  }
+}

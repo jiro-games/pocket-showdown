@@ -1,8 +1,8 @@
 {
-  "setInfo": {
+  "set_info": {
     "id": "a3",
     "name": "celestial_guardians",
-    "releaseDate": "2025-04-30",
+    "release_date": "2025-04-30",
     "packs": ["lunala", "solgaleo"]
   },
   "cards": [

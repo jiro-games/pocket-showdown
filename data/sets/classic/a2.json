@@ -1,8 +1,8 @@
 {
-  "setInfo": {
+  "set_info": {
     "id": "a2",
     "name": "spacetime_smackdown",
-    "releaseDate": "2025-01-29",
+    "release_date": "2025-01-29",
     "packs": ["dialga", "palkia"]
   },
   "cards": [

@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
+import { NextIntlClientProvider } from 'next-intl';
+import { getLocale, getMessages } from 'next-intl/server';
 import { Geist, Geist_Mono } from 'next/font/google';
+import { Header } from '@/components/layout/Header';
 import './globals.css';
 
 const geistSans = Geist({
@@ -18,17 +21,23 @@ export const metadata: Metadata = {
     'The definitive simulator and database for Pokémon TCG Pocket. Build and test decks, create and play with your custom cards, view stats, tournaments and so much more!',
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 min-h-screen`}
       >
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          <Header />
+          <main>{children}</main>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

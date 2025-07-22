@@ -1,8 +1,8 @@
 {
-  "setInfo": {
+  "set_info": {
     "id": "a2b",
     "name": "shining_revelry",
-    "releaseDate": "2025-03-27",
+    "release_date": "2025-03-27",
     "packs": ["shining_revelry"]
   },
   "cards": [

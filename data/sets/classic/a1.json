@@ -1,8 +1,8 @@
 {
-  "setInfo": {
+  "set_info": {
     "id": "a1",
     "name": "genetic_apex",
-    "releaseDate": "2024-10-30",
+    "release_date": "2024-10-30",
     "packs": ["mewtwo", "pikachu", "charizard"]
   },
   "cards": [

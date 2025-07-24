@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { cardLoader, type Language } from '@/lib/cardLoader';
 import { useTranslations, useLocale } from 'next-intl';
-import { Card } from '@/types/game';
+import { Card, PokemonCard } from '@/types/game';
 import {
   SearchFilters,
   type FilterState,
@@ -23,8 +23,41 @@ export default function DexPage() {
     filterRarity: -1,
   });
 
-  // TODO: Add filtered cards state and logic
-  // const [filteredCards, setFilteredCards] = useState<Card[]>([]);
+  const filteredCards = useMemo(() => {
+    let filtered = allCards;
+
+    if (filters.searchQuery) {
+      const formattedQuery = filters.searchQuery
+        .trim()
+        .toLowerCase()
+        .replaceAll(' ', '_');
+      filtered = filtered.filter(card =>
+        card.name.toLowerCase().includes(formattedQuery)
+      );
+    }
+
+    if (filters.filterSet !== 'all') {
+      filtered = filtered.filter(card => card.set === filters.filterSet);
+    }
+
+    if (filters.filterType !== 'all') {
+      filtered = filtered.filter(card => card.type === filters.filterType);
+    }
+
+    if (filters.filterPokemonType !== 'all') {
+      filtered = filtered.filter(
+        card =>
+          card.type === 'pokemon' &&
+          (card as PokemonCard).pokemonType === filters.filterPokemonType
+      );
+    }
+
+    if (filters.filterRarity >= 0) {
+      filtered = filtered.filter(card => card.rarity === filters.filterRarity);
+    }
+
+    return filtered;
+  }, [allCards, filters]);
 
   // TODO: Add selected card state for modal
   // const [selectedCard, setSelectedCard] = useState<Card | null>(null);

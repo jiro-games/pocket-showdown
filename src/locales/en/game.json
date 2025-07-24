@@ -33,7 +33,9 @@
     "stage1": "Stage 1",
     "stage2": "Stage 2"
   },
-  "trainer_types": {
+  "card_types": {
+    "pokemon": "Pokémon",
+    "trainer": "Trainer",
     "supporter": "Supporter",
     "item": "Item",
     "tool": "Tool"

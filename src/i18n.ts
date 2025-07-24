@@ -21,7 +21,7 @@ export default getRequestConfig(async () => {
     else if (acceptLanguage?.includes('ja')) locale = 'ja';
   }
 
-  const [enUI, enGame, enPokemon, enTrainers, enAttacks, enAbilities] =
+  const [enUI, enGame, enPokemon, enTrainers, enAttacks, enAbilities, enSets] =
     await Promise.all([
       import(`./locales/en/ui.json`).then(m => m.default).catch(() => ({})),
       import(`./locales/en/game.json`).then(m => m.default).catch(() => ({})),
@@ -37,6 +37,7 @@ export default getRequestConfig(async () => {
       import(`./locales/en/abilities.json`)
         .then(m => m.default)
         .catch(() => ({})),
+      import(`./locales/en/sets.json`).then(m => m.default).catch(() => ({})),
     ]);
 
   let localeUI = {};
@@ -45,6 +46,7 @@ export default getRequestConfig(async () => {
   let localeTrainers = {};
   let localeAttacks = {};
   let localeAbilities = {};
+  let localeSets = {};
 
   if (locale !== 'en') {
     [
@@ -54,6 +56,7 @@ export default getRequestConfig(async () => {
       localeTrainers,
       localeAttacks,
       localeAbilities,
+      localeSets,
     ] = await Promise.all([
       import(`./locales/${locale}/ui.json`)
         .then(m => m.default)
@@ -73,6 +76,9 @@ export default getRequestConfig(async () => {
       import(`./locales/${locale}/abilities.json`)
         .then(m => m.default)
         .catch(() => ({})),
+      import(`./locales/${locale}/sets.json`)
+        .then(m => m.default)
+        .catch(() => ({})),
     ]);
   }
 
@@ -85,6 +91,7 @@ export default getRequestConfig(async () => {
       trainers: { ...enTrainers, ...localeTrainers },
       attacks: { ...enAttacks, ...localeAttacks },
       abilities: { ...enAbilities, ...localeAbilities },
+      sets: { ...enSets, ...localeSets },
     },
     onError(error) {
       if (error.code === IntlErrorCode.MISSING_MESSAGE) {

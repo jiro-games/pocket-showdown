@@ -36,3 +36,6 @@ Thumbs.db
 
 # Data source files
 data/sets/source.json
+
+# Personal roadmap files
+roadmap

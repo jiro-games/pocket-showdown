@@ -7,26 +7,35 @@ import {
   TrashIcon,
 } from '@heroicons/react/24/outline';
 import { PokemonType, POKEMON_TYPES } from '@/types/game';
+import { FilterSelect } from '@/components/dex/FilterSelect';
 
 export type SortOption = 'name' | 'type' | 'rarity' | 'set';
-export type FilterSet =
-  | 'all'
-  | 'a1'
-  | 'a1a'
-  | 'a2'
-  | 'a2a'
-  | 'a2b'
-  | 'a3'
-  | 'a3a'
-  | 'a3b'
-  | 'promo_a';
-export type FilterType =
-  | 'all'
-  | 'pokemon'
-  | 'trainer'
-  | 'item'
-  | 'supporter'
-  | 'tool';
+
+const FILTER_SETS = [
+  'all',
+  'a1',
+  'a1a',
+  'a2',
+  'a2a',
+  'a2b',
+  'a3',
+  'a3a',
+  'a3b',
+  'promo_a',
+] as const;
+
+export type FilterSet = (typeof FILTER_SETS)[number];
+
+const FILTER_TYPES = [
+  'all',
+  'pokemon',
+  'trainer',
+  'item',
+  'supporter',
+  'tool',
+] as const;
+
+export type FilterType = (typeof FILTER_TYPES)[number];
 
 export interface FilterState {
   searchQuery: string;
@@ -46,6 +55,8 @@ export function SearchFilters({
   onFiltersChange,
 }: SearchFiltersProps) {
   const tUI = useTranslations('ui');
+  const tSets = useTranslations('sets');
+  const tGame = useTranslations('game');
 
   const updateFilter = (key: keyof FilterState, value: any) => {
     onFiltersChange({ ...filters, [key]: value });
@@ -88,145 +99,65 @@ export function SearchFilters({
               placeholder={tUI('search_placeholder')}
               value={filters.searchQuery}
               onChange={e => updateFilter('searchQuery', e.target.value)}
-              className="w-full pl-10 pr-4 py-2 bg-white/5 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+              className="w-full pl-10 pr-4 py-1.5 bg-white/5 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
             />
           </div>
         </div>
 
-        <div>
-          <label className="block text-sm font-medium text-gray-300 mb-2">
-            Set
-          </label>
-          <select
-            value={filters.filterSet}
-            onChange={e =>
-              updateFilter('filterSet', e.target.value as FilterSet)
-            }
-            className="w-full px-3 py-2 bg-white/5 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50"
-          >
-            <option value="all" className="bg-gray-800 text-white">
-              All
-            </option>
-            <option value="a1" className="bg-gray-800 text-white">
-              A1
-            </option>
-            <option value="a1a" className="bg-gray-800 text-white">
-              A1a
-            </option>
-            <option value="a2" className="bg-gray-800 text-white">
-              A2
-            </option>
-            <option value="a2a" className="bg-gray-800 text-white">
-              A2a
-            </option>
-            <option value="a2b" className="bg-gray-800 text-white">
-              A2b
-            </option>
-            <option value="a3" className="bg-gray-800 text-white">
-              A3
-            </option>
-            <option value="a3a" className="bg-gray-800 text-white">
-              A3a
-            </option>
-            <option value="a3b" className="bg-gray-800 text-white">
-              A3b
-            </option>
-            <option value="promo_a" className="bg-gray-800 text-white">
-              Promo A
-            </option>
-          </select>
-        </div>
+        <FilterSelect
+          label="Set"
+          value={filters.filterSet}
+          onChange={value => updateFilter('filterSet', value)}
+          options={FILTER_SETS}
+          getOptionLabel={value => (value === 'all' ? 'All' : tSets(value))}
+        />
 
-        <div>
-          <label className="block text-sm font-medium text-gray-300 mb-2">
-            Card Type
-          </label>
-          <select
-            value={filters.filterType}
-            onChange={e =>
-              updateFilter('filterType', e.target.value as FilterType)
-            }
-            className="w-full px-3 py-2 bg-white/5 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50"
-          >
-            <option value="all" className="bg-gray-800 text-white">
-              All
-            </option>
-            <option value="pokemon" className="bg-gray-800 text-white">
-              Pokémon
-            </option>
-            <option value="trainer" className="bg-gray-800 text-white">
-              Trainer
-            </option>
-            <option value="item" className="bg-gray-800 text-white">
-              Item
-            </option>
-            <option value="supporter" className="bg-gray-800 text-white">
-              Supporter
-            </option>
-            <option value="tool" className="bg-gray-800 text-white">
-              Tool
-            </option>
-          </select>
-        </div>
+        <FilterSelect
+          label="Card Type"
+          value={filters.filterType}
+          onChange={value => updateFilter('filterType', value)}
+          options={FILTER_TYPES}
+          getOptionLabel={value =>
+            value === 'all' ? 'All' : tGame(`card_types.${value}`)
+          }
+        />
 
-        <div>
-          <label className="block text-sm font-medium text-gray-300 mb-2">
-            Pokémon Type
-          </label>
-          <select
-            value={filters.filterPokemonType}
-            onChange={e =>
-              updateFilter(
-                'filterPokemonType',
-                e.target.value as PokemonType | 'all'
-              )
-            }
-            className="w-full px-3 py-2 bg-white/5 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50"
-          >
-            <option value="all" className="bg-gray-800 text-white">
-              All
-            </option>
-            {POKEMON_TYPES.map(type => (
-              <option
-                key={type}
-                value={type}
-                className="bg-gray-800 text-white"
-              >
-                {type.charAt(0).toUpperCase() + type.slice(1)}
-              </option>
-            ))}
-          </select>
-        </div>
+        <FilterSelect
+          label="Pokémon Type"
+          value={filters.filterPokemonType}
+          onChange={value => updateFilter('filterPokemonType', value)}
+          options={['all', ...POKEMON_TYPES]}
+          getOptionLabel={value =>
+            value === 'all'
+              ? 'All'
+              : value.charAt(0).toUpperCase() + value.slice(1)
+          }
+        />
 
-        <div>
-          <label className="block text-sm font-medium text-gray-300 mb-2">
-            Rarity
-          </label>
-          <select
-            value={filters.filterRarity}
-            onChange={e => updateFilter('filterRarity', Number(e.target.value))}
-            className="w-full px-3 py-2 bg-white/5 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50"
-          >
-            <option value={-1} className="bg-gray-800 text-white">
-              All
-            </option>
-            <option value={1} className="bg-gray-800 text-white">
-              1 Diamond
-            </option>
-            <option value={2} className="bg-gray-800 text-white">
-              2 Diamond
-            </option>
-            <option value={3} className="bg-gray-800 text-white">
-              3 Diamond
-            </option>
-            <option value={4} className="bg-gray-800 text-white">
-              4 Diamond (EX)
-            </option>
-            <option value={0} className="bg-gray-800 text-white">
-              Promo
-            </option>
-          </select>
-        </div>
+        <FilterSelect
+          label="Rarity"
+          value={filters.filterRarity}
+          onChange={value => updateFilter('filterRarity', value)}
+          options={[-1, 1, 2, 3, 4, 0]}
+          getOptionLabel={value => {
+            switch (value) {
+              case -1:
+                return 'All';
+              case 1:
+                return '1 Diamond';
+              case 2:
+                return '2 Diamond';
+              case 3:
+                return '3 Diamond';
+              case 4:
+                return '4 Diamond (EX)';
+              case 0:
+                return 'Promo';
+              default:
+                return String(value);
+            }
+          }}
+        />
       </div>
     </div>
   );

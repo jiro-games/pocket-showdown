@@ -13,7 +13,7 @@ export interface Card {
   set: string;
   name: string;
   type: CardType;
-  rarity: 'common' | 'uncommon' | 'rare' | 'ultra-rare';
+  rarity: number;
   hp?: number;
   tags?: string[];
   imageUrl?: string;

@@ -1,9 +1,11 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { cardLoader, type Language } from '@/lib/cardLoader';
-import { useTranslations, useLocale } from 'next-intl';
-import { Card, PokemonCard } from '@/types/game';
+import { cardLoader } from '@/lib/cardLoader';
+import { useTranslations } from 'next-intl';
+import { Card, PokemonCard, TrainerCard } from '@/types/game';
+import { Card as CardComponent } from '@/components/game/Card';
+import { Paginator } from '@/components/ui/Paginator';
 import {
   SearchFilters,
   type FilterState,
@@ -11,10 +13,10 @@ import {
 
 export default function DexPage() {
   const tUI = useTranslations('ui');
-  const currentLanguage = useLocale() as Language;
 
   const [allCards, setAllCards] = useState<Card[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
   const [filters, setFilters] = useState<FilterState>({
     searchQuery: '',
     filterSet: 'all',
@@ -22,6 +24,8 @@ export default function DexPage() {
     filterType: 'all',
     filterRarity: -1,
   });
+
+  const CARDS_PER_PAGE = 120;
 
   const filteredCards = useMemo(() => {
     let filtered = allCards;
@@ -37,11 +41,22 @@ export default function DexPage() {
     }
 
     if (filters.filterSet !== 'all') {
-      filtered = filtered.filter(card => card.set === filters.filterSet);
+      filtered = filtered.filter(card => {
+        const setId = card.set.split('/').pop();
+        return setId === filters.filterSet;
+      });
     }
 
     if (filters.filterType !== 'all') {
-      filtered = filtered.filter(card => card.type === filters.filterType);
+      filtered = filtered.filter(card => {
+        if (card.type === filters.filterType) {
+          return true;
+        }
+        if (card.type === 'trainer') {
+          return (card as TrainerCard).trainerType === filters.filterType;
+        }
+        return false;
+      });
     }
 
     if (filters.filterPokemonType !== 'all') {
@@ -58,6 +73,19 @@ export default function DexPage() {
 
     return filtered;
   }, [allCards, filters]);
+
+  const totalPages = Math.ceil(filteredCards.length / CARDS_PER_PAGE);
+
+  const paginatedCards = useMemo(() => {
+    const startIndex = (currentPage - 1) * CARDS_PER_PAGE;
+    const endIndex = startIndex + CARDS_PER_PAGE;
+    console.log('card example', filteredCards[0]);
+    return filteredCards.slice(startIndex, endIndex);
+  }, [filteredCards, currentPage]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filters]);
 
   // TODO: Add selected card state for modal
   // const [selectedCard, setSelectedCard] = useState<Card | null>(null);
@@ -100,8 +128,12 @@ export default function DexPage() {
             {tUI('card_dex')}
           </h1>
           <div className="text-sm text-gray-300">
-            {/* TODO: Show filtered count vs total count */}
-            {allCards.length} cards total
+            {filteredCards.length} of {allCards.length} cards
+            {totalPages > 1 && (
+              <span className="ml-2">
+                (Page {currentPage} of {totalPages})
+              </span>
+            )}
           </div>
         </div>
 
@@ -114,13 +146,35 @@ export default function DexPage() {
 
           {/* Content Area */}
           <div className="flex-1">
-            {/* TODO: Add card grid component here */}
-            <div className="text-center py-12">
-              <p className="text-gray-400 text-lg">Card grid goes here</p>
-              <p className="text-gray-500 text-sm mt-2">
-                You'll implement the card display logic next
-              </p>
-            </div>
+            {filteredCards.length === 0 ? (
+              <div className="text-center py-12">
+                <p className="text-gray-400 text-lg">No cards found</p>
+                <p className="text-gray-500 text-sm mt-2">
+                  Try adjusting your filters
+                </p>
+              </div>
+            ) : (
+              <>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+                  {paginatedCards.map(card => (
+                    <div
+                      key={`${card.set}-${card.id}`}
+                      className="transition-transform hover:scale-105 cursor-pointer"
+                    >
+                      <CardComponent card={card} className="w-full" />
+                    </div>
+                  ))}
+                </div>
+
+                {/* Pagination Controls */}
+                <Paginator
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={setCurrentPage}
+                  className="mt-8"
+                />
+              </>
+            )}
           </div>
         </div>
       </div>

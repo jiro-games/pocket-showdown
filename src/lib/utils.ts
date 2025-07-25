@@ -69,12 +69,13 @@ export function getTypeColor(type: string): string {
   return colors[type] || 'bg-gray-400';
 }
 
-export function getRarityColor(rarity: string): string {
-  const colors: Record<string, string> = {
-    common: 'bg-gray-400',
-    uncommon: 'bg-green-500',
-    rare: 'bg-blue-500',
-    'ultra-rare': 'bg-purple-600',
+export function getRarityColor(rarity: number): string {
+  const colors: Record<number, string> = {
+    0: 'bg-yellow-500',
+    1: 'bg-gray-400',
+    2: 'bg-green-500',
+    3: 'bg-blue-500',
+    4: 'bg-purple-600',
   };
 
   return colors[rarity] || 'bg-gray-400';

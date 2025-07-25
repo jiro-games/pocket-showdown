@@ -18,7 +18,6 @@ interface CardProps {
 
 export function Card({
   card,
-  language = 'en',
   className,
   onClick,
   isSelected,

@@ -35,7 +35,7 @@ export function FilterSelect<T extends string | number>({
         </ListboxButton>
         <ListboxOptions
           anchor="bottom"
-          className="z-10 mt-1 w-[--button-width] bg-gray-800 border border-white/20 rounded-lg shadow-lg max-h-60 overflow-auto focus:outline-none"
+          className="z-10 mt-1 w-(--button-width) bg-gray-800 border border-white/20 rounded-lg shadow-lg max-h-60 overflow-auto focus:outline-none"
         >
           {options.map(option => (
             <ListboxOption

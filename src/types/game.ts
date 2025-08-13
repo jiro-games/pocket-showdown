@@ -25,7 +25,7 @@ export interface PokemonCard extends Card {
   type: 'pokemon';
   hp: number;
   pokemonType: PokemonType;
-  stage: PokemonStage;
+  stage: number;
   preevolution?: string;
   ability?: Ability;
   attacks: Attack[];
@@ -121,8 +121,6 @@ export const POKEMON_TYPES = [
 ] as const;
 
 export type PokemonType = (typeof POKEMON_TYPES)[number];
-
-export type PokemonStage = 'basic' | 'stage1' | 'stage2';
 
 export type TrainerType = 'supporter' | 'item' | 'tool';
 

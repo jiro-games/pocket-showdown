@@ -1,10 +1,11 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
 import { cardLoader } from '@/lib/cardLoader';
 import { useTranslations } from 'next-intl';
 import { Card, PokemonCard, TrainerCard } from '@/types/game';
-import { Card as CardComponent } from '@/components/game/Card';
+import { SimpleCard } from '@/components/game/SimpleCard';
 import { Paginator } from '@/components/ui/Paginator';
 import {
   SearchFilters,
@@ -13,6 +14,7 @@ import {
 
 export default function DexPage() {
   const tUI = useTranslations('ui');
+  const router = useRouter();
 
   const [allCards, setAllCards] = useState<Card[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -26,6 +28,11 @@ export default function DexPage() {
   });
 
   const CARDS_PER_PAGE = 120;
+
+  const handleCardClick = (card: Card) => {
+    const setId = card.set.replace('classic/', '');
+    router.push(`/dex/classic/${setId}/${card.id}`);
+  };
 
   const filteredCards = useMemo(() => {
     let filtered = allCards;
@@ -160,8 +167,9 @@ export default function DexPage() {
                     <div
                       key={`${card.set}-${card.id}`}
                       className="transition-transform hover:scale-105 cursor-pointer"
+                      onClick={() => handleCardClick(card)}
                     >
-                      <CardComponent card={card} className="w-full" />
+                      <SimpleCard card={card} className="w-full" />
                     </div>
                   ))}
                 </div>

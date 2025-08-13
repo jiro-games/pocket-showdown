@@ -1,155 +1,62 @@
 import React from 'react';
+import { Card as CardType, PokemonCard, TrainerCard } from '@/types/game';
 import {
-  Card as CardType,
-  PokemonCard,
-  TrainerCard,
-  Language,
-} from '@/types/game';
-import { cn, getTypeColor, getRarityColor } from '@/lib/utils';
+  getPokemonTemplate,
+  getStageIcon,
+  getTrainerTemplate,
+} from '@/lib/cardTemplates';
+import { useTranslations } from 'next-intl';
+import { EvolvesFrom } from './EvolvesFrom';
 
 interface CardProps {
   card: CardType;
-  language?: Language;
   className?: string;
-  onClick?: () => void;
-  isSelected?: boolean;
-  showDetails?: boolean;
 }
 
-export function Card({
-  card,
-  className,
-  onClick,
-  isSelected,
-  showDetails = true,
-}: CardProps) {
-  const isPokemon = card.type === 'pokemon';
-  const isTrainer = card.type === 'trainer';
+export function Card({ card, className }: CardProps) {
+  const tPokemon = useTranslations('pokemon');
 
-  const getPlaceholderContent = () => {
-    if (isPokemon) {
-      const pokemonCard = card as PokemonCard;
-      const typeEmoji =
-        {
-          grass: '🌱',
-          fire: '🔥',
-          water: '💧',
-          lightning: '⚡',
-          psychic: '🔮',
-          fighting: '👊',
-          darkness: '🌙',
-          metal: '⚙️',
-          colorless: '⭐',
-        }[pokemonCard.pokemonType] || '⭐';
+  if (card.type === 'pokemon') {
+    const pokemonCard = card as PokemonCard;
+    const cardTemplate = getPokemonTemplate(pokemonCard.pokemonType);
+    const basicIcon = getStageIcon(0);
+    const stage = pokemonCard.stage;
 
-      return (
-        <div
-          className={cn(
-            'w-full h-full flex items-center justify-center',
-            getTypeColor(pokemonCard.pokemonType)
-          )}
-        >
-          <div className="text-center text-white">
-            <div className="text-2xl mb-1">{typeEmoji}</div>
-            <div className="text-xs font-bold truncate px-1">
-              {pokemonCard.name}
-            </div>
-            <div className="text-xs">{pokemonCard.hp} HP</div>
+    return (
+      <div
+        className="relative w-96 aspect-[18/25] bg-cover bg-center p-4 text-black font-pokemon"
+        style={{ backgroundImage: `url(${cardTemplate})` }}
+      >
+        {stage > 0 && <EvolvesFrom card={pokemonCard} />}
+        <div className="flex font-bold text-2xl tracking-tight">
+          <img
+            className={`w-15 h-6 -ml-2 mt-1 ${
+              stage === 0 ? 'visible' : 'invisible'
+            }`}
+            src={basicIcon}
+            alt="Stage Icon"
+          />
+          <div className="ml-1 text-left">{tPokemon(card.name)}</div>
+          <div className="ml-auto mr-8 self-end">
+            <span className="text-xs mr-1">HP</span>
+            {card.hp}
           </div>
         </div>
-      );
-    } else if (isTrainer) {
-      return (
-        <div className="w-full h-full bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center">
-          <div className="text-center text-white">
-            <div className="text-2xl mb-1">🎯</div>
-            <div className="text-xs font-bold truncate px-1">{card.name}</div>
-          </div>
-        </div>
-      );
-    }
-  };
-
-  return (
-    <div
-      className={cn(
-        'relative bg-white rounded-lg shadow-md border-2 transition-all duration-200 cursor-pointer hover:shadow-lg',
-        isSelected ? 'border-blue-500 ring-2 ring-blue-300' : 'border-gray-300',
-        'w-32 h-44',
-        className
-      )}
-      onClick={onClick}
-    >
-      <div className="relative h-24 bg-gray-100 rounded-t-lg overflow-hidden">
-        {getPlaceholderContent()}
-
-        <div
-          className={cn(
-            'absolute top-1 right-1 w-3 h-3 rounded-full',
-            getRarityColor(card.rarity)
-          )}
-        />
       </div>
+    );
+  } else {
+    const trainerCard = card as TrainerCard;
+    const cardTemplate = getTrainerTemplate(trainerCard.trainerType);
 
-      <div className="p-2 h-20 flex flex-col justify-between">
-        <h3 className="text-xs font-bold text-gray-800 truncate">
-          {card.name}
-        </h3>
-
-        {isPokemon && showDetails && (
-          <PokemonCardDetails card={card as PokemonCard} />
-        )}
-
-        {isTrainer && showDetails && (
-          <TrainerCardDetails card={card as TrainerCard} />
-        )}
-
-        <div className="flex items-center justify-between">
-          <span
-            className={cn(
-              'text-xs px-2 py-1 rounded text-white font-medium',
-              card.type === 'pokemon'
-                ? getTypeColor((card as PokemonCard).pokemonType)
-                : 'bg-purple-500'
-            )}
-          >
-            {card.type === 'pokemon'
-              ? (card as PokemonCard).pokemonType
-              : 'trainer'}
-          </span>
-
-          {isPokemon && (
-            <span className="text-xs font-bold text-red-600">
-              {(card as PokemonCard).hp} HP
-            </span>
-          )}
+    return (
+      <div
+        className="w-96 aspect-[18/25] bg-cover bg-center p-4 text-black font-pokemon"
+        style={{ backgroundImage: `url(${cardTemplate})` }}
+      >
+        <div className="flex font-bold text-2xl tracking-tight">
+          <div className="ml-14 text-left">Potion</div>
         </div>
       </div>
-    </div>
-  );
-}
-
-function PokemonCardDetails({ card }: { card: PokemonCard }) {
-  return (
-    <div className="space-y-1">
-      <div className="flex justify-between items-center">
-        <span className="text-xs text-gray-600">{card.stage}</span>
-        {card.attacks.length > 0 && (
-          <span className="text-xs font-semibold text-orange-600">
-            {card.attacks[0].damage} dmg
-          </span>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function TrainerCardDetails({ card }: { card: TrainerCard }) {
-  return (
-    <div className="space-y-1">
-      <span className="text-xs text-gray-600 capitalize">
-        {card.trainerType}
-      </span>
-    </div>
-  );
+    );
+  }
 }

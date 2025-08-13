@@ -136,6 +136,14 @@ export class CardDataLoader {
     return undefined;
   }
 
+  async getCardBySetAndId(
+    setId: string,
+    cardId: number
+  ): Promise<Card | undefined> {
+    const cardSet = await this.loadSet(setId);
+    return cardSet.cards.find(c => c.id === cardId);
+  }
+
   searchCards(query: string, language?: Language): Card[] {
     const searchLang = language || this.currentLanguage;
     const lowercaseQuery = query.toLowerCase();
@@ -190,6 +198,13 @@ export function getAllCards(): Card[] {
 
 export function getCardById(id: number): Card | undefined {
   return cardLoader.getCardById(id);
+}
+
+export async function getCardBySetAndId(
+  setId: string,
+  cardId: number
+): Promise<Card | undefined> {
+  return cardLoader.getCardBySetAndId(setId, cardId);
 }
 
 export function searchCards(query: string): Card[] {

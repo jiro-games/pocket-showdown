@@ -1,13 +1,10 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import {
-  MagnifyingGlassIcon,
-  FunnelIcon,
-  TrashIcon,
-} from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon, FunnelIcon, TrashIcon } from '@heroicons/react/24/outline';
 import { PokemonType, POKEMON_TYPES } from '@/types/game';
 import { FilterSelect } from '@/components/dex/FilterSelect';
+import './SearchFilters.css';
 
 export type SortOption = 'name' | 'type' | 'rarity' | 'set';
 
@@ -26,14 +23,7 @@ const FILTER_SETS = [
 
 export type FilterSet = (typeof FILTER_SETS)[number];
 
-const FILTER_TYPES = [
-  'all',
-  'pokemon',
-  'trainer',
-  'item',
-  'supporter',
-  'tool',
-] as const;
+const FILTER_TYPES = ['all', 'pokemon', 'trainer', 'item', 'supporter', 'tool'] as const;
 
 export type FilterType = (typeof FILTER_TYPES)[number];
 
@@ -50,10 +40,7 @@ interface SearchFiltersProps {
   onFiltersChange: (filters: FilterState) => void;
 }
 
-export function SearchFilters({
-  filters,
-  onFiltersChange,
-}: SearchFiltersProps) {
+export function SearchFilters({ filters, onFiltersChange }: SearchFiltersProps) {
   const tUI = useTranslations('ui');
   const tSets = useTranslations('sets');
   const tGame = useTranslations('game');
@@ -73,33 +60,28 @@ export function SearchFilters({
   };
 
   return (
-    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-      <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-white flex items-center gap-2">
-          <FunnelIcon className="w-5 h-5" />
+    <div className="search-filters">
+      <div className="search-filters__header">
+        <h2 className="search-filters__title">
+          <FunnelIcon className="search-filters__title-icon" />
           Search
         </h2>
-        <button
-          onClick={resetFilters}
-          className="p-2 border border-white/20 rounded-lg text-white hover:bg-white/10 transition-colors"
-        >
-          <TrashIcon className="w-4 h-4" />
+        <button onClick={resetFilters} className="search-filters__reset-button">
+          <TrashIcon className="search-filters__reset-icon" />
         </button>
       </div>
 
-      <div className="space-y-4">
+      <div className="search-filters__form">
         <div>
-          <label className="block text-sm font-medium text-gray-300 mb-2">
-            {tUI('search_placeholder')}
-          </label>
-          <div className="relative">
-            <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
+          <label className="search-filters__label">{tUI('search_placeholder')}</label>
+          <div className="search-filters__search-container">
+            <MagnifyingGlassIcon className="search-filters__search-icon" />
             <input
               type="text"
               placeholder={tUI('search_placeholder')}
               value={filters.searchQuery}
               onChange={e => updateFilter('searchQuery', e.target.value)}
-              className="w-full pl-10 pr-4 py-1.5 bg-white/5 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+              className="search-filters__input"
             />
           </div>
         </div>
@@ -117,9 +99,7 @@ export function SearchFilters({
           value={filters.filterType}
           onChange={value => updateFilter('filterType', value)}
           options={FILTER_TYPES}
-          getOptionLabel={value =>
-            value === 'all' ? 'All' : tGame(`card_types.${value}`)
-          }
+          getOptionLabel={value => (value === 'all' ? 'All' : tGame(`card_types.${value}`))}
         />
 
         <FilterSelect
@@ -128,9 +108,7 @@ export function SearchFilters({
           onChange={value => updateFilter('filterPokemonType', value)}
           options={['all', ...POKEMON_TYPES]}
           getOptionLabel={value =>
-            value === 'all'
-              ? 'All'
-              : value.charAt(0).toUpperCase() + value.slice(1)
+            value === 'all' ? 'All' : value.charAt(0).toUpperCase() + value.slice(1)
           }
         />
 

@@ -3,47 +3,36 @@
 import Link from 'next/link';
 import { LanguageSelector } from '@/components/ui/LanguageSelector';
 import { Button } from '../ui/Button';
+import './Header.css';
 
 export function Header() {
   const isAuthenticated = false;
 
   return (
-    <header className="bg-black/20 backdrop-blur-sm border-b border-white/10">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center gap-6">
-          <Link
-            href="/"
-            className="text-2xl font-bold text-white hover:text-blue-200 transition-colors"
-          >
+    <header className="header">
+      <div className="header__container">
+        <div className="header__brand-nav">
+          <Link href="/" className="header__logo">
             Pocket Showdown
           </Link>
-          <nav className="hidden md:flex items-center gap-4">
-            <Link
-              href="/dex"
-              className="text-white/80 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-white/10"
-            >
+          <nav className="header__nav">
+            <Link href="/dex" className="header__nav-link">
               Card Dex
             </Link>
-            <Link
-              href="/deck-builder"
-              className="text-white/80 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-white/10"
-            >
+            <Link href="/deck-builder" className="header__nav-link">
               Deck Builder
             </Link>
-            <Link
-              href="/simulator"
-              className="text-white/80 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-white/10"
-            >
+            <Link href="/simulator" className="header__nav-link">
               Battle Simulator
             </Link>
           </nav>
         </div>
 
-        <div className="flex gap-3">
+        <div className="header__actions">
           <LanguageSelector />
           {isAuthenticated ? (
             <>
-              <span className="text-white">Welcome!</span>
+              <span className="header__welcome-text">Welcome!</span>
               <Button variant="outline" size="sm">
                 Profile
               </Button>

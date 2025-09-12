@@ -28,7 +28,8 @@
     },
     {
       "id": 2,
-      "name": "alolan_exeggutor",
+      "name": "exeggutor_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 150,
@@ -628,7 +629,8 @@
     },
     {
       "id": 27,
-      "name": "alolan_marowak",
+      "name": "marowak_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 110,
@@ -822,6 +824,7 @@
     {
       "id": 34,
       "name": "oricorio",
+      "form": "baile",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 70,
@@ -923,7 +926,8 @@
     },
     {
       "id": 38,
-      "name": "alolan_sandshrew",
+      "name": "sandshrew_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 60,
@@ -942,7 +946,8 @@
     },
     {
       "id": 39,
-      "name": "alolan_sandslash",
+      "name": "sandslash_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 100,
@@ -964,12 +969,13 @@
       ],
       "weakness": "metal",
       "retreat_cost": 1,
-      "preevolution": "alolan_sandshrew",
+      "preevolution": "sandshrew_alola",
       "artist": "Hasuno"
     },
     {
       "id": 40,
-      "name": "alolan_vulpix",
+      "name": "vulpix_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 60,
@@ -997,7 +1003,8 @@
     },
     {
       "id": 41,
-      "name": "alolan_ninetales",
+      "name": "ninetales_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 110,
@@ -1019,7 +1026,7 @@
       ],
       "weakness": "metal",
       "retreat_cost": 1,
-      "preevolution": "alolan_vulpix",
+      "preevolution": "vulpix_alola",
       "packs": ["lunala"],
       "artist": "Eri Yamaki"
     },
@@ -1223,6 +1230,7 @@
     {
       "id": 50,
       "name": "wishiwashi",
+      "form": "solo",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 30,
@@ -1252,6 +1260,7 @@
     {
       "id": 51,
       "name": "wishiwashi_ex",
+      "form": "school",
       "card_type": "pokemon",
       "rarity": 4,
       "hp": 170,
@@ -1425,7 +1434,8 @@
     },
     {
       "id": 58,
-      "name": "alolan_raichu_ex",
+      "name": "raichu_alola_ex",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 4,
       "hp": 140,
@@ -1453,7 +1463,8 @@
     },
     {
       "id": 59,
-      "name": "alolan_geodude",
+      "name": "geodude_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 70,
@@ -1473,7 +1484,8 @@
     },
     {
       "id": 60,
-      "name": "alolan_graveler",
+      "name": "graveler_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 110,
@@ -1488,13 +1500,14 @@
       ],
       "weakness": "fighting",
       "retreat_cost": 3,
-      "preevolution": "alolan_geodude",
+      "preevolution": "geodude_alola",
       "packs": ["solgaleo"],
       "artist": "match"
     },
     {
       "id": 61,
-      "name": "alolan_golem",
+      "name": "golem_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 160,
@@ -1517,7 +1530,7 @@
       ],
       "weakness": "fighting",
       "retreat_cost": 4,
-      "preevolution": "alolan_graveler",
+      "preevolution": "graveler_alola",
       "packs": ["solgaleo"],
       "artist": "kawayoo"
     },
@@ -1611,6 +1624,7 @@
     {
       "id": 66,
       "name": "oricorio",
+      "form": "pom-pom",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 70,
@@ -1866,6 +1880,7 @@
     {
       "id": 76,
       "name": "oricorio",
+      "form": "pau",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 70,
@@ -1893,6 +1908,7 @@
     {
       "id": 77,
       "name": "oricorio",
+      "form": "sensu",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 70,
@@ -2031,6 +2047,7 @@
     {
       "id": 83,
       "name": "mimikyu",
+      "form": "disguised",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 70,
@@ -2444,6 +2461,7 @@
     {
       "id": 100,
       "name": "lycanroc",
+      "form": "midday",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 100,
@@ -2475,6 +2493,7 @@
     {
       "id": 101,
       "name": "lycanroc",
+      "form": "midnight",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 100,
@@ -2585,6 +2604,7 @@
     {
       "id": 105,
       "name": "minior",
+      "form": "red",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 80,
@@ -2610,7 +2630,8 @@
     },
     {
       "id": 106,
-      "name": "alolan_rattata",
+      "name": "rattata_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 50,
@@ -2630,7 +2651,8 @@
     },
     {
       "id": 107,
-      "name": "alolan_raticate",
+      "name": "raticate_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 110,
@@ -2652,13 +2674,14 @@
       ],
       "weakness": "grass",
       "retreat_cost": 3,
-      "preevolution": "alolan_rattata",
+      "preevolution": "rattata_alola",
       "packs": ["lunala"],
       "artist": "nagimiso"
     },
     {
       "id": 108,
-      "name": "alolan_meowth",
+      "name": "meowth_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 60,
@@ -2678,7 +2701,8 @@
     },
     {
       "id": 109,
-      "name": "alolan_persian",
+      "name": "persian_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 100,
@@ -2704,13 +2728,14 @@
       ],
       "weakness": "grass",
       "retreat_cost": 1,
-      "preevolution": "alolan_meowth",
+      "preevolution": "meowth_alola",
       "packs": ["solgaleo"],
       "artist": "kirisAki"
     },
     {
       "id": 110,
-      "name": "alolan_grimer",
+      "name": "grimer_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 70,
@@ -2730,7 +2755,8 @@
     },
     {
       "id": 111,
-      "name": "alolan_muk_ex",
+      "name": "muk_alola_ex",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 4,
       "hp": 160,
@@ -2751,7 +2777,7 @@
       ],
       "weakness": "fighting",
       "retreat_cost": 3,
-      "preevolution": "alolan_grimer",
+      "preevolution": "grimer_alola",
       "packs": ["lunala"],
       "artist": "PLANETA CG Works"
     },
@@ -2880,7 +2906,8 @@
     },
     {
       "id": 117,
-      "name": "alolan_diglett",
+      "name": "diglett_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 50,
@@ -2899,7 +2926,8 @@
     },
     {
       "id": 118,
-      "name": "alolan_dugtrio",
+      "name": "dugtrio_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 90,
@@ -2922,7 +2950,7 @@
       ],
       "weakness": "fire",
       "retreat_cost": 1,
-      "preevolution": "alolan_diglett",
+      "preevolution": "diglett_alola",
       "artist": "Yuka Morii"
     },
     {
@@ -3097,7 +3125,7 @@
     },
     {
       "id": 125,
-      "name": "jangmoo",
+      "name": "jangmo-o",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 60,
@@ -3116,7 +3144,7 @@
     },
     {
       "id": 126,
-      "name": "hakamoo",
+      "name": "hakamo-o",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 100,
@@ -3130,13 +3158,13 @@
         }
       ],
       "retreat_cost": 2,
-      "preevolution": "jangmoo",
+      "preevolution": "jangmo-o",
       "packs": ["lunala"],
       "artist": "Ryuta Fuse"
     },
     {
       "id": 127,
-      "name": "kommoo",
+      "name": "kommo-o",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 150,
@@ -3158,7 +3186,7 @@
         }
       ],
       "retreat_cost": 2,
-      "preevolution": "hakamoo",
+      "preevolution": "hakamo-o",
       "packs": ["lunala"],
       "artist": "hatachu"
     },
@@ -3633,7 +3661,7 @@
       "trainer_type": "supporter",
       "rarity": 2,
       "target": "ally_specific",
-      "specific": ["alolan_marowak", "turtonator"],
+      "specific": ["marowak_alola", "turtonator"],
       "effect": [
         {
           "type": "ramp",
@@ -3689,7 +3717,7 @@
       "trainer_type": "supporter",
       "rarity": 2,
       "target": "ally_specific",
-      "specific": ["alolan_golem", "vikavolt", "togedemaru"],
+      "specific": ["golem_alola", "vikavolt", "togedemaru"],
       "effect": [
         {
           "type": "attack_boost",

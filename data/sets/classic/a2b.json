@@ -314,7 +314,9 @@
     },
     {
       "id": 13,
-      "name": "paldean_tauros",
+      "name": "tauros_paldea",
+      "prefix": "Paldean",
+      "form": "blaze_breed",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 110,
@@ -503,6 +505,7 @@
     {
       "id": 21,
       "name": "tatsugiri",
+      "form": "curly",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 70,
@@ -834,6 +837,7 @@
     {
       "id": 35,
       "name": "giratina_ex",
+      "form": "altered",
       "card_type": "pokemon",
       "rarity": 4,
       "hp": 150,
@@ -1137,7 +1141,8 @@
     },
     {
       "id": 47,
-      "name": "paldean_wooper",
+      "name": "wooper_paldea",
+      "prefix": "Paldean",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 50,
@@ -1163,7 +1168,8 @@
     },
     {
       "id": 48,
-      "name": "paldean_clodsire_ex",
+      "name": "clodsire_ex",
+      "prefix": "Paldean",
       "card_type": "pokemon",
       "rarity": 4,
       "hp": 160,
@@ -1186,7 +1192,7 @@
       ],
       "weakness": "fighting",
       "retreat_cost": 3,
-      "preevolution": "paldean_wooper",
+      "preevolution": "wooper_paldea",
       "artist": "PLANETA Mochizuki"
     },
     {

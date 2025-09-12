@@ -903,6 +903,7 @@
     {
       "id": 35,
       "name": "mimikyu",
+      "form": "disguised",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 70,

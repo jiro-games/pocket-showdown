@@ -12,9 +12,11 @@ export interface Card {
   id: number;
   set: string;
   name: string;
+  prefix?: string;
   type: CardType;
   rarity: number;
   hp?: number;
+  form?: string;
   tags?: string[];
   imageUrl?: string;
   artist?: string;
@@ -126,12 +128,7 @@ export type TrainerType = 'supporter' | 'item' | 'tool';
 
 export type GameStatus = 'waiting' | 'active' | 'finished' | 'cancelled';
 
-export type StatusEffect =
-  | 'poisoned'
-  | 'burned'
-  | 'asleep'
-  | 'paralyzed'
-  | 'confused';
+export type StatusEffect = 'poisoned' | 'burned' | 'asleep' | 'paralyzed' | 'confused';
 
 export interface User {
   id: string;

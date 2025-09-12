@@ -4,19 +4,16 @@ import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { cardLoader } from '@/lib/cardLoader';
 import { useTranslations } from 'next-intl';
-import { Card, PokemonCard, TrainerCard } from '@/types/game';
-import { SimpleCard } from '@/components/game/SimpleCard';
+import { Card as CardType, PokemonCard, TrainerCard } from '@/types/game';
+import { Card } from '@/components/card/Card';
 import { Paginator } from '@/components/ui/Paginator';
-import {
-  SearchFilters,
-  type FilterState,
-} from '@/components/dex/SearchFilters';
+import { SearchFilters, type FilterState } from '@/components/dex/SearchFilters';
 
 export default function DexPage() {
   const tUI = useTranslations('ui');
   const router = useRouter();
 
-  const [allCards, setAllCards] = useState<Card[]>([]);
+  const [allCards, setAllCards] = useState<CardType[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const [filters, setFilters] = useState<FilterState>({
@@ -29,7 +26,7 @@ export default function DexPage() {
 
   const CARDS_PER_PAGE = 120;
 
-  const handleCardClick = (card: Card) => {
+  const handleCardClick = (card: CardType) => {
     const setId = card.set.replace('classic/', '');
     router.push(`/dex/classic/${setId}/${card.id}`);
   };
@@ -38,13 +35,8 @@ export default function DexPage() {
     let filtered = allCards;
 
     if (filters.searchQuery) {
-      const formattedQuery = filters.searchQuery
-        .trim()
-        .toLowerCase()
-        .replaceAll(' ', '_');
-      filtered = filtered.filter(card =>
-        card.name.toLowerCase().includes(formattedQuery)
-      );
+      const formattedQuery = filters.searchQuery.trim().toLowerCase().replaceAll(' ', '_');
+      filtered = filtered.filter(card => card.name.toLowerCase().includes(formattedQuery));
     }
 
     if (filters.filterSet !== 'all') {
@@ -69,8 +61,7 @@ export default function DexPage() {
     if (filters.filterPokemonType !== 'all') {
       filtered = filtered.filter(
         card =>
-          card.type === 'pokemon' &&
-          (card as PokemonCard).pokemonType === filters.filterPokemonType
+          card.type === 'pokemon' && (card as PokemonCard).pokemonType === filters.filterPokemonType
       );
     }
 
@@ -131,9 +122,7 @@ export default function DexPage() {
       <div className="container mx-auto px-4 py-6">
         {/* Header */}
         <div className="mb-6">
-          <h1 className="text-3xl font-bold text-white mb-2">
-            {tUI('card_dex')}
-          </h1>
+          <h1 className="text-3xl font-bold text-white mb-2">{tUI('card_dex')}</h1>
           <div className="text-sm text-gray-300">
             {filteredCards.length} of {allCards.length} cards
             {totalPages > 1 && (
@@ -156,9 +145,7 @@ export default function DexPage() {
             {filteredCards.length === 0 ? (
               <div className="text-center py-12">
                 <p className="text-gray-400 text-lg">No cards found</p>
-                <p className="text-gray-500 text-sm mt-2">
-                  Try adjusting your filters
-                </p>
+                <p className="text-gray-500 text-sm mt-2">Try adjusting your filters</p>
               </div>
             ) : (
               <>
@@ -169,7 +156,7 @@ export default function DexPage() {
                       className="transition-transform hover:scale-105 cursor-pointer"
                       onClick={() => handleCardClick(card)}
                     >
-                      <SimpleCard card={card} className="w-full" />
+                      <Card card={card} className="w-full" />
                     </div>
                   ))}
                 </div>

@@ -4027,7 +4027,7 @@
     },
     {
       "id": 166,
-      "name": "nidoran_female",
+      "name": "nidoran_f",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 60,
@@ -4041,7 +4041,7 @@
             {
               "type": "draw",
               "amount": 1,
-              "target": "nidoran_male",
+              "target": "nidoran_m",
               "into": "bench"
             }
           ]
@@ -4060,7 +4060,7 @@
       "hp": 80,
       "pokemon_type": "darkness",
       "stage": 1,
-      "preevolution": "nidoran_female",
+      "preevolution": "nidoran_f",
       "attacks": [
         {
           "name": "bite",
@@ -4104,7 +4104,7 @@
     },
     {
       "id": 169,
-      "name": "nidoran_male",
+      "name": "nidoran_m",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 60,
@@ -4130,7 +4130,7 @@
       "hp": 90,
       "pokemon_type": "darkness",
       "stage": 1,
-      "preevolution": "nidoran_male",
+      "preevolution": "nidoran_m",
       "attacks": [
         {
           "name": "horn_attack",

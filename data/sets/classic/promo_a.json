@@ -463,7 +463,8 @@
     },
     {
       "id": 72,
-      "name": "alolan_grimer",
+      "name": "grimer_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "hp": 70,
       "pokemon_type": "darkness",
@@ -515,7 +516,9 @@
     },
     {
       "id": 78,
-      "name": "dawn_wings_necrozma",
+      "name": "necrozma",
+      "form": "dawn",
+      "prefix": "Dawn Wings",
       "card_type": "pokemon",
       "hp": "110",
       "pokemon_type": "psychic",
@@ -541,7 +544,9 @@
     },
     {
       "id": 79,
-      "name": "dusk_mane_necrozma",
+      "name": "necrozma",
+      "form": "dusk",
+      "prefix": "Dusk Mane",
       "card_type": "pokemon",
       "hp": "110",
       "pokemon_type": "metal",
@@ -568,7 +573,7 @@
     },
     {
       "id": 81,
-      "name": "ultra_necrozma_ex",
+      "name": "necrozma_ultra_ex",
       "card_type": "pokemon",
       "hp": "150",
       "pokemon_type": "dragon",

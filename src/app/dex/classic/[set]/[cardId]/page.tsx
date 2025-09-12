@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { getCardBySetAndId } from '@/lib/cardLoader';
 import { Card as CardType } from '@/types/game';
-import { Card as SimpleCard } from '@/components/game/Card';
+import { Card } from '@/components/card/Card';
 import { Button } from '@/components/ui/Button';
 
 export default function CardDetailPage() {
@@ -64,7 +64,7 @@ export default function CardDetailPage() {
         </Button>
 
         <div className="flex justify-center">
-          <SimpleCard card={card} className="w-48" />
+          <Card card={card} className="w-48" />
         </div>
       </div>
     </div>

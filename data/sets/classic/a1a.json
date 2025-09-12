@@ -908,7 +908,7 @@
     },
     {
       "id": 36,
-      "name": "flabébé",
+      "name": "flabebe",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 40,
@@ -939,7 +939,7 @@
       "hp": 70,
       "pokemon_type": "psychic",
       "stage": 1,
-      "preevolution": "flabébé",
+      "preevolution": "flabebe",
       "attacks": [
         {
           "name": "leaf_drain",

@@ -1,0 +1,32 @@
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.language-selector__icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: white;
+}
+
+.language-selector__select {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  font-size: 0.875rem;
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.language-selector__select:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.language-selector__option {
+  background-color: #1f2937;
+  color: white;
+}

@@ -354,6 +354,7 @@
     {
       "id": 16,
       "name": "wormadam",
+      "form": "plant",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 120,
@@ -487,7 +488,7 @@
     },
     {
       "id": 21,
-      "name": "mow_rotom",
+      "name": "rotom_mow",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 80,
@@ -517,6 +518,7 @@
     {
       "id": 22,
       "name": "shaymin",
+      "form": "land",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 60,
@@ -718,7 +720,7 @@
     },
     {
       "id": 30,
-      "name": "heat_rotom",
+      "name": "rotom_heat",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 80,
@@ -1156,7 +1158,7 @@
     },
     {
       "id": 47,
-      "name": "wash_rotom",
+      "name": "rotom_wash",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 80,
@@ -1175,7 +1177,7 @@
     },
     {
       "id": 48,
-      "name": "frost_rotom",
+      "name": "rotom_frost",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 80,
@@ -1936,6 +1938,7 @@
     {
       "id": 78,
       "name": "giratina",
+      "form": "origin",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 120,
@@ -2231,6 +2234,7 @@
     {
       "id": 90,
       "name": "wormadam",
+      "form": "sandy",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 120,
@@ -2862,6 +2866,7 @@
     {
       "id": 115,
       "name": "wormadam",
+      "form": "trash",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 110,
@@ -3224,7 +3229,7 @@
     },
     {
       "id": 129,
-      "name": "porygon-z",
+      "name": "porygon_z",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 140,
@@ -3548,7 +3553,7 @@
     },
     {
       "id": 142,
-      "name": "fan_rotom",
+      "name": "rotom_fan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 80,

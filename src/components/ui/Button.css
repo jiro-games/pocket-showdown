@@ -1,0 +1,94 @@
+/* Button Base Styles - Faithful Tailwind Translation */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem; /* rounded-md */
+  font-weight: 500; /* font-medium */
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* transition-colors */
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+/* focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 */
+.button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #3b82f6;
+}
+
+/* disabled:opacity-50 disabled:pointer-events-none */
+.button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* bg-blue-600 text-white hover:bg-blue-700 */
+.button--primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.button--primary:hover:not(:disabled) {
+  background-color: #1d4ed8;
+}
+
+/* bg-gray-200 text-gray-900 hover:bg-gray-300 */
+.button--secondary {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.button--secondary:hover:not(:disabled) {
+  background-color: #d1d5db;
+}
+
+/* border border-gray-300 bg-transparent hover:bg-gray-100 */
+.button--outline {
+  border-color: #d1d5db;
+  background-color: transparent;
+  color: inherit;
+}
+
+.button--outline:hover:not(:disabled) {
+  background-color: #f3f4f6;
+}
+
+/* hover:bg-gray-100 */
+.button--ghost {
+  background-color: transparent;
+  color: inherit;
+  border-color: transparent;
+}
+
+.button--ghost:hover:not(:disabled) {
+  background-color: #f3f4f6;
+}
+
+/* Size variants */
+/* h-8 px-3 text-sm */
+.button--sm {
+  height: 2rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+/* h-10 px-4 py-2 */
+.button--md {
+  height: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* h-12 px-8 text-lg */
+.button--lg {
+  height: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}

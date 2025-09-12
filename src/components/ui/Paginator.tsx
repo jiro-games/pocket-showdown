@@ -1,3 +1,5 @@
+import './Paginator.css';
+
 interface PaginatorProps {
   currentPage: number;
   totalPages: number;
@@ -41,24 +43,22 @@ export function Paginator({
   const pageNumbers = getPageNumbers();
 
   return (
-    <div className={`flex justify-center items-center gap-2 ${className}`}>
+    <div className={`paginator ${className}`}>
       <button
         onClick={() => onPageChange(Math.max(1, currentPage - 1))}
         disabled={currentPage === 1}
-        className="px-3 py-2 text-sm bg-gray-700 text-white rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-600 transition-colors"
+        className="paginator__nav-button"
       >
         Previous
       </button>
 
-      <div className="flex gap-1">
+      <div className="paginator__pages">
         {pageNumbers.map(pageNum => (
           <button
             key={pageNum}
             onClick={() => onPageChange(pageNum)}
-            className={`px-3 py-2 text-sm rounded transition-colors ${
-              currentPage === pageNum
-                ? 'bg-blue-600 text-white'
-                : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+            className={`paginator__page-button ${
+              currentPage === pageNum ? 'paginator__page-button--active' : ''
             }`}
           >
             {pageNum}
@@ -69,7 +69,7 @@ export function Paginator({
       <button
         onClick={() => onPageChange(Math.min(totalPages, currentPage + 1))}
         disabled={currentPage === totalPages}
-        className="px-3 py-2 text-sm bg-gray-700 text-white rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-600 transition-colors"
+        className="paginator__nav-button"
       >
         Next
       </button>

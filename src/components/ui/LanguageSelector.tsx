@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
+import './LanguageSelector.css';
 
 type Language = 'en' | 'es' | 'ja';
 
@@ -16,8 +17,7 @@ const languages = [
 export function LanguageSelector() {
   const router = useRouter();
   const currentLocale = useLocale() as Language;
-  const [selectedLanguage, setSelectedLanguage] =
-    useState<Language>(currentLocale);
+  const [selectedLanguage, setSelectedLanguage] = useState<Language>(currentLocale);
 
   useEffect(() => {
     setSelectedLanguage(currentLocale);
@@ -26,9 +26,7 @@ export function LanguageSelector() {
   const handleLanguageChange = (newLanguage: Language) => {
     setSelectedLanguage(newLanguage);
 
-    document.cookie = `locale=${newLanguage}; path=/; max-age=${
-      60 * 60 * 24 * 365
-    }`;
+    document.cookie = `locale=${newLanguage}; path=/; max-age=${60 * 60 * 24 * 365}`;
 
     localStorage.setItem('pocket-showdown-language', newLanguage);
 
@@ -36,19 +34,15 @@ export function LanguageSelector() {
   };
 
   return (
-    <div className="flex items-center gap-2">
-      <GlobeAltIcon className="w-5 h-5 text-white" />
+    <div className="language-selector">
+      <GlobeAltIcon className="language-selector__icon" />
       <select
         value={selectedLanguage}
         onChange={e => handleLanguageChange(e.target.value as Language)}
-        className="bg-white/10 border border-white/20 rounded px-2 py-1 text-white text-sm focus:outline-none focus:ring-2 focus:ring-white/30 cursor-pointer"
+        className="language-selector__select"
       >
         {languages.map(lang => (
-          <option
-            key={lang.code}
-            value={lang.code}
-            className="bg-gray-800 text-white"
-          >
+          <option key={lang.code} value={lang.code} className="language-selector__option">
             {lang.flag} {lang.name}
           </option>
         ))}

@@ -1,0 +1,11 @@
+.evolves-from {
+  position: absolute;
+  top: 22px;
+  left: 12px;
+  z-index: 10;
+}
+
+.evolves-from__icon {
+  width: 216px;
+  height: auto;
+}

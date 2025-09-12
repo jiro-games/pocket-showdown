@@ -765,6 +765,7 @@
     {
       "id": 33,
       "name": "lycanroc_ex",
+      "form": "dusk",
       "card_type": "pokemon",
       "rarity": 4,
       "hp": 150,
@@ -866,7 +867,8 @@
     },
     {
       "id": 37,
-      "name": "alolan_meowth",
+      "name": "meowth_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 60,
@@ -891,7 +893,8 @@
     },
     {
       "id": 38,
-      "name": "alolan_persian",
+      "name": "persian_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 2,
       "hp": 100,
@@ -915,7 +918,7 @@
       ],
       "weakness": "grass",
       "retreat_cost": 1,
-      "preevolution": "alolan_meowth",
+      "preevolution": "meowth_alola",
       "artist": "ryoma uratsuka"
     },
     {
@@ -1112,7 +1115,8 @@
     },
     {
       "id": 46,
-      "name": "alolan_diglett",
+      "name": "diglett_alola",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 1,
       "hp": 60,
@@ -1138,7 +1142,8 @@
     },
     {
       "id": 47,
-      "name": "alolan_dugtrio_ex",
+      "name": "dugtrio_alola_ex",
+      "prefix": "Alolan",
       "card_type": "pokemon",
       "rarity": 4,
       "hp": 130,
@@ -1161,7 +1166,7 @@
       ],
       "weakness": "fire",
       "retreat_cost": 1,
-      "preevolution": "alolan_diglett",
+      "preevolution": "diglett_alola",
       "artist": "PLANETA CG Works"
     },
     {

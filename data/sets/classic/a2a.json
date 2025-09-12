@@ -558,7 +558,8 @@
     },
     {
       "id": 23,
-      "name": "origin_forme_palkia",
+      "name": "palkia-origin",
+      "prefix": "Origin Forme",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 120,
@@ -1479,7 +1480,8 @@
     },
     {
       "id": 60,
-      "name": "origin_forme_dialga",
+      "name": "dialga-origin",
+      "prefix": "Origin Forme",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 120,
@@ -1507,6 +1509,7 @@
     {
       "id": 61,
       "name": "giratina",
+      "form": "altered",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 120,
@@ -1689,6 +1692,7 @@
     {
       "id": 69,
       "name": "shaymin",
+      "form": "sky",
       "card_type": "pokemon",
       "rarity": 3,
       "hp": 70,

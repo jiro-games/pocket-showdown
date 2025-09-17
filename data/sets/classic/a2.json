@@ -2199,7 +2199,7 @@
       "weakness": "grass",
       "retreat_cost": 2,
       "artist": "Kouki Saitou",
-      "preevolution": "skull fossil",
+      "preevolution": "skull_fossil",
       "packs": ["dialga"]
     },
     {
@@ -2826,7 +2826,7 @@
       "weakness": "fire",
       "retreat_cost": 2,
       "artist": "Kouki Saitou",
-      "preevolution": "armor fossil",
+      "preevolution": "armor_fossil",
       "packs": ["palkia"]
     },
     {

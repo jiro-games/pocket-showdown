@@ -1,11 +1,9 @@
 import { cardLoader } from './cardLoader';
 import { Card, PokemonCard, TrainerCard } from '@/types/game';
 
-cardLoader
-  .preloadCoreSets()
-  .catch(err => console.warn('Failed to preload card sets:', err));
+cardLoader.preloadCoreSets().catch(err => console.warn('Failed to preload card sets:', err));
 
-export function getCardById(id: string): Card | undefined {
+export function getCardById(id: number): Card | undefined {
   return cardLoader.getCardById(id);
 }
 
@@ -32,11 +30,7 @@ cardLoader.preloadCoreSets().then(() => {
   trainerCards.length = 0;
   allCards.length = 0;
 
-  pokemonCards.push(
-    ...(loadedCards.filter(c => c.type === 'pokemon') as PokemonCard[])
-  );
-  trainerCards.push(
-    ...(loadedCards.filter(c => c.type === 'trainer') as TrainerCard[])
-  );
+  pokemonCards.push(...(loadedCards.filter(c => c.type === 'pokemon') as PokemonCard[]));
+  trainerCards.push(...(loadedCards.filter(c => c.type === 'trainer') as TrainerCard[]));
   allCards.push(...loadedCards);
 });

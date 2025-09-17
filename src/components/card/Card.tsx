@@ -52,6 +52,13 @@ export function Card({ card, className }: CardProps) {
           }}
         >
           {stage > 0 && <EvolvesFrom card={pokemonCard} />}
+          {card.tags?.includes('ultra_beast') && (
+            <img
+              src="/assets/icons/ultra-beast.webp"
+              alt="Ultra Beast"
+              className="card__ultra-beast"
+            />
+          )}
           <div className="card__header">
             <img
               className={`card__stage-icon ${stage > 0 ? 'card__stage-icon--invisible' : ''}`}

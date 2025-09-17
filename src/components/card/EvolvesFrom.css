@@ -1,11 +1,35 @@
 .evolves-from {
   position: absolute;
   top: 22px;
-  left: 12px;
+  left: 10px;
   z-index: 10;
 }
 
-.evolves-from__icon {
-  width: 216px;
-  height: auto;
+.evolves-from__wrapper {
+  display: flex;
+  padding-top: 1.25rem;
+  padding-left: 9px;
+  width: 220px;
+  height: 67px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.evolves-from__loading {
+  width: 36px;
+  height: 36px;
+}
+
+.evolves-from__image {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.evolves-from__text {
+  font-size: 0.375rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 700;
 }

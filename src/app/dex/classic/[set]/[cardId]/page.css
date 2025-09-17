@@ -1,18 +1,11 @@
 .card-view {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 1rem;
 }
 
 .card-view__content {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.card-view__back-button {
-  margin-bottom: 1.5rem;
+  padding: 0 2rem;
 }
 
 .card-view__card-container {
@@ -21,7 +14,8 @@
 }
 
 .card-view__card {
-  width: 12rem;
+  width: 28rem;
+  max-width: 90vw;
 }
 
 .card-view--loading {

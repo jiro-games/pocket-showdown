@@ -60,10 +60,6 @@ export default function CardDetailPage() {
   return (
     <div className="card-view">
       <div className="card-view__content">
-        <Button onClick={() => router.back()} className="card-view__back-button">
-          ← Back
-        </Button>
-
         <div className="card-view__card-container">
           <Card card={card} className="card-view__card" />
         </div>

@@ -49,6 +49,8 @@
   display: flex;
   align-items: baseline;
   line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__pokemon-prefix {
@@ -87,4 +89,11 @@
   color: black;
   font-family: var(--font-pokemon);
   transform-origin: top left;
+}
+
+.card__ultra-beast {
+  position: absolute;
+  width: 144px;
+  top: 3rem;
+  right: 0;
 }

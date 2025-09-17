@@ -1,0 +1,45 @@
+.card-view {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card-view__content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.card-view__back-button {
+  margin-bottom: 1.5rem;
+}
+
+.card-view__card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-view__card {
+  width: 12rem;
+}
+
+.card-view--loading {
+  text-align: center;
+}
+
+.card-view__loading-text {
+  color: white;
+}
+
+.card-view--not-found {
+  text-align: center;
+}
+
+.card-view__not-found-button {
+  margin-bottom: 1rem;
+}
+
+.card-view__not-found-text {
+  color: white;
+}

@@ -37,9 +37,7 @@ export default async function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 min-h-screen`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main>{children}</main>

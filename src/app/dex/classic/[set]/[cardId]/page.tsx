@@ -6,6 +6,7 @@ import { getCardBySetAndId } from '@/lib/cardLoader';
 import { Card as CardType } from '@/types/game';
 import { Card } from '@/components/card/Card';
 import { Button } from '@/components/ui/Button';
+import './page.css';
 
 export default function CardDetailPage() {
   const params = useParams();
@@ -39,32 +40,32 @@ export default function CardDetailPage() {
 
   if (isLoading) {
     return (
-      <div className="container mx-auto px-4 py-8 text-center">
-        <div className="text-white">Loading...</div>
+      <div className="card-view card-view--loading">
+        <div className="card-view__loading-text">Loading...</div>
       </div>
     );
   }
 
   if (!card) {
     return (
-      <div className="container mx-auto px-4 py-8 text-center">
-        <Button onClick={() => router.back()} className="mb-4">
+      <div className="card-view card-view--not-found">
+        <Button onClick={() => router.back()} className="card-view__not-found-button">
           ← Back
         </Button>
-        <div className="text-white">Card not found</div>
+        <div className="card-view__not-found-text">Card not found</div>
       </div>
     );
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="px-8">
-        <Button onClick={() => router.back()} className="mb-6">
+    <div className="card-view">
+      <div className="card-view__content">
+        <Button onClick={() => router.back()} className="card-view__back-button">
           ← Back
         </Button>
 
-        <div className="flex justify-center">
-          <Card card={card} className="w-48" />
+        <div className="card-view__card-container">
+          <Card card={card} className="card-view__card" />
         </div>
       </div>
     </div>

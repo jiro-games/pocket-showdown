@@ -8,6 +8,7 @@ import { Card as CardType, PokemonCard, TrainerCard } from '@/types/game';
 import { Card } from '@/components/card/Card';
 import { Paginator } from '@/components/ui/Paginator';
 import { SearchFilters, type FilterState } from '@/components/dex/SearchFilters';
+import './page.css';
 
 export default function DexPage() {
   const tUI = useTranslations('ui');
@@ -111,22 +112,22 @@ export default function DexPage() {
   // Loading state
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 flex items-center justify-center">
-        <div className="text-white text-xl">{tUI('loading')}</div>
+      <div className="dex__loading">
+        <div className="dex__loading-text">{tUI('loading')}</div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen">
-      <div className="container mx-auto px-4 py-6">
+    <div className="dex">
+      <div className="dex__container">
         {/* Header */}
-        <div className="mb-6">
-          <h1 className="text-3xl font-bold text-white mb-2">{tUI('card_dex')}</h1>
-          <div className="text-sm text-gray-300">
+        <div className="dex__header">
+          <h1 className="dex__title">{tUI('card_dex')}</h1>
+          <div className="dex__stats">
             {filteredCards.length} of {allCards.length} cards
             {totalPages > 1 && (
-              <span className="ml-2">
+              <span className="dex__stats-pagination">
                 (Page {currentPage} of {totalPages})
               </span>
             )}
@@ -134,29 +135,29 @@ export default function DexPage() {
         </div>
 
         {/* Main Layout */}
-        <div className="flex flex-col lg:flex-row gap-6">
+        <div className="dex__layout">
           {/* Filters Sidebar */}
-          <div className="lg:w-80 space-y-6">
+          <div className="dex__filters">
             <SearchFilters filters={filters} onFiltersChange={setFilters} />
           </div>
 
           {/* Content Area */}
-          <div className="flex-1">
+          <div className="dex__content">
             {filteredCards.length === 0 ? (
-              <div className="text-center py-12">
-                <p className="text-gray-400 text-lg">No cards found</p>
-                <p className="text-gray-500 text-sm mt-2">Try adjusting your filters</p>
+              <div className="dex__no-results">
+                <p className="dex__no-results-title">No cards found</p>
+                <p className="dex__no-results-subtitle">Try adjusting your filters</p>
               </div>
             ) : (
               <>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+                <div className="dex__cards-grid">
                   {paginatedCards.map(card => (
                     <div
                       key={`${card.set}-${card.id}`}
-                      className="transition-transform hover:scale-105 cursor-pointer"
+                      className="dex__card-item"
                       onClick={() => handleCardClick(card)}
                     >
-                      <Card card={card} className="w-full" />
+                      <Card card={card} className="dex__card-wrapper" />
                     </div>
                   ))}
                 </div>
@@ -166,7 +167,7 @@ export default function DexPage() {
                   currentPage={currentPage}
                   totalPages={totalPages}
                   onPageChange={setCurrentPage}
-                  className="mt-8"
+                  className="dex__pagination"
                 />
               </>
             )}

@@ -1,0 +1,130 @@
+.home {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #1e3a8a, #581c87, #312e81);
+}
+
+.home__main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.home__hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.home__title {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.home__subtitle {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #d1d5db;
+  margin-bottom: 2rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home__buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home__features {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.home__feature-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.home__feature-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.home__feature-description {
+  color: #d1d5db;
+}
+
+.home__footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.home__footer-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  color: #d1d5db;
+}
+
+.home__footer-copyright {
+  margin-bottom: 0.5rem;
+}
+
+.home__footer-disclaimer {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.home__button--green {
+  background-color: #059669;
+}
+
+.home__button--green:hover {
+  background-color: #047857;
+}
+
+.home__button--red {
+  background-color: #dc2626;
+}
+
+.home__button--red:hover {
+  background-color: #b91c1c;
+}
+
+.home__button--outline-white {
+  border-color: white;
+  color: white;
+}
+
+.home__button--outline-white:hover {
+  background-color: white;
+  color: #111827;
+}
+
+@media (min-width: 768px) {
+  .home__features {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

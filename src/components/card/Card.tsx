@@ -66,15 +66,19 @@ export function Card({ card, className }: CardProps) {
               alt="Stage Icon"
             />
             <div className="card__pokemon-name">
-              {card.prefix && <span className="card__pokemon-prefix">{card.prefix}</span>}
-              {tPokemon(basePokemonName)}
+              <span className="card__pokemon-name-text">
+                {card.prefix && <span className="card__pokemon-prefix">{card.prefix}</span>}
+                {tPokemon(basePokemonName)}
+              </span>
             </div>
-            {isExCard && (
-              <img src="/assets/icons/ex-icon.webp" alt="EX" className="card__ex-icon" />
-            )}
-            <div className="card__hp">
-              <span className="card__hp-label">HP</span>
-              {card.hp}
+            <div className="card__info">
+              {isExCard && (
+                <img src="/assets/icons/ex-icon.webp" alt="EX" className="card__ex-icon" />
+              )}
+              <div className="card__hp">
+                <span className="card__hp-label">HP</span>
+                {card.hp}
+              </div>
             </div>
           </div>
 

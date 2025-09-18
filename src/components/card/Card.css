@@ -24,7 +24,8 @@
 }
 
 .card__header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: -0.025em;
@@ -41,6 +42,10 @@
 
 .card__stage-icon--invisible {
   visibility: hidden;
+}
+
+.card__info {
+  display: flex;
 }
 
 .card__pokemon-name {

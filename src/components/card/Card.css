@@ -24,7 +24,8 @@
 }
 
 .card__header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: -0.025em;
@@ -43,6 +44,11 @@
   visibility: hidden;
 }
 
+.card__pokemon-id {
+  display: flex;
+  overflow: hidden;
+}
+
 .card__pokemon-name {
   margin-left: 0.25rem;
   text-align: left;
@@ -51,6 +57,12 @@
   line-height: 1.25;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.card__pokemon-name-text {
+  display: inline-block;
+  transform-origin: left;
+  transform: scaleX(var(--shrink-factor, 1));
 }
 
 .card__pokemon-prefix {

@@ -6,6 +6,7 @@ import { CardArtwork } from '../CardArtwork';
 import { PokemonHeader } from './PokemonHeader';
 import './PokemonCard.css';
 import { useTranslations } from 'next-intl';
+import { Ability } from './Ability';
 
 interface PokemonCardProps {
   card: PokemonCardType;
@@ -22,6 +23,7 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
   const pokemonNameForArtwork = card.form ? `${basePokemonName}-${card.form}` : basePokemonName;
   const textColorClass =
     card.pokemonType === 'darkness' ? 'card__content--dark' : 'card__content--light';
+  const extraMoveSpace = card.attacks.some(attack => attack.cost.length > 4);
 
   return (
     <div
@@ -38,6 +40,9 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
       <PokemonHeader card={card} name={tPokemon(basePokemonName)} isExCard={isExCard} />
 
       <CardArtwork pokemonName={pokemonNameForArtwork} isExCard={isExCard} />
+
+      <div className="card__body">{card.ability && <Ability card={card} />}</div>
+      <div className="card__bottom"></div>
     </div>
   );
 }

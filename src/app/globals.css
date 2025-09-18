@@ -1,5 +1,14 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'EssentiarumTCG';
+  src: url('/assets/fonts/EssentiarumTCG.woff2') format('woff2'),
+    url('/assets/fonts/EssentiarumTCG.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -7,7 +16,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans, Arial, Helvetica, sans-serif);
   --font-mono: var(--font-geist-mono, monospace);
-  --font-pokemon: 'Montserrat', Arial, sans-serif;
+  --font-pokemon-primary: 'Montserrat', Arial, sans-serif;
+  --font-pokemon-secondary: 'Cabin', Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,5 +34,13 @@ body {
 }
 
 .font-pokemon {
-  font-family: var(--font-pokemon);
+  font-family: var(--font-pokemon-primary);
+}
+
+.font-pokemon-primary {
+  font-family: var(--font-pokemon-primary);
+}
+
+.font-pokemon-secondary {
+  font-family: var(--font-pokemon-secondary);
 }

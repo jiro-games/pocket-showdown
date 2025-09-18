@@ -1,0 +1,37 @@
+.card__ability-header {
+  display: flex;
+}
+
+.card__ability-icon {
+  width: 88px;
+  margin-right: 8px;
+  background-image: url('/assets/icons/ability.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.card__ability-icon-text {
+  transform: scaleY(0.7);
+}
+
+.card__ability-name {
+  font-weight: 800;
+  font-size: 1.125rem;
+  color: #b50001;
+}
+
+.card__ability-text {
+  font-family: var(--font-pokemon-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: justify;
+}

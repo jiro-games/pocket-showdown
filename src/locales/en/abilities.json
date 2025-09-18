@@ -1,8 +1,350 @@
 {
-  "powder_heal": "Powder Heal",
-  "solar_evolution": "Solar Evolution",
-  "energy_trans": "Energy Trans",
-  "rain_dance": "Rain Dance",
-  "psychic_sphere": "Psychic Sphere",
-  "heal_pulse": "Heal Pulse"
+  "brokenspace_bellow": {
+    "name": "Broken-Space Bellow",
+    "text": "Once during your turn, you may take a [P] Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends."
+  },
+  "buggy_evolution": {
+    "name": "Buggy Evolution",
+    "text": "Whenever you attach an Energy from your Energy Zone to this Pokémon, put a random card from your deck that evolves from this Pokémon onto this Pokémon to evolve it."
+  },
+  "catching_tail": {
+    "name": "Catching Tail",
+    "text": "Once during your turn, you may put a random Pokémon Tool card from your deck into your hand."
+  },
+  "celestial_blessing": {
+    "name": "Celestial Blessing",
+    "text": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage."
+  },
+  "check": {
+    "name": "CHECK",
+    "text": "Once during your turn, you may choose either player. Look at the top card of that player's deck."
+  },
+  "comatose": {
+    "name": "Comatose",
+    "text": "As long as this Pokémon is in the Active Spot, whenever you attach an Energy from your Energy Zone to it, it is now Asleep."
+  },
+  "combust": {
+    "name": "Combust",
+    "text": "Once during your turn, you may attach a [R] Energy from your discard pile to this Pokémon. If you do, do 20 damage to this Pokémon."
+  },
+  "comforting_song": {
+    "name": "Comforting Song",
+    "text": "Once during your turn, you may heal 20 damage from your Active Pokémon."
+  },
+  "counterattack": {
+    "name": "Counterattack",
+    "text": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+  },
+  "crystal_body": {
+    "name": "Crystal Body",
+    "text": "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon."
+  },
+  "cunning_link": {
+    "name": "Cunning Link",
+    "text": "Once during your turn, if you have Arceus or Arceus ex in play, you may do 30 damage to your opponent's Active Pokémon."
+  },
+  "dark_chase": {
+    "name": "Dark Chase",
+    "text": "Once during your turn, if this Pokémon is in the Active Spot, you may switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot."
+  },
+  "data_scan": {
+    "name": "Data Scan",
+    "text": "Once during your turn, you may look at the top card of your deck."
+  },
+  "defensive_whirlwind": {
+    "name": "Defensive Whirlwind",
+    "text": "This Pokémon takes −30 damage from attacks from [F] Pokémon."
+  },
+  "drive_off": {
+    "name": "Drive Off",
+    "text": "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+  },
+  "en_fruits_iastic": {
+    "name": "En-fruits-iastic",
+    "text": "If this Pokémon has a Pokémon Tool attached, attacks used by this Pokémon cost 1 less [G] Energy."
+  },
+  "energy_plunder": {
+    "name": "Energy Plunder",
+    "text": "Once during your turn, you may move all [D] Energy from each of your Pokémon to this Pokémon."
+  },
+  "exoskeleton": {
+    "name": "Exoskeleton",
+    "text": "This Pokémon takes −20 damage from attacks."
+  },
+  "fabled_luster": {
+    "name": "Fabled Luster",
+    "text": "This Pokémon can't be affected by any Special Conditions."
+  },
+  "fantastical_floating": {
+    "name": "Fantastical Floating",
+    "text": "If you have Latias in play, this Pokémon has no Retreat Cost."
+  },
+  "fighting_coach": {
+    "name": "Fighting Coach",
+    "text": "Attacks used by your [F] Pokémon do +20 damage to your opponent's Active Pokémon."
+  },
+  "fire_breath": {
+    "name": "Fire Breath",
+    "text": "Once during your turn, you may make your opponent's Active Pokémon Burned."
+  },
+  "flower_shield": {
+    "name": "Flower Shield",
+    "text": "Each of your Pokémon that has any [P] Energy attached recovers from all Special Conditions and can't be affected by any Special Conditions."
+  },
+  "fluffy_flight": {
+    "name": "Fluffy Flight",
+    "text": "Your Active Pokémon has no Retreat Cost."
+  },
+  "forest_breath": {
+    "name": "Forest Breath",
+    "text": "Once during your turn, if this Pokémon is in the Active Spot, you may take a [G] Energy from your Energy Zone and attach it to 1 of your [G] Pokémon."
+  },
+  "fragrance_trap": {
+    "name": "Fragrance Trap",
+    "text": "If this Pokémon is in the Active Spot, once during your turn, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot."
+  },
+  "fragrant_flower_garden": {
+    "name": "Fragrant Flower Garden",
+    "text": "Once during your turn, you may heal 10 damage from each of your Pokémon."
+  },
+  "fullmouth_manner": {
+    "name": "Full-Mouth Manner",
+    "text": "At the end of your turn, if this Pokémon is in the Active Spot, heal 20 damage from it."
+  },
+  "fur_coat": {
+    "name": "Fur Coat",
+    "text": "This Pokémon takes −20 damage from attacks."
+  },
+  "gas_leak": {
+    "name": "Gas Leak",
+    "text": "Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent's Active Pokémon Poisoned."
+  },
+  "guard": {
+    "name": "GUARD",
+    "text": "This Ability works if you have any Unown in play with an Ability other than GUARD. All of your Pokémon take −10 damage from attacks from your opponent's Pokémon."
+  },
+  "guard_dog_visage": {
+    "name": "Guard Dog Visage",
+    "text": "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost 1 [C] more."
+  },
+  "guarded_grill": {
+    "name": "Guarded Grill",
+    "text": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, this Pokémon takes −100 damage from that attack."
+  },
+  "guts": {
+    "name": "Guts",
+    "text": "If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10."
+  },
+  "happy_ribbon": {
+    "name": "Happy Ribbon",
+    "text": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards."
+  },
+  "hard_coat": {
+    "name": "Hard Coat",
+    "text": "This Pokémon takes -20 damage from attacks."
+  },
+  "heal_block": {
+    "name": "Heal Block",
+    "text": "Pokémon (both yours and your opponent's) can't be healed."
+  },
+  "healing_ripples": {
+    "name": "Healing Ripples",
+    "text": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may heal 60 damage from 1 of your [W] Pokémon."
+  },
+  "illuminate": {
+    "name": "Illuminate",
+    "text": "Once during your turn, you may put a random Pokémon from your deck into your hand."
+  },
+  "illusive_trickery": {
+    "name": "Illusive Trickery",
+    "text": "If your opponent's Pokémon is Knocked Out by damage from this Pokémon's attacks, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+  },
+  "infiltrating_inspection": {
+    "name": "Infiltrating Inspection",
+    "text": "Once during your turn, when you put this Pokémon from your hand onto your Bench, you may have your opponent reveal their hand."
+  },
+  "innards_out": {
+    "name": "Innards Out",
+    "text": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, do 50 damage to the Attacking Pokémon."
+  },
+  "insomnia": {
+    "name": "Insomnia",
+    "text": "This Pokémon can't be Asleep."
+  },
+  "intimidating_fang": {
+    "name": "Intimidating Fang",
+    "text": "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon do −20 damage."
+  },
+  "jungle_totem": {
+    "name": "Jungle Totem",
+    "text": "Each [G] Energy attached to your [G] Pokémon provides 2 [G] Energy. This effect doesn't stack."
+  },
+  "legendary_pulse": {
+    "name": "Legendary Pulse",
+    "text": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+  },
+  "levitate": {
+    "name": "Levitate",
+    "text": "If this Pokémon has any Energy attached, it has no Retreat Cost."
+  },
+  "lordly_cheering": {
+    "name": "Lordly Cheering",
+    "text": "As long as this Pokémon is on your Bench, attacks used by your Pokémon that evolve from Poliwhirl do +40 damage to your opponent's Active Pokémon."
+  },
+  "lunar_plumage": {
+    "name": "Lunar Plumage",
+    "text": "Whenever you attach a [P] Energy from your Energy Zone to this Pokémon, heal 20 damage from this Pokémon."
+  },
+  "melodious_healing": {
+    "name": "Melodious Healing",
+    "text": "Once during your turn, you may heal 30 damage from each of your [W] Pokémon."
+  },
+  "more_poison": {
+    "name": "More Poison",
+    "text": "Your opponent's Active Pokémon takes +10 damage from being Poisoned."
+  },
+  "nightmare_aura": {
+    "name": "Nightmare Aura",
+    "text": "Whenever you attach a [D] Energy from your Energy Zone to this Pokémon, do 20 damage to your opponent's Active Pokémon."
+  },
+  "offload_pass": {
+    "name": "Offload Pass",
+    "text": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move all [F] Energy from this Pokémon to 1 of your Benched Pokémon."
+  },
+  "perish_body": {
+    "name": "Perish Body",
+    "text": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, flip a coin. If heads, the Attacking Pokémon is Knocked Out."
+  },
+  "poison_coating": {
+    "name": "Poison Coating",
+    "text": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+  },
+  "powder_heal": {
+    "name": "Powder Heal",
+    "text": "Once during your turn, you may heal 20 damage from each of your Pokémon."
+  },
+  "power": {
+    "name": "POWER",
+    "text": "This Ability works if you have any Unown in play with an Ability other than POWER. Attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon."
+  },
+  "power_link": {
+    "name": "Power Link",
+    "text": "If you have Arceus or Arceus ex in play, attacks used by this Pokémon do +30 damage to your opponent's Active Pokémon."
+  },
+  "primeval_law": {
+    "name": "Primeval Law",
+    "text": "Your opponent can't play any Pokémon from their hand to evolve their Active Pokémon."
+  },
+  "psy_shadow": {
+    "name": "Psy Shadow",
+    "text": "Once during your turn, you may take a [P] Energy from your Energy Zone and attach it to the [P] Pokémon in the Active Spot."
+  },
+  "psychic_connect": {
+    "name": "Psychic Connect",
+    "text": "Once during your turn, you may move all [P] Energy from 1 of your Benched [P] Pokémon to your Active Pokémon."
+  },
+  "psychic_healing": {
+    "name": "Psychic Healing",
+    "text": "Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon."
+  },
+  "reckless_shearing": {
+    "name": "Reckless Shearing",
+    "text": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw a card."
+  },
+  "resilience_link": {
+    "name": "Resilience Link",
+    "text": "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
+  },
+  "retreat_directive": {
+    "name": "Retreat Directive",
+    "text": "Your Active Dondozo has no Retreat Cost."
+  },
+  "rising_road": {
+    "name": "Rising Road",
+    "text": "Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon."
+  },
+  "rough_skin": {
+    "name": "Rough Skin",
+    "text": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+  },
+  "safeguard": {
+    "name": "Safeguard",
+    "text": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon [ex]."
+  },
+  "shadow_void": {
+    "name": "Shadow Void",
+    "text": "As often as you like during your turn, you may choose 1 of your Pokémon that has damage on it, and move all of its damage to this Pokémon."
+  },
+  "shadowy_spellbind": {
+    "name": "Shadowy Spellbind",
+    "text": "As long as this Pokémon is in the Active Spot, your opponent can't use any Supporter cards from their hand."
+  },
+  "shell_armor": {
+    "name": "Shell Armor",
+    "text": "This Pokémon takes -10 damage from attacks."
+  },
+  "sky_support": {
+    "name": "Sky Support",
+    "text": "As long as this Pokémon is on your Bench, your Active Basic Pokemon's Retreat Cost is 1 less."
+  },
+  "sleep_pendulum": {
+    "name": "Sleep Pendulum",
+    "text": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep."
+  },
+  "snowy_terrain": {
+    "name": "Snowy Terrain",
+    "text": "During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to your opponent's Active Pokémon."
+  },
+  "solid_shell": {
+    "name": "Solid Shell",
+    "text": "This Pokémon takes −20 damage from attacks."
+  },
+  "speed_link": {
+    "name": "Speed Link",
+    "text": "If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost."
+  },
+  "steel_spikes": {
+    "name": "Steel Spikes",
+    "text": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+  },
+  "thick_fat": {
+    "name": "Thick Fat",
+    "text": "This Pokémon takes −30 damage from attacks from [R] or [W] Pokémon."
+  },
+  "thunderclap_flash": {
+    "name": "Thunderclap Flash",
+    "text": "At the end of your first turn, take a [L] Energy from your Energy Zone and attach it to this Pokémon."
+  },
+  "ultra_thrusters": {
+    "name": "Ultra Thrusters",
+    "text": "Once during your turn, you may switch your Active Ultra Beast with 1 of your Benched Ultra Beasts."
+  },
+  "unruly_claw": {
+    "name": "Unruly Claw",
+    "text": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may discard a random Energy from your opponent's Active Pokémon."
+  },
+  "veevee_volve": {
+    "name": "Veevee 'volve",
+    "text": "This Pokémon can evolve into any Pokémon that evolves from Eevee if you play it from your hand onto this Pokémon. (This Pokémon can't evolve during your first turn or the turn you play it.)"
+  },
+  "vigor_link": {
+    "name": "Vigor Link",
+    "text": "If you have Arceus or Arceus ex in play, attacks used by this Pokémon cost 1 less [C] Energy."
+  },
+  "volt_charge": {
+    "name": "Volt Charge",
+    "text": "Once during your turn, you may take a [L] Energy from your Energy Zone and attach it to this Pokémon."
+  },
+  "wash_out": {
+    "name": "Wash Out",
+    "text": "As often as you like during your turn, you may move a [W] Energy from 1 of your Benched [W] Pokémon to your Active [W] Pokémon."
+  },
+  "water_shuriken": {
+    "name": "Water Shuriken",
+    "text": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon."
+  },
+  "wimp_out": {
+    "name": "Wimp Out",
+    "text": "During your first turn, this Pokémon has no Retreat Cost."
+  }
 }

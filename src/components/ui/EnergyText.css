@@ -1,0 +1,24 @@
+.energy-symbol {
+  display: inline-block;
+  font-family: 'EssentiarumTCG', sans-serif;
+  font-size: 0.9em;
+  line-height: 1;
+  vertical-align: baseline;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.energy-symbol--small {
+  font-size: 0.8em;
+}
+
+.energy-symbol--large {
+  font-size: 1.2em;
+}
+
+.energy-symbol--ex {
+  margin-left: -0.1em;
+}

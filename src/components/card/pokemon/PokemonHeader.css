@@ -1,6 +1,5 @@
 .card__header {
   display: flex;
-  font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: -0.025em;
   height: 2rem;
@@ -24,6 +23,7 @@
 }
 
 .card__pokemon-name-text {
+  font-weight: 800;
   text-align: left;
   display: inline-flex;
   align-items: baseline;

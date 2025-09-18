@@ -87,20 +87,20 @@ export function Card({ card, className }: CardProps) {
               src={basicIcon}
               alt="Stage Icon"
             />
-            <div ref={nameRef} className="card__pokemon-name">
-              <span ref={nameTextRef} className="card__pokemon-name-text">
-                {card.prefix && <span className="card__pokemon-prefix">{card.prefix}</span>}
-                {tPokemon(basePokemonName)}
+            <div className="card__pokemon-id">
+              <span ref={nameRef} className="card__pokemon-name">
+                <span ref={nameTextRef} className="card__pokemon-name-text">
+                  {card.prefix && <span className="card__pokemon-prefix">{card.prefix}</span>}
+                  {tPokemon(basePokemonName)}
+                </span>
               </span>
-            </div>
-            <div className="card__info">
               {isExCard && (
                 <img onLoad={shrinkName} src="/assets/icons/ex-icon.webp" alt="EX" className="card__ex-icon" />
               )}
-              <div className="card__hp">
-                <span className="card__hp-label">HP</span>
-                {card.hp}
-              </div>
+            </div>
+            <div className="card__hp">
+              <span className="card__hp-label">HP</span>
+              {card.hp}
             </div>
           </div>
 

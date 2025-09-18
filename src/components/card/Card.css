@@ -44,8 +44,9 @@
   visibility: hidden;
 }
 
-.card__info {
+.card__pokemon-id {
   display: flex;
+  overflow: hidden;
 }
 
 .card__pokemon-name {

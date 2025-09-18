@@ -42,6 +42,27 @@ export function Card({ card, className }: CardProps) {
     const textColorClass =
       pokemonCard.pokemonType === 'darkness' ? 'card__content--dark' : 'card__content--light';
 
+    const nameRef = useRef<HTMLDivElement>(null);
+    const nameTextRef = useRef<HTMLSpanElement>(null);
+    const shrinkName = () => {
+      if (!nameTextRef.current) return;
+      nameTextRef.current.style.removeProperty("--shrink-factor");
+
+      if (!nameRef.current) return;
+
+      const availableWidth = nameRef.current.getBoundingClientRect().width;
+      const requiredWidth = nameTextRef.current.getBoundingClientRect().width;
+
+      const shrinkFactor = availableWidth / requiredWidth;
+      if (shrinkFactor && shrinkFactor < 1) {
+        nameTextRef.current.style.setProperty("--shrink-factor", String(shrinkFactor));
+      }
+
+      console.log({ availableWidth, requiredWidth, shrinkFactor });
+    };
+
+    useEffect(shrinkName);
+
     return (
       <div ref={containerRef} className={`card ${className || ''}`}>
         <div
@@ -61,19 +82,20 @@ export function Card({ card, className }: CardProps) {
           )}
           <div className="card__header">
             <img
+              onLoad={shrinkName}
               className={`card__stage-icon ${stage > 0 ? 'card__stage-icon--invisible' : ''}`}
               src={basicIcon}
               alt="Stage Icon"
             />
-            <div className="card__pokemon-name">
-              <span className="card__pokemon-name-text">
+            <div ref={nameRef} className="card__pokemon-name">
+              <span ref={nameTextRef} className="card__pokemon-name-text">
                 {card.prefix && <span className="card__pokemon-prefix">{card.prefix}</span>}
                 {tPokemon(basePokemonName)}
               </span>
             </div>
             <div className="card__info">
               {isExCard && (
-                <img src="/assets/icons/ex-icon.webp" alt="EX" className="card__ex-icon" />
+                <img onLoad={shrinkName} src="/assets/icons/ex-icon.webp" alt="EX" className="card__ex-icon" />
               )}
               <div className="card__hp">
                 <span className="card__hp-label">HP</span>

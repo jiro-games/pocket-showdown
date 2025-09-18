@@ -58,6 +58,12 @@
   overflow: hidden;
 }
 
+.card__pokemon-name-text {
+  display: inline-block;
+  transform-origin: left;
+  transform: scaleX(var(--shrink-factor, 1));
+}
+
 .card__pokemon-prefix {
   font-size: 0.875rem;
   margin-right: 0.25rem;

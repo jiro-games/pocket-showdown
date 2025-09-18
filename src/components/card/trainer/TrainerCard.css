@@ -1,0 +1,24 @@
+.card__trainer-content {
+  width: 384px;
+  aspect-ratio: 18/25;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  color: black;
+  font-family: var(--font-pokemon);
+  transform-origin: top left;
+}
+
+.card__header {
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: -0.025em;
+  height: 2rem;
+  line-height: 1.4;
+}
+
+.card__trainer-name {
+  margin-left: 3.5rem;
+  text-align: left;
+}

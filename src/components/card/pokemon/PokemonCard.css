@@ -1,0 +1,25 @@
+.card__content {
+  position: relative;
+  width: 384px;
+  aspect-ratio: 18/25;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  font-family: var(--font-pokemon);
+  transform-origin: top left;
+}
+
+.card__content--dark {
+  color: white;
+}
+
+.card__content--light {
+  color: black;
+}
+
+.card__ultra-beast {
+  position: absolute;
+  width: 144px;
+  top: 3rem;
+  right: 0;
+}

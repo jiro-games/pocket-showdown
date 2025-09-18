@@ -1,0 +1,55 @@
+.card__header {
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: -0.025em;
+  height: 2rem;
+  line-height: 1.4;
+}
+
+.card__stage-icon {
+  width: 3.75rem;
+  height: 1.5rem;
+  margin-left: -0.5rem;
+  margin-top: 0.25rem;
+}
+
+.card__stage-icon--invisible {
+  visibility: hidden;
+}
+
+.card__pokemon-name {
+  display: flex;
+  margin: 0 0.125rem;
+}
+
+.card__pokemon-name-text {
+  text-align: left;
+  display: inline-flex;
+  align-items: baseline;
+  line-height: 1.25;
+  white-space: nowrap;
+  transform-origin: left;
+}
+
+.card__pokemon-prefix {
+  font-size: 0.875rem;
+  margin-right: 0.25rem;
+}
+
+.card__ex-icon {
+  margin-top: 0.4rem;
+  margin-left: 0.25rem;
+  height: 1.25rem;
+  width: auto;
+}
+
+.card__hp {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.card__hp-label {
+  font-size: 0.75rem;
+  margin-right: 0.25rem;
+}

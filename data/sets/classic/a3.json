@@ -1089,7 +1089,7 @@
             "en": "Fire Spin"
           },
           "description": {
-            "en": "Discard a [ R] Energy from this Pokémon."
+            "en": "Discard a [R] Energy from this Pokémon."
           }
         }
       ],
@@ -1181,7 +1181,7 @@
             "en": "Call Forth Cold"
           },
           "description": {
-            "en": "Take a [ W] Energy from your Energy Zone and attach it to this Pokémon."
+            "en": "Take a [W] Energy from your Energy Zone and attach it to this Pokémon."
           }
         }
       ],
@@ -1806,7 +1806,7 @@
             "en": "Super Zap Cannon"
           },
           "description": {
-            "en": "Discard 2 [ L] Energy from this Pokémon."
+            "en": "Discard 2 [L] Energy from this Pokémon."
           }
         }
       ],
@@ -2013,7 +2013,7 @@
             "en": "Volt Switch"
           },
           "description": {
-            "en": "Switch this Pokémon with 1 of your Benched [ L] Pokémon."
+            "en": "Switch this Pokémon with 1 of your Benched [L] Pokémon."
           }
         }
       ],
@@ -2114,7 +2114,7 @@
             "en": "Psycharge"
           },
           "description": {
-            "en": "Take a [ P] Energy from your Energy Zone and attach it to this Pokémon."
+            "en": "Take a [P] Energy from your Energy Zone and attach it to this Pokémon."
           }
         }
       ],
@@ -3848,7 +3848,7 @@
             "en": "Energy Assist"
           },
           "description": {
-            "en": "Take a [ C] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+            "en": "Take a [C] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
           }
         }
       ],
@@ -3905,7 +3905,7 @@
             "en": "Justified Press"
           },
           "description": {
-            "en": "If your opponent's Active Pokémon is a [ D] Pokémon, this attack does 30 more damage."
+            "en": "If your opponent's Active Pokémon is a [D] Pokémon, this attack does 30 more damage."
           }
         }
       ],
@@ -4110,7 +4110,7 @@
             "en": "Primate's Trap"
           },
           "description": {
-            "en": "During your opponent's next turn, attacks used by the Defending Pokémon cost 1 [ C] more, and its Retreat Cost is 1 [ C] more."
+            "en": "During your opponent's next turn, attacks used by the Defending Pokémon cost 1 [C] more, and its Retreat Cost is 1 [C] more."
           }
         }
       ],
@@ -4172,7 +4172,10 @@
           "target": "one_ally"
         }
       ],
-      "artist": "5ban Graphics"
+      "artist": "5ban Graphics",
+      "description": {
+        "en": "Heal 10 damage and remove a random Special Condition from your Active Pokémon."
+      }
     },
     {
       "id": 143,
@@ -4190,7 +4193,10 @@
         }
       ],
       "artist": "Toyste Beach",
-      "packs": ["lunala"]
+      "packs": ["lunala"],
+      "description": {
+        "en": "Put a random Basic [W] Pokémon from your discard pile into your hand."
+      }
     },
     {
       "id": 144,
@@ -4203,7 +4209,10 @@
           "type": "rare_candy"
         }
       ],
-      "artist": "Toyste Beach"
+      "artist": "Toyste Beach",
+      "description": {
+        "en": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn."
+      }
     },
     {
       "id": 145,
@@ -4217,7 +4226,10 @@
           "type": "rotom_dex"
         }
       ],
-      "packs": ["solgaleo"]
+      "packs": ["solgaleo"],
+      "description": {
+        "en": "Look at the top card of your deck. Then, you may shuffle your deck."
+      }
     },
     {
       "id": 146,
@@ -4234,7 +4246,10 @@
         }
       ],
       "artist": "Toyste Beach",
-      "packs": ["lunala"]
+      "packs": ["lunala"],
+      "description": {
+        "en": "If the Pokémon this card is attached to is your Active Pokémon and is damaged by an attack from your opponent's Pokémon, the Attacking Pokémon is now Poisoned."
+      }
     },
     {
       "id": 147,
@@ -4251,7 +4266,10 @@
         }
       ],
       "artist": "Toyste Beach",
-      "packs": ["solgaleo"]
+      "packs": ["solgaleo"],
+      "description": {
+        "en": "The [G] Pokémon this card is attached to gets +30 HP."
+      }
     },
     {
       "id": 148,
@@ -4270,7 +4288,10 @@
         }
       ],
       "artist": "Susumu Maeya",
-      "packs": ["lunala"]
+      "packs": ["lunala"],
+      "description": {
+        "en": "Choose 1 of your Palossand or Mimikyu that has damage on it, and move 40 of its damage to your opponent's Active Pokémon."
+      }
     },
     {
       "id": 149,
@@ -4285,7 +4306,10 @@
         }
       ],
       "artist": "Teeziro",
-      "packs": ["lunala"]
+      "packs": ["lunala"],
+      "description": {
+        "en": "Put 1 of your [C] Pokémon that has damage on it into your hand."
+      }
     },
     {
       "id": 150,
@@ -4307,7 +4331,10 @@
         }
       ],
       "artist": "Hideki Ishikawa",
-      "packs": ["lunala"]
+      "packs": ["lunala"],
+      "description": {
+        "en": "Choose 1 of your Alolan Marowak or Turtonator. Take 2 [R] Energy from your Energy Zone and attach it to that Pokémon. Your turn ends."
+      }
     },
     {
       "id": 151,
@@ -4322,7 +4349,10 @@
         }
       ],
       "artist": "GOSSAN",
-      "packs": ["lunala"]
+      "packs": ["lunala"],
+      "description": {
+        "en": "Discard all Pokémon Tool cards attached to each of your opponent's Pokémon."
+      }
     },
     {
       "id": 152,
@@ -4341,7 +4371,13 @@
         }
       ],
       "artist": "Yuu Nishida",
-      "packs": ["solgaleo"]
+      "packs": ["solgaleo"],
+      "description": {
+        "en": [
+          "You can use this card only if you have Araquanid in play.",
+          "Switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+        ]
+      }
     },
     {
       "id": 153,
@@ -4360,7 +4396,10 @@
         }
       ],
       "artist": "Akira Komayama",
-      "packs": ["solgaleo"]
+      "packs": ["solgaleo"],
+      "description": {
+        "en": "During this turn, attacks used by your Alolan Golem, Vikavolt, or Togedemaru do +30 damage to your opponent's Active Pokémon."
+      }
     },
     {
       "id": 154,
@@ -4379,7 +4418,10 @@
         }
       ],
       "artist": "En Morikura",
-      "packs": ["solgaleo"]
+      "packs": ["solgaleo"],
+      "description": {
+        "en": "Heal all damage from 1 of your Shiinotic or Tsareena. If you do, discard all Energy from that Pokémon."
+      }
     },
     {
       "id": 155,
@@ -4395,7 +4437,10 @@
         }
       ],
       "artist": "hechima",
-      "packs": ["solgaleo"]
+      "packs": ["solgaleo"],
+      "description": {
+        "en": "Heal 60 damage from 1 of your Stage 2 Pokemon."
+      }
     }
   ]
 }

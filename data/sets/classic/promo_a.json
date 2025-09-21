@@ -15,7 +15,10 @@
           "target": "one_ally"
         }
       ],
-      "artist": "5ban Graphics"
+      "artist": "5ban Graphics",
+      "description": {
+        "en": "Heal 20 damage from 1 of your Pokémon."
+      }
     },
     {
       "id": 2,
@@ -30,7 +33,10 @@
           "target": "ally_active"
         }
       ],
-      "artist": "Toyste Beach"
+      "artist": "Toyste Beach",
+      "description": {
+        "en": "During this turn, the Retreat Cost of your Active Pokémon is 1 less."
+      }
     },
     {
       "id": 3,
@@ -43,7 +49,10 @@
           "target": "opponent"
         }
       ],
-      "artist": "Toyste Beach"
+      "artist": "Toyste Beach",
+      "description": {
+        "en": "Your opponent reveals their hand."
+      }
     },
     {
       "id": 4,
@@ -57,7 +66,10 @@
           "target": "self"
         }
       ],
-      "artist": "Ryo Ueda"
+      "artist": "Ryo Ueda",
+      "description": {
+        "en": "Look at the top 3 cards of your deck."
+      }
     },
     {
       "id": 5,
@@ -87,7 +99,10 @@
           "draw": 3
         }
       ],
-      "artist": "5ban Graphics"
+      "artist": "5ban Graphics",
+      "description": {
+        "en": "Your opponent shuffles their hand into their deck and draws 3 cards."
+      }
     },
     {
       "id": 7,
@@ -103,7 +118,10 @@
           "into": "hand"
         }
       ],
-      "artist": "Naoki Saito"
+      "artist": "Naoki Saito",
+      "description": {
+        "en": "Draw 2 cards."
+      }
     },
     {
       "id": 14,
@@ -661,7 +679,7 @@
             "en": "Black Metal"
           },
           "description": {
-            "en": "Discard a [ M] Energy from this Pokémon."
+            "en": "Discard a [M] Energy from this Pokémon."
           }
         }
       ],

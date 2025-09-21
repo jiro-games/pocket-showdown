@@ -529,7 +529,7 @@
             "en": "Plasma Hurricane"
           },
           "description": {
-            "en": "Take a [ L] Energy from your Energy Zone and attach it to this Pokémon."
+            "en": "Take a [L] Energy from your Energy Zone and attach it to this Pokémon."
           }
         },
         {
@@ -920,7 +920,7 @@
             "en": "Lycanfang"
           },
           "description": {
-            "en": "Discard a [ F] Energy from this Pokémon."
+            "en": "Discard a [F] Energy from this Pokémon."
           }
         }
       ],
@@ -1835,7 +1835,13 @@
           "duration": "opponent_next_turn"
         }
       ],
-      "artist": "Toyste Beach"
+      "artist": "Toyste Beach",
+      "description": {
+        "en": [
+          "You can use this card only if your opponent hasn't gotten any points.",
+          "During your opponent's next turn, all of your Ultra Beasts take −20 damage from attacks from your opponent's Pokémon."
+        ]
+      }
     },
     {
       "id": 64,
@@ -1851,7 +1857,10 @@
           "into": "bench"
         }
       ],
-      "artist": "Yoshinobu Saito"
+      "artist": "Yoshinobu Saito",
+      "description": {
+        "en": "Switch out your opponent's Active Basic Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+      }
     },
     {
       "id": 65,
@@ -1864,7 +1873,10 @@
           "type": "electrical_cord"
         }
       ],
-      "artist": "Toyste Beach"
+      "artist": "Toyste Beach",
+      "description": {
+        "en": "If the [L] Pokémon this card is attached to is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move 2 [L] Energy from that Pokémon and attach 1 Energy each to 2 of your Benched Pokémon."
+      }
     },
     {
       "id": 66,
@@ -1880,7 +1892,10 @@
           "target": "ultra_beast_holder"
         }
       ],
-      "artist": "inose yukie"
+      "artist": "inose yukie",
+      "description": {
+        "en": "Attacks used by the Ultra Beast this card is attached to do +10 damage to your opponent's Active Pokémon for each point you have gotten."
+      }
     },
     {
       "id": 67,
@@ -1898,7 +1913,10 @@
           "into": "hand"
         }
       ],
-      "artist": "hncl"
+      "artist": "hncl",
+      "description": {
+        "en": "Put 1 random Type: Null or Silvally from your deck into your hand."
+      }
     },
     {
       "id": 68,
@@ -1911,7 +1929,10 @@
           "type": "looker"
         }
       ],
-      "artist": "Hideki Ishikawa"
+      "artist": "Hideki Ishikawa",
+      "description": {
+        "en": "Your opponent reveals all of the Supporter cards in their deck."
+      }
     },
     {
       "id": 69,
@@ -1929,7 +1950,13 @@
           "amount": 2
         }
       ],
-      "artist": "Taira Akitsu"
+      "artist": "Taira Akitsu",
+      "description": {
+        "en": [
+          "You can use this card only if your opponent has gotten at least 1 point.",
+          "Choose 1 of your Ultra Beasts. Attach 2 random Energy from your discard pile to that Pokémon."
+        ]
+      }
     }
   ]
 }

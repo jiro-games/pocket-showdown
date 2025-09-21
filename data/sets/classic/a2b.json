@@ -1990,7 +1990,10 @@
           "type": "iono"
         }
       ],
-      "artist": "saino misaki"
+      "artist": "saino misaki",
+      "description": {
+        "en": "Each player shuffles the cards in their hand into their deck, then draws that many cards."
+      }
     },
     {
       "id": 70,
@@ -2025,7 +2028,10 @@
           "against": "opponent_active_ex"
         }
       ],
-      "artist": "Teeziro"
+      "artist": "Teeziro",
+      "description": {
+        "en": "During this turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon ex."
+      }
     },
     {
       "id": 72,
@@ -2041,7 +2047,10 @@
           "amount_complex": "heads"
         }
       ],
-      "artist": "kantaro"
+      "artist": "kantaro",
+      "description": {
+        "en": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
+      }
     }
   ]
 }

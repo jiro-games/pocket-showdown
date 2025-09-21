@@ -6126,7 +6126,13 @@
       "hp": 40,
       "tags": ["fossil"],
       "artist": "Toyste Beach",
-      "packs": ["pikachu"]
+      "packs": ["pikachu"],
+      "description": {
+        "en": [
+          "Play this card as if it were a 40-HP Basic [C] Pokémon.",
+          "At any time during your turn, you may discard this card from play. This card can't retreat."
+        ]
+      }
     },
     {
       "id": 217,
@@ -6137,7 +6143,13 @@
       "hp": 40,
       "tags": ["fossil"],
       "artist": "Toyste Beach",
-      "packs": ["charizard"]
+      "packs": ["charizard"],
+      "description": {
+        "en": [
+          "Play this card as if it were a 40-HP Basic [C] Pokémon.",
+          "At any time during your turn, you may discard this card from play. This card can't retreat."
+        ]
+      }
     },
     {
       "id": 218,
@@ -6148,7 +6160,13 @@
       "hp": 40,
       "tags": ["fossil"],
       "artist": "Toyste Beach",
-      "packs": ["mewtwo"]
+      "packs": ["mewtwo"],
+      "description": {
+        "en": [
+          "Play this card as if it were a 40-HP Basic [C] Pokémon.",
+          "At any time during your turn, you may discard this card from play. This card can't retreat."
+        ]
+      }
     },
     {
       "id": 219,
@@ -6164,7 +6182,10 @@
         }
       ],
       "artist": "kirisAki",
-      "packs": ["charizard"]
+      "packs": ["charizard"],
+      "description": {
+        "en": "Heal 50 damage from 1 of your [G] Pokémon."
+      }
     },
     {
       "id": 220,
@@ -6183,7 +6204,10 @@
         }
       ],
       "artist": "Sanosuke Sakuma",
-      "packs": ["pikachu"]
+      "packs": ["pikachu"],
+      "description": {
+        "en": "Choose 1 of your [W] Pokémon, and flip a coin until you get tails. For each heads, take a [W] Energy from your Energy Zone and attach it to that Pokémon."
+      }
     },
     {
       "id": 221,
@@ -6202,7 +6226,10 @@
         }
       ],
       "artist": "GOSSAN",
-      "packs": ["charizard"]
+      "packs": ["charizard"],
+      "description": {
+        "en": "During this turn, attacks used by your Ninetales, Rapidash, or Magmar do +30 damage to your opponent's Active Pokémon."
+      }
     },
     {
       "id": 222,
@@ -6218,7 +6245,10 @@
         }
       ],
       "artist": "Souichirou Gunjima",
-      "packs": ["mewtwo"]
+      "packs": ["mewtwo"],
+      "description": {
+        "en": "Put your Muk or Weezing in the Active Spot into your hand."
+      }
     },
     {
       "id": 223,
@@ -6236,7 +6266,10 @@
         }
       ],
       "artist": "Hideki Ishikawa",
-      "packs": ["mewtwo"]
+      "packs": ["mewtwo"],
+      "description": {
+        "en": "During this turn, attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon."
+      }
     },
     {
       "id": 224,
@@ -6255,7 +6288,10 @@
         }
       ],
       "artist": "Taira Akitsu",
-      "packs": ["pikachu"]
+      "packs": ["pikachu"],
+      "description": {
+        "en": "Take a [F] Energy from your Energy Zone and attach it to Golem or Onix."
+      }
     },
     {
       "id": 225,
@@ -6272,7 +6308,10 @@
         }
       ],
       "artist": "Yuu Nishida",
-      "packs": ["charizard"]
+      "packs": ["charizard"],
+      "description": {
+        "en": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+      }
     },
     {
       "id": 226,
@@ -6290,7 +6329,10 @@
         }
       ],
       "artist": "nagimiso",
-      "packs": ["pikachu"]
+      "packs": ["pikachu"],
+      "description": {
+        "en": "Move all [L] Energy from your Benched Pokémon to your Raichu, Electrode, or Electabuzz in the Active Spot."
+      }
     }
   ]
 }

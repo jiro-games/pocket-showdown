@@ -2109,7 +2109,10 @@
           "amount": 40
         }
       ],
-      "artist": "Atsushi Furusawa"
+      "artist": "Atsushi Furusawa",
+      "description": {
+        "en": "Heal 40 damage from each of your Pokémon that has any [W] Energy attached."
+      }
     },
     {
       "id": 73,
@@ -2126,7 +2129,10 @@
           "into": "hand"
         }
       ],
-      "artist": "Yuu Nishida"
+      "artist": "Yuu Nishida",
+      "description": {
+        "en": "Put 1 random Basic Pokémon from your discard pile into your hand."
+      }
     },
     {
       "id": 74,
@@ -2143,7 +2149,10 @@
           "energy_type": "colorless"
         }
       ],
-      "artist": "Hideki Ishikawa"
+      "artist": "Hideki Ishikawa",
+      "description": {
+        "en": "During this turn, attacks used by your Snorlax, Heracross, and Staraptor cost 2 less [C] Energy."
+      }
     },
     {
       "id": 75,
@@ -2159,7 +2168,10 @@
           "duration": "opponent_next_turn"
         }
       ],
-      "artist": "akagi"
+      "artist": "akagi",
+      "description": {
+        "en": "During your opponent's next turn, all of your [M] Pokémon take −20 damage from attacks from your opponent's Pokémon."
+      }
     }
   ]
 }

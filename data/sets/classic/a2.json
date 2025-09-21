@@ -4269,7 +4269,13 @@
       "hp": 40,
       "tags": ["fossil"],
       "artist": "Toyste Beach",
-      "packs": ["dialga"]
+      "packs": ["dialga"],
+      "description": {
+        "en": [
+          "Play this card as if it were a 40-HP Basic [C] Pokémon.",
+          "At any time during your turn, you may discard this card from play. This card can't retreat."
+        ]
+      }
     },
     {
       "id": 145,
@@ -4280,7 +4286,13 @@
       "hp": 40,
       "tags": ["fossil"],
       "artist": "Toyste Beach",
-      "packs": ["palkia"]
+      "packs": ["palkia"],
+      "description": {
+        "en": [
+          "Play this card as if it were a 40-HP Basic [C] Pokémon.",
+          "At any time during your turn, you may discard this card from play. This card can't retreat."
+        ]
+      }
     },
     {
       "id": 146,
@@ -4294,7 +4306,10 @@
         }
       ],
       "artist": "Ayaka Yoshida",
-      "packs": ["dialga"]
+      "packs": ["dialga"],
+      "description": {
+        "en": "Choose a Pokémon in your hand and switch it with a random Pokémon in your deck."
+      }
     },
     {
       "id": 147,
@@ -4310,7 +4325,10 @@
         }
       ],
       "artist": "Ryo Ueda",
-      "packs": ["dialga"]
+      "packs": ["dialga"],
+      "description": {
+        "en": "The Pokémon this card is attached to gets +20 HP."
+      }
     },
     {
       "id": 148,
@@ -4327,7 +4345,10 @@
         }
       ],
       "artist": "Ayaka Yoshida",
-      "packs": ["palkia"]
+      "packs": ["palkia"],
+      "description": {
+        "en": "If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+      }
     },
     {
       "id": 149,
@@ -4348,7 +4369,10 @@
         }
       ],
       "artist": "Yoshinobu Saito",
-      "packs": ["palkia"]
+      "packs": ["palkia"],
+      "description": {
+        "en": "At the end of each turn, if the Pokémon this card is attached to is affected by any Special Conditions, it recovers from all of them, and discard this card."
+      }
     },
     {
       "id": 150,
@@ -4365,7 +4389,10 @@
         }
       ],
       "artist": "akagi",
-      "packs": ["palkia"]
+      "packs": ["palkia"],
+      "description": {
+        "en": "Switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot."
+      }
     },
     {
       "id": 151,
@@ -4384,7 +4411,10 @@
         }
       ],
       "artist": "GOSSAN",
-      "packs": ["dialga"]
+      "packs": ["dialga"],
+      "description": {
+        "en": "Put 1 random Glameow, Stunky, or Croagunk from your deck into your hand."
+      }
     },
     {
       "id": 152,
@@ -4403,7 +4433,10 @@
         }
       ],
       "artist": "Ryuta Fuse",
-      "packs": ["palkia"]
+      "packs": ["palkia"],
+      "description": {
+        "en": "During this turn, attacks used by your Garchomp or Togekiss do +50 damage to your opponent's Active Pokémon."
+      }
     },
     {
       "id": 153,
@@ -4422,7 +4455,10 @@
         }
       ],
       "artist": "GIDORA",
-      "packs": ["dialga"]
+      "packs": ["dialga"],
+      "description": {
+        "en": "Choose 1 of your Electivire or Luxray. Attach 2 [L] Energy from your discard pile to that Pokémon."
+      }
     },
     {
       "id": 154,
@@ -4439,7 +4475,10 @@
         }
       ],
       "artist": "saino misaki",
-      "packs": ["dialga"]
+      "packs": ["dialga"],
+      "description": {
+        "en": "Move an Energy from 1 of your Benched Pokémon to your Active Pokémon."
+      }
     },
     {
       "id": 155,
@@ -4455,7 +4494,10 @@
         }
       ],
       "artist": "Yuu Nishida",
-      "packs": ["palkia"]
+      "packs": ["palkia"],
+      "description": {
+        "en": "Your opponent shuffles their hand into their deck and draws a card for each of their remaining points needed to win."
+      }
     }
   ]
 }

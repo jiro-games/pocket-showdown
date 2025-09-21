@@ -1857,7 +1857,13 @@
       "rarity": 1,
       "hp": 40,
       "tags": ["fossil"],
-      "artist": "Toyste Beach"
+      "artist": "Toyste Beach",
+      "description": {
+        "en": [
+          "Play this card as if it were a 40-HP Basic [C] Pokémon.",
+          "At any time during your turn, you may discard this card from play. This card can't retreat."
+        ]
+      }
     },
     {
       "id": 64,
@@ -1887,7 +1893,10 @@
           "type": "mythical_slab"
         }
       ],
-      "artist": "AYUMI ODASHIMA"
+      "artist": "AYUMI ODASHIMA",
+      "description": {
+        "en": "Look at the top card of your deck. If that card is a [P] Pokémon, put it into your hand. If it is not a [P] Pokémon, put it on the bottom of your deck."
+      }
     },
     {
       "id": 66,
@@ -1902,7 +1911,10 @@
           "type": "back_to_hand"
         }
       ],
-      "artist": "Yuu Nishida"
+      "artist": "Yuu Nishida",
+      "description": {
+        "en": "Put your Mew ex in the Active Spot into your hand."
+      }
     },
     {
       "id": 67,
@@ -1918,7 +1930,10 @@
           "duration": "opponent_next_turn"
         }
       ],
-      "artist": "Ryuta Fuse"
+      "artist": "Ryuta Fuse",
+      "description": {
+        "en": "During your opponent's next turn, all of your Pokémon take −10 damage from attacks from your opponent's Pokémon."
+      }
     },
     {
       "id": 68,
@@ -1934,7 +1949,10 @@
           "target": "ally_active"
         }
       ],
-      "artist": "En Morikura"
+      "artist": "En Morikura",
+      "description": {
+        "en": "During this turn, the Retreat Cost of your Active Pokémon is 2 less."
+      }
     }
   ]
 }

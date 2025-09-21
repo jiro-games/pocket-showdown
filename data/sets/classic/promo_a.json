@@ -123,7 +123,13 @@
               "amount": 20,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Bubble Drain"
+          },
+          "description": {
+            "en": "Heal 20 damage from this Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -148,7 +154,13 @@
               "amount": 10,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Reckless Charge"
+          },
+          "description": {
+            "en": "This Pokémon also does 10 damage to itself."
+          }
         }
       ],
       "weakness": "psychic",
@@ -173,7 +185,13 @@
               "type": "fail",
               "tails": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Surprise Attack"
+          },
+          "description": {
+            "en": "Flip a coin. If tails, this attack does nothing."
+          }
         }
       ],
       "weakness": "darkness",
@@ -197,7 +215,13 @@
               "status": ["sleep"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sing"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Asleep."
+          }
         }
       ],
       "weakness": "fighting",
@@ -215,7 +239,10 @@
         {
           "name": "tackle",
           "cost": ["grass"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Tackle"
+          }
         }
       ],
       "weakness": "fire",
@@ -240,7 +267,13 @@
               "from": "attack_target",
               "duration": "opponent_next_turn"
             }
-          ]
+          ],
+          "text": {
+            "en": "Growl"
+          },
+          "description": {
+            "en": "During your opponent's next turn, attacks used by the Defending Pokémon do −20 damage."
+          }
         }
       ],
       "weakness": "fighting",
@@ -271,7 +304,10 @@
         {
           "name": "psychic_flash",
           "cost": ["psychic", "psychic", "colorless"],
-          "damage": 80
+          "damage": 80,
+          "text": {
+            "en": "Psychic Flash"
+          }
         }
       ],
       "weakness": "darkness",
@@ -295,7 +331,13 @@
               "status": ["confusion"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Confuse Ray"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Confused."
+          }
         }
       ],
       "weakness": "darkness",
@@ -321,7 +363,13 @@
               "duration": "opponent_next_turn",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Iron Defense"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
+          }
         }
       ],
       "weakness": "grass",
@@ -351,7 +399,10 @@
         {
           "name": "wing_attack",
           "cost": ["colorless", "colorless", "colorless"],
-          "damage": 90
+          "damage": 90,
+          "text": {
+            "en": "Wing Attack"
+          }
         }
       ],
       "weakness": "lightning",
@@ -378,7 +429,13 @@
               "amount": 60,
               "condition": "opponent_active_damaged"
             }
-          ]
+          ],
+          "text": {
+            "en": "Attack the Wound"
+          },
+          "description": {
+            "en": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
+          }
         }
       ],
       "weakness": "lightning",
@@ -402,7 +459,13 @@
               "status": ["poison"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Poison Sting"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Poisoned."
+          }
         }
       ],
       "weakness": "fighting",
@@ -429,7 +492,13 @@
               "amount": 30,
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Spiral Rush"
+          },
+          "description": {
+            "en": "Flip a coin until you get tails. This attack does 30 more damage for each heads."
+          }
         }
       ],
       "weakness": "lightning",
@@ -454,7 +523,13 @@
               "target": "opponent_random",
               "times": 4
             }
-          ]
+          ],
+          "text": {
+            "en": "Draco Meteor"
+          },
+          "description": {
+            "en": "1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 40 damage to it."
+          }
         }
       ],
       "weakness": "lightning",
@@ -479,7 +554,13 @@
               "status": ["poison"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Poison Gas"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Poisoned."
+          }
         }
       ],
       "weakness": "fighting",
@@ -507,7 +588,13 @@
               "target": "opponent_active",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Beak Blast"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+          }
         }
       ],
       "weakness": "lightning",
@@ -534,7 +621,13 @@
               "amount": 30,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Psychobilly"
+          },
+          "description": {
+            "en": "This Pokémon also does 30 damage to itself."
+          }
         }
       ],
       "weakness": "darkness",
@@ -563,7 +656,13 @@
               "amount": 1,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Black Metal"
+          },
+          "description": {
+            "en": "Discard a [ M] Energy from this Pokémon."
+          }
         }
       ],
       "weakness": "fire",
@@ -582,7 +681,10 @@
         {
           "name": "photon_claw",
           "cost": ["colorless", "colorless", "colorless"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Photon Claw"
+          }
         },
         {
           "name": "shoegaze",
@@ -594,7 +696,13 @@
               "amount": 5,
               "target": "both_decks"
             }
-          ]
+          ],
+          "text": {
+            "en": "Shoegaze"
+          },
+          "description": {
+            "en": "Discard the top 5 cards of each player's deck."
+          }
         }
       ],
       "weakness": "none",

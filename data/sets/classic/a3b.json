@@ -17,7 +17,10 @@
         {
           "name": "cutting_wind",
           "cost": ["colorless", "colorless", "colorless"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Cutting Wind"
+          }
         }
       ],
       "weakness": "fire",
@@ -45,7 +48,13 @@
               "factor": "energy_attached_self",
               "energy_type": "grass"
             }
-          ]
+          ],
+          "text": {
+            "en": "Leaf Blast"
+          },
+          "description": {
+            "en": "This attack does 20 more damage for each [ G] Energy attached to this Pokémon."
+          }
         }
       ],
       "weakness": "fire",
@@ -65,7 +74,10 @@
         {
           "name": "flop",
           "cost": ["colorless"],
-          "damage": 10
+          "damage": 10,
+          "text": {
+            "en": "Flop"
+          }
         }
       ],
       "weakness": "fire",
@@ -84,7 +96,10 @@
         {
           "name": "leaf_step",
           "cost": ["grass"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Leaf Step"
+          }
         }
       ],
       "weakness": "fire",
@@ -111,7 +126,13 @@
               "from": "opponent_hand",
               "choice": "random"
             }
-          ]
+          ],
+          "text": {
+            "en": "Kick Down"
+          },
+          "description": {
+            "en": "Your opponent reveals a random card from their hand and shuffles it into their deck."
+          }
         }
       ],
       "weakness": "fire",
@@ -131,7 +152,10 @@
         {
           "name": "ram",
           "cost": ["grass"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Ram"
+          }
         }
       ],
       "weakness": "fire",
@@ -159,7 +183,13 @@
               "condition": "ally_used_attack_last_turn",
               "attack": "sweets_relay"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sweets Relay"
+          },
+          "description": {
+            "en": "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "fire",
@@ -188,7 +218,13 @@
               "amount": 1,
               "target": "one_ally_benched"
             }
-          ]
+          ],
+          "text": {
+            "en": "Assisting Heater"
+          },
+          "description": {
+            "en": "Take a [ R] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+          }
         }
       ],
       "weakness": "water",
@@ -234,7 +270,13 @@
               "amount": 2,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Fire Spin"
+          },
+          "description": {
+            "en": "Discard 2 [ R] Energy from this Pokémon."
+          }
         }
       ],
       "weakness": "water",
@@ -262,7 +304,13 @@
               "amount": 1,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Flamethrower"
+          },
+          "description": {
+            "en": "Discard a [ R] Energy from this Pokémon."
+          }
         }
       ],
       "weakness": "water",
@@ -281,7 +329,10 @@
         {
           "name": "flare",
           "cost": ["fire", "colorless"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Flare"
+          }
         }
       ],
       "weakness": "water",
@@ -300,7 +351,10 @@
         {
           "name": "claw_slash",
           "cost": ["fire", "colorless"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Claw Slash"
+          }
         }
       ],
       "weakness": "water",
@@ -328,7 +382,13 @@
               "type": "multiply_damage",
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Darkest Lariat"
+          },
+          "description": {
+            "en": "Flip 2 coins. This attack does 100 damage for each heads."
+          }
         }
       ],
       "weakness": "water",
@@ -356,7 +416,13 @@
               "amount": 1,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Ember"
+          },
+          "description": {
+            "en": "Discard a [ R] Energy from this Pokémon."
+          }
         }
       ],
       "weakness": "water",
@@ -375,7 +441,10 @@
         {
           "name": "combustion",
           "cost": ["fire"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Combustion"
+          }
         }
       ],
       "weakness": "water",
@@ -403,7 +472,13 @@
               "target": "opponent_active",
               "amount_complex": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Hyper Whirlpool"
+          },
+          "description": {
+            "en": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -429,7 +504,13 @@
               "amount": 50,
               "target": "opponent_one"
             }
-          ]
+          ],
+          "text": {
+            "en": "Ice Blade"
+          },
+          "description": {
+            "en": "This attack does 50 damage to 1 of your opponent's Pokémon."
+          }
         }
       ],
       "weakness": "metal",
@@ -458,7 +539,13 @@
               "condition": "ally_used_attack_last_turn",
               "attack": "sweets_relay"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sweets Relay"
+          },
+          "description": {
+            "en": "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "metal",
@@ -486,7 +573,13 @@
               "condition": "ally_used_attack_last_turn",
               "attack": "sweets_relay"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sweets Relay"
+          },
+          "description": {
+            "en": "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "metal",
@@ -514,7 +607,13 @@
               "type": "multiply_damage",
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Double Spin"
+          },
+          "description": {
+            "en": "Flip 2 coins. This attack does 80 damage for each heads."
+          }
         }
       ],
       "weakness": "metal",
@@ -541,7 +640,13 @@
               "status": ["sleep"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Water Pulse"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Asleep."
+          }
         }
       ],
       "weakness": "lightning",
@@ -560,7 +665,10 @@
         {
           "name": "watering",
           "cost": ["water", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Watering"
+          }
         }
       ],
       "weakness": "lightning",
@@ -579,7 +687,10 @@
         {
           "name": "water_gun",
           "cost": ["water", "colorless"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Water Gun"
+          }
         }
       ],
       "weakness": "lightning",
@@ -609,7 +720,13 @@
               "energy_type": "water",
               "energy_amount": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Hydro Pump"
+          },
+          "description": {
+            "en": "If this Pokémon has at least 1 extra [ W] Energy attached, this attack does 40 more damage."
+          }
         },
         {
           "name": "sparkling_aria",
@@ -621,7 +738,13 @@
               "amount": 20,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sparkling Aria"
+          },
+          "description": {
+            "en": "Heal 20 damage from this Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -649,7 +772,13 @@
               "amount": 20,
               "condition": "evolved_this_turn"
             }
-          ]
+          ],
+          "text": {
+            "en": "Beginning Bolt"
+          },
+          "description": {
+            "en": "If this Pokémon evolved during this turn, this attack does 20 more damage."
+          }
         }
       ],
       "weakness": "fighting",
@@ -678,7 +807,13 @@
               "target": "opponent_active",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Jolt"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          }
         }
       ],
       "weakness": "fighting",
@@ -708,7 +843,13 @@
               "status": ["paralysis"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Electric Shock"
+          },
+          "description": {
+            "en": "Discard all Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed."
+          }
         }
       ],
       "weakness": "fighting",
@@ -735,7 +876,13 @@
               "type": "multiply_damage",
               "factor": "opponent_all_energy"
             }
-          ]
+          ],
+          "text": {
+            "en": "Energy Crush"
+          },
+          "description": {
+            "en": "This attack does 20 damage for each Energy attached to all of your opponent's Pokémon."
+          }
         }
       ],
       "weakness": "darkness",
@@ -755,7 +902,10 @@
         {
           "name": "gust",
           "cost": ["psychic"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Gust"
+          }
         }
       ],
       "weakness": "darkness",
@@ -774,7 +924,10 @@
         {
           "name": "psyshot",
           "cost": ["psychic"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Psyshot"
+          }
         }
       ],
       "weakness": "darkness",
@@ -803,7 +956,13 @@
               "condition": "ally_used_attack_last_turn",
               "attack": "sweets_relay"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sweets Relay"
+          },
+          "description": {
+            "en": "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "metal",
@@ -831,7 +990,13 @@
               "condition": "ally_used_attack_last_turn",
               "attack": "sweets_relay"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sweets Relay"
+          },
+          "description": {
+            "en": "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "metal",
@@ -859,7 +1024,13 @@
               "amount": 30,
               "factor": "ally_evolution_benched"
             }
-          ]
+          ],
+          "text": {
+            "en": "Evoharmony"
+          },
+          "description": {
+            "en": "This attack does 30 more damage for each Evolution Pokémon on your Bench."
+          }
         }
       ],
       "weakness": "metal",
@@ -892,7 +1063,10 @@
         {
           "name": "fairy_wind",
           "cost": ["psychic", "colorless"],
-          "damage": 70
+          "damage": 70,
+          "text": {
+            "en": "Fairy Wind"
+          }
         }
       ],
       "weakness": "metal",
@@ -920,7 +1094,13 @@
               "target": "opponent_active",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Try to Imitate"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
+          }
         }
       ],
       "weakness": "metal",
@@ -948,7 +1128,13 @@
               "condition": "ally_used_attack_last_turn",
               "attack": "sweets_relay"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sweets Relay"
+          },
+          "description": {
+            "en": "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "metal",
@@ -975,7 +1161,13 @@
               "factor": "times_used_attack",
               "attack": "sweets_relay"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sweets Overload"
+          },
+          "description": {
+            "en": "This attack does 40 damage for each time your Pokémon used Sweets Relay during this game."
+          }
         }
       ],
       "weakness": "metal",
@@ -995,7 +1187,10 @@
         {
           "name": "mud_shot",
           "cost": ["fighting", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Mud Shot"
+          }
         }
       ],
       "weakness": "grass",
@@ -1021,7 +1216,13 @@
               "amount": 10,
               "target": "ally_benched_all"
             }
-          ]
+          ],
+          "text": {
+            "en": "Earthquake"
+          },
+          "description": {
+            "en": "This attack also does 10 damage to each of your Benched Pokémon."
+          }
         }
       ],
       "weakness": "grass",
@@ -1048,7 +1249,13 @@
               "type": "fail",
               "tails": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Kick Shot"
+          },
+          "description": {
+            "en": "Flip a coin. If tails, this attack does nothing."
+          }
         }
       ],
       "weakness": "psychic",
@@ -1067,7 +1274,10 @@
         {
           "name": "low_kick",
           "cost": ["fighting", "fighting"],
-          "damage": 70
+          "damage": 70,
+          "text": {
+            "en": "Low Kick"
+          }
         }
       ],
       "weakness": "psychic",
@@ -1096,7 +1306,13 @@
               "duration": "opponent_next_turn",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Hard Roll"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+          }
         }
       ],
       "weakness": "grass",
@@ -1122,7 +1338,13 @@
               "target": "attack_target",
               "condition": "target_basic"
             }
-          ]
+          ],
+          "text": {
+            "en": "Dark Binding"
+          },
+          "description": {
+            "en": "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn."
+          }
         }
       ],
       "weakness": "grass",
@@ -1142,7 +1364,10 @@
         {
           "name": "scratch",
           "cost": ["darkness"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Scratch"
+          }
         }
       ],
       "weakness": "grass",
@@ -1166,7 +1391,13 @@
               "type": "discard_tools",
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Playful Knockdown"
+          },
+          "description": {
+            "en": "Discard all Pokémon Tools from your opponent's Active Pokémon."
+          }
         }
       ],
       "weakness": "grass",
@@ -1185,7 +1416,10 @@
         {
           "name": "slashing_claw",
           "cost": ["darkness", "darkness"],
-          "damage": 70
+          "damage": 70,
+          "text": {
+            "en": "Slashing Claw"
+          }
         }
       ],
       "weakness": "grass",
@@ -1214,7 +1448,13 @@
               "target": "opponent_active",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Powerful Vise"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          }
         }
       ],
       "weakness": "fire",
@@ -1240,7 +1480,13 @@
               "damage": 30,
               "duration": "opponent_next_turn"
             }
-          ]
+          ],
+          "text": {
+            "en": "Bristling Spikes"
+          },
+          "description": {
+            "en": "During your opponent's next turn, if this Pokémon is damaged by an attack, do 30 damage to the Attacking Pokémon."
+          }
         }
       ],
       "weakness": "fire",
@@ -1259,7 +1505,10 @@
         {
           "name": "headbutt",
           "cost": ["metal"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Headbutt"
+          }
         }
       ],
       "weakness": "fire",
@@ -1278,7 +1527,10 @@
         {
           "name": "mega_punch",
           "cost": ["metal", "metal", "metal"],
-          "damage": 90
+          "damage": 90,
+          "text": {
+            "en": "Mega Punch"
+          }
         }
       ],
       "weakness": "fire",
@@ -1298,7 +1550,10 @@
         {
           "name": "beat",
           "cost": ["colorless"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Beat"
+          }
         }
       ],
       "retreat_cost": 1,
@@ -1316,7 +1571,10 @@
         {
           "name": "waterfall",
           "cost": ["water", "lightning"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Waterfall"
+          }
         }
       ],
       "retreat_cost": 1,
@@ -1341,7 +1599,13 @@
               "type": "cant_attack_next",
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Giga Impact"
+          },
+          "description": {
+            "en": "During your next turn, this Pokémon can't attack."
+          }
         }
       ],
       "retreat_cost": 2,
@@ -1373,7 +1637,13 @@
               "target": "opponent_active",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Dragon Breath"
+          },
+          "description": {
+            "en": "Flip a coin. If tails, this attack does nothing. If heads, your opponent's Active Pokémon is now Paralyzed."
+          }
         }
       ],
       "retreat_cost": 2,
@@ -1398,7 +1668,13 @@
               "target": "card",
               "into": "hand"
             }
-          ]
+          ],
+          "text": {
+            "en": "Collect"
+          },
+          "description": {
+            "en": "Draw a card."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1426,7 +1702,10 @@
         {
           "name": "bite",
           "cost": ["colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Bite"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1464,7 +1743,13 @@
               "status": ["sleep"],
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Flop-Down Punch"
+          },
+          "description": {
+            "en": "This Pokémon is now Asleep."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1491,7 +1776,13 @@
               "type": "multiply_damage",
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Double Hit"
+          },
+          "description": {
+            "en": "Flip 2 coins. This attack does 20 damage for each heads."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1523,7 +1814,10 @@
         {
           "name": "corkscrew_punch",
           "cost": ["colorless", "colorless"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Corkscrew Punch"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1550,7 +1844,13 @@
               "status": ["confusion"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Tone-Deaf"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Confused."
+          }
         }
       ],
       "weakness": "lightning",
@@ -1576,7 +1876,13 @@
               "type": "multiply_damage",
               "factor": "benched_ally"
             }
-          ]
+          ],
+          "text": {
+            "en": "Do the Wave"
+          },
+          "description": {
+            "en": "This attack does 20 damage for each of your Benched Pokémon."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1595,7 +1901,10 @@
         {
           "name": "pound",
           "cost": ["colorless"],
-          "damage": 10
+          "damage": 10,
+          "text": {
+            "en": "Pound"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1614,7 +1923,10 @@
         {
           "name": "slap",
           "cost": ["colorless"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Slap"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1634,7 +1946,10 @@
         {
           "name": "bite",
           "cost": ["colorless", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Bite"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1661,7 +1976,13 @@
               "amount": 50,
               "condition": "tool_attached_self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Enhanced Fang"
+          },
+          "description": {
+            "en": "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage."
+          }
         }
       ],
       "weakness": "fighting",

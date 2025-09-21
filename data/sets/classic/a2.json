@@ -25,7 +25,13 @@
               "amount": 10,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Blot"
+          },
+          "description": {
+            "en": "Heal 10 damage from this Pokémon."
+          }
         }
       ],
       "weakness": "fire",
@@ -44,7 +50,10 @@
         {
           "name": "razor_leaf",
           "cost": ["grass"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Razor Leaf"
+          }
         }
       ],
       "weakness": "fire",
@@ -64,7 +73,10 @@
         {
           "name": "leaf_step",
           "cost": ["grass", "grass"],
-          "damage": 80
+          "damage": 80,
+          "text": {
+            "en": "Leaf Step"
+          }
         }
       ],
       "weakness": "fire",
@@ -84,7 +96,10 @@
         {
           "name": "vine_whip",
           "cost": ["grass", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Vine Whip"
+          }
         }
       ],
       "weakness": "fire",
@@ -111,7 +126,13 @@
               "amount": 30,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Mega Drain"
+          },
+          "description": {
+            "en": "Heal 30 damage from this Pokémon."
+          }
         }
       ],
       "weakness": "fire",
@@ -132,7 +153,10 @@
         {
           "name": "flap",
           "cost": ["colorless"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Flap"
+          }
         }
       ],
       "weakness": "lightning",
@@ -160,7 +184,13 @@
               "amount": 1,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Air Slash"
+          },
+          "description": {
+            "en": "Discard a random Energy from this Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -181,7 +211,10 @@
         {
           "name": "sting",
           "cost": ["grass"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Sting"
+          }
         }
       ],
       "weakness": "fire",
@@ -207,7 +240,13 @@
               "status": ["poison"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Poisonous Whip"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Poisoned."
+          }
         }
       ],
       "weakness": "fire",
@@ -227,7 +266,10 @@
         {
           "name": "bite",
           "cost": ["grass", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Bite"
+          }
         }
       ],
       "weakness": "fire",
@@ -247,7 +289,10 @@
         {
           "name": "razor_leaf",
           "cost": ["grass", "grass", "colorless"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Razor Leaf"
+          }
         }
       ],
       "weakness": "fire",
@@ -275,7 +320,13 @@
               "attack": "frenzy_plant",
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Frenzy Plant"
+          },
+          "description": {
+            "en": "During your next turn, this Pokémon can't use Frenzy Plant."
+          }
         }
       ],
       "weakness": "fire",
@@ -296,7 +347,10 @@
         {
           "name": "bug_bite",
           "cost": ["grass"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Bug Bite"
+          }
         }
       ],
       "weakness": "fire",
@@ -323,7 +377,13 @@
               "status": ["confusion"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Entrancing Melody"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Confused."
+          }
         }
       ],
       "weakness": "fire",
@@ -344,7 +404,10 @@
         {
           "name": "tackle",
           "cost": ["colorless"],
-          "damage": 10
+          "damage": 10,
+          "text": {
+            "en": "Tackle"
+          }
         }
       ],
       "weakness": "fire",
@@ -373,7 +436,13 @@
               "amount": 30,
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Leaf Cutter"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "fire",
@@ -401,7 +470,13 @@
               "choice": "random",
               "into": "bench"
             }
-          ]
+          ],
+          "text": {
+            "en": "Call for Family"
+          },
+          "description": {
+            "en": "Put 1 random Basic Pokémon from your deck onto your Bench."
+          }
         }
       ],
       "weakness": "fire",
@@ -421,7 +496,10 @@
         {
           "name": "pierce",
           "cost": ["grass", "grass"],
-          "damage": 70
+          "damage": 70,
+          "text": {
+            "en": "Pierce"
+          }
         }
       ],
       "weakness": "fire",
@@ -451,7 +529,13 @@
               "amount": 50,
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Flog"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, this attack does 50 more damage."
+          }
         }
       ],
       "weakness": "fire",
@@ -477,7 +561,13 @@
               "type": "cant_attack_next",
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Leafy Cyclone"
+          },
+          "description": {
+            "en": "During your next turn, this Pokémon can't attack."
+          }
         }
       ],
       "weakness": "fire",
@@ -508,7 +598,13 @@
               "target": "opponent_active",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Energy Cutoff"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+          }
         }
       ],
       "weakness": "fire",
@@ -539,7 +635,10 @@
         {
           "name": "flop",
           "cost": ["grass", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Flop"
+          }
         }
       ],
       "weakness": "fire",
@@ -567,7 +666,13 @@
               "energy_type": "fire",
               "amount": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Stoke"
+          },
+          "description": {
+            "en": "Take a [R] Energy from your Energy Zone and attach it to this Pokémon."
+          }
         }
       ],
       "weakness": "water",
@@ -594,7 +699,13 @@
               "status": ["burn"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Bursting Inferno"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Burned."
+          }
         }
       ],
       "weakness": "water",
@@ -615,7 +726,10 @@
         {
           "name": "flare",
           "cost": ["fire"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Flare"
+          }
         }
       ],
       "weakness": "water",
@@ -641,7 +755,13 @@
               "status": ["burn"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Searing Flame"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Burned."
+          }
         }
       ],
       "weakness": "water",
@@ -661,7 +781,10 @@
         {
           "name": "scratch",
           "cost": ["fire"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Scratch"
+          }
         }
       ],
       "weakness": "water",
@@ -681,7 +804,10 @@
         {
           "name": "fiery_punch",
           "cost": ["fire"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Fiery Punch"
+          }
         }
       ],
       "weakness": "water",
@@ -709,7 +835,13 @@
               "energy_type": "fire",
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Flare Blitz"
+          },
+          "description": {
+            "en": "Discard all [R] Energy from this Pokémon."
+          }
         }
       ],
       "weakness": "water",
@@ -739,7 +871,13 @@
               "amount": 30,
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Heat Breath"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "water",
@@ -758,7 +896,10 @@
         {
           "name": "headbutt",
           "cost": ["water", "colorless"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Headbutt"
+          }
         }
       ],
       "weakness": "metal",
@@ -789,7 +930,10 @@
         {
           "name": "hammer_in",
           "cost": ["water", "water", "colorless"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Hammer In"
+          }
         }
       ],
       "weakness": "metal",
@@ -821,7 +965,10 @@
         {
           "name": "frosty_flattening",
           "cost": ["water", "water", "colorless", "colorless"],
-          "damage": 120
+          "damage": 120,
+          "text": {
+            "en": "Frosty Flattening"
+          }
         }
       ],
       "weakness": "metal",
@@ -851,7 +998,10 @@
         {
           "name": "frost_smash",
           "cost": ["water", "water"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Frost Smash"
+          }
         }
       ],
       "weakness": "metal",
@@ -877,7 +1027,13 @@
               "amount": 20,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Nap"
+          },
+          "description": {
+            "en": "Heal 20 damage from this Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -897,7 +1053,10 @@
         {
           "name": "surf",
           "cost": ["water", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Surf"
+          }
         }
       ],
       "weakness": "lightning",
@@ -925,7 +1084,13 @@
               "amount": 30,
               "target": "opponent_bench_one"
             }
-          ]
+          ],
+          "text": {
+            "en": "Aqua Jet"
+          },
+          "description": {
+            "en": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -946,7 +1111,10 @@
         {
           "name": "water_gun",
           "cost": ["water"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Water Gun"
+          }
         }
       ],
       "weakness": "lightning",
@@ -974,7 +1142,13 @@
               "amount": 30,
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Jet Screw"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "lightning",
@@ -994,7 +1168,10 @@
         {
           "name": "mud-slap",
           "cost": ["water", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Mud-Slap"
+          }
         }
       ],
       "weakness": "lightning",
@@ -1021,7 +1198,13 @@
               "amount": 20,
               "target": "opponent_bench_one"
             }
-          ]
+          ],
+          "text": {
+            "en": "Muddy Water"
+          },
+          "description": {
+            "en": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -1051,7 +1234,13 @@
               "duration": "opponent_next_turn",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Elegant Swim"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -1070,7 +1259,10 @@
         {
           "name": "waterfall",
           "cost": ["water"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Waterfall"
+          }
         }
       ],
       "weakness": "lightning",
@@ -1099,7 +1291,13 @@
               "condition": "opponent_active_type",
               "types": ["fighting"]
             }
-          ]
+          ],
+          "text": {
+            "en": "Ice Shard"
+          },
+          "description": {
+            "en": "If your opponent's Active Pokémon is a [F] Pokémon, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "metal",
@@ -1118,7 +1316,10 @@
         {
           "name": "frost_breath",
           "cost": ["water", "water", "water", "colorless"],
-          "damage": 120
+          "damage": 120,
+          "text": {
+            "en": "Frost Breath"
+          }
         }
       ],
       "weakness": "metal",
@@ -1147,7 +1348,13 @@
               "target": "opponent_active",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Ice Beam"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          }
         }
       ],
       "weakness": "metal",
@@ -1168,7 +1375,10 @@
         {
           "name": "wave_splash",
           "cost": ["water"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Wave Splash"
+          }
         }
       ],
       "weakness": "lightning",
@@ -1194,7 +1404,13 @@
               "amount": 10,
               "target": "opponent_bench_all"
             }
-          ]
+          ],
+          "text": {
+            "en": "Blizzard"
+          },
+          "description": {
+            "en": "This attack also does 10 damage to each of your opponent's Benched Pokémon."
+          }
         }
       ],
       "weakness": "metal",
@@ -1213,7 +1429,10 @@
         {
           "name": "slash",
           "cost": ["water"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Slash"
+          }
         },
         {
           "name": "dimensional_storm",
@@ -1231,7 +1450,13 @@
               "amount": 20,
               "target": "opponent_bench_all"
             }
-          ]
+          ],
+          "text": {
+            "en": "Dimensional Storm"
+          },
+          "description": {
+            "en": "Discard 3 [W] Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -1259,7 +1484,13 @@
               "amount": 1,
               "target": "ally_benched_two"
             }
-          ]
+          ],
+          "text": {
+            "en": "Oceanic Gift"
+          },
+          "description": {
+            "en": "Choose 2 of your Benched Pokémon. For each of those Pokémon, take a [W] Energy from your Energy Zone and attach it to that Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -1279,7 +1510,10 @@
         {
           "name": "ram",
           "cost": ["colorless"],
-          "damage": 10
+          "damage": 10,
+          "text": {
+            "en": "Ram"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1298,7 +1532,10 @@
         {
           "name": "lightning_ball",
           "cost": ["lightning", "lightning"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Lightning Ball"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1326,7 +1563,13 @@
               "amount": 1,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Thunder Blast"
+          },
+          "description": {
+            "en": "Discard a [L] Energy from this Pokémon."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1353,7 +1596,13 @@
               "amount": 10,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Big Explosion"
+          },
+          "description": {
+            "en": "This Pokémon also does 10 damage to itself."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1372,7 +1621,10 @@
         {
           "name": "rolling_attack",
           "cost": ["lightning"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Rolling Attack"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1400,7 +1652,13 @@
               "energy_type": "electric",
               "amount": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Charge"
+          },
+          "description": {
+            "en": "Take a [L] Energy from your Energy Zone and attach it to this Pokémon."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1430,7 +1688,13 @@
               "energy_type": "electric",
               "energy_amount": 2
             }
-          ]
+          ],
+          "text": {
+            "en": "Exciting Voltage"
+          },
+          "description": {
+            "en": "If this Pokémon has at least 2 extra [L] Energy attached, this attack does 80 more damage."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1459,7 +1723,13 @@
               "duration": "opponent_next_turn",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Hide"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1479,7 +1749,10 @@
         {
           "name": "electric_claws",
           "cost": ["lightning", "colorless"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Electric Claws"
+          }
         }
       ],
       "weakness": "fighting",
@@ -1511,7 +1784,13 @@
               "amount": 120,
               "target": "opponent_one"
             }
-          ]
+          ],
+          "text": {
+            "en": "Volt Bolt"
+          },
+          "description": {
+            "en": "Discard all [L] Energy from this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1540,7 +1819,13 @@
               "amount": 40,
               "condition": "tool_attached_self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Sparking Gadget"
+          },
+          "description": {
+            "en": "If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1568,7 +1853,13 @@
               "amount": 30,
               "condition": "tool_attached_opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Assault Laser"
+          },
+          "description": {
+            "en": "If your opponent's Active Pokémon has a Pokémon Tool attached, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "fighting",
@@ -1588,7 +1879,10 @@
         {
           "name": "pound",
           "cost": ["psychic"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Pound"
+          }
         }
       ],
       "weakness": "metal",
@@ -1607,7 +1901,10 @@
         {
           "name": "fairy_wind",
           "cost": ["psychic"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Fairy Wind"
+          }
         }
       ],
       "weakness": "metal",
@@ -1636,7 +1933,13 @@
               "attack": "overdrive_smash",
               "duration": "next_turn"
             }
-          ]
+          ],
+          "text": {
+            "en": "Overdrive Smash"
+          },
+          "description": {
+            "en": "During your next turn, this Pokémon's Overdrive Smash attack does +60 damage."
+          }
         }
       ],
       "weakness": "metal",
@@ -1656,7 +1959,10 @@
         {
           "name": "mumble",
           "cost": ["psychic"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Mumble"
+          }
         }
       ],
       "weakness": "darkness",
@@ -1683,7 +1989,13 @@
               "status": ["confusion"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Magical Delusion"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Confused."
+          }
         }
       ],
       "weakness": "darkness",
@@ -1710,7 +2022,13 @@
               "target": "self",
               "choice": "user"
             }
-          ]
+          ],
+          "text": {
+            "en": "Teleport"
+          },
+          "description": {
+            "en": "Switch this Pokémon with 1 of your Benched Pokémon."
+          }
         }
       ],
       "weakness": "darkness",
@@ -1730,7 +2048,10 @@
         {
           "name": "slap",
           "cost": ["colorless"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Slap"
+          }
         }
       ],
       "weakness": "darkness",
@@ -1751,7 +2072,10 @@
         {
           "name": "will-o-wisp",
           "cost": ["psychic"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Will-O-Wisp"
+          }
         }
       ],
       "weakness": "darkness",
@@ -1771,7 +2095,10 @@
         {
           "name": "psypunch",
           "cost": ["psychic", "colorless", "colorless"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Psypunch"
+          }
         }
       ],
       "weakness": "darkness",
@@ -1803,7 +2130,10 @@
         {
           "name": "devour_soul",
           "cost": ["psychic", "colorless", "colorless"],
-          "damage": 70
+          "damage": 70,
+          "text": {
+            "en": "Devour Soul"
+          }
         }
       ],
       "weakness": "darkness",
@@ -1832,7 +2162,13 @@
               "target": "self",
               "duration": "opponent_next_turn"
             }
-          ]
+          ],
+          "text": {
+            "en": "Expand"
+          },
+          "description": {
+            "en": "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+          }
         }
       ],
       "weakness": "lightning",
@@ -1852,7 +2188,10 @@
         {
           "name": "balloon_strike",
           "cost": ["psychic", "psychic"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Balloon Strike"
+          }
         }
       ],
       "weakness": "lightning",
@@ -1883,7 +2222,13 @@
               "target": "ally_specific",
               "specific": ["azelf", "mesprit"]
             }
-          ]
+          ],
+          "text": {
+            "en": "Mind Boost"
+          },
+          "description": {
+            "en": "Take a [P] Energy from your Energy Zone and attach it to Mesprit or Azelf."
+          }
         }
       ],
       "weakness": "darkness",
@@ -1903,7 +2248,13 @@
           "name": "supreme_blast",
           "cost": ["psychic", "psychic", "psychic"],
           "damage": 160,
-          "condition": "azelf_uxie_bench"
+          "condition": "azelf_uxie_bench",
+          "text": {
+            "en": "Supreme Blast"
+          },
+          "description": {
+            "en": "You can use this attack only if you have Uxie and Azelf on your Bench. Discard all Energy from this Pokémon."
+          }
         }
       ],
       "weakness": "darkness",
@@ -1928,7 +2279,13 @@
               "amount": 20,
               "target": "opponent_one"
             }
-          ]
+          ],
+          "text": {
+            "en": "Psychic Arrow"
+          },
+          "description": {
+            "en": "This attack does 20 damage to 1 of your opponent's Pokémon."
+          }
         }
       ],
       "weakness": "darkness",
@@ -1958,7 +2315,10 @@
         {
           "name": "spooky_shot",
           "cost": ["psychic", "psychic", "colorless"],
-          "damage": 70
+          "damage": 70,
+          "text": {
+            "en": "Spooky Shot"
+          }
         }
       ],
       "weakness": "darkness",
@@ -1985,7 +2345,13 @@
               "amount": 20,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Moonlight Gain"
+          },
+          "description": {
+            "en": "Heal 20 damage from this Pokémon."
+          }
         }
       ],
       "weakness": "darkness",
@@ -2005,7 +2371,10 @@
         {
           "name": "horn_attack",
           "cost": ["fighting", "colorless"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Horn Attack"
+          }
         }
       ],
       "weakness": "grass",
@@ -2025,7 +2394,10 @@
         {
           "name": "wrack_down",
           "cost": ["fighting", "fighting", "colorless"],
-          "damage": 70
+          "damage": 70,
+          "text": {
+            "en": "Wrack Down"
+          }
         }
       ],
       "weakness": "grass",
@@ -2053,7 +2425,13 @@
               "amount": 3,
               "target": "your_deck"
             }
-          ]
+          ],
+          "text": {
+            "en": "Mountain Swing"
+          },
+          "description": {
+            "en": "Discard the top 3 cards of your deck."
+          }
         }
       ],
       "weakness": "grass",
@@ -2074,7 +2452,10 @@
         {
           "name": "pierce",
           "cost": ["fighting"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Pierce"
+          }
         }
       ],
       "weakness": "grass",
@@ -2103,7 +2484,13 @@
               "amount": 20,
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Acrobatics"
+          },
+          "description": {
+            "en": "Flip 2 coins. This attack does 20 more damage for each heads."
+          }
         }
       ],
       "weakness": "grass",
@@ -2124,7 +2511,10 @@
         {
           "name": "spinning_attack",
           "cost": ["fighting", "fighting"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Spinning Attack"
+          }
         }
       ],
       "weakness": "psychic",
@@ -2144,7 +2534,10 @@
         {
           "name": "ram",
           "cost": ["colorless", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Ram"
+          }
         }
       ],
       "weakness": "grass",
@@ -2174,7 +2567,10 @@
         {
           "name": "boulder_crush",
           "cost": ["fighting", "fighting", "fighting", "colorless"],
-          "damage": 100
+          "damage": 100,
+          "text": {
+            "en": "Boulder Crush"
+          }
         }
       ],
       "weakness": "grass",
@@ -2193,7 +2589,10 @@
         {
           "name": "headbutt",
           "cost": ["fighting"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Headbutt"
+          }
         }
       ],
       "weakness": "grass",
@@ -2222,7 +2621,13 @@
               "target": "self",
               "condition": "recoil_ko"
             }
-          ]
+          ],
+          "text": {
+            "en": "Head Smash"
+          },
+          "description": {
+            "en": "If your opponent's Pokémon is Knocked Out by damage from this attack, this Pokémon also does 50 damage to itself."
+          }
         }
       ],
       "weakness": "grass",
@@ -2244,7 +2649,10 @@
         {
           "name": "land_crush",
           "cost": ["fighting", "colorless", "colorless"],
-          "damage": 70
+          "damage": 70,
+          "text": {
+            "en": "Land Crush"
+          }
         }
       ],
       "weakness": "grass",
@@ -2265,7 +2673,10 @@
         {
           "name": "jab",
           "cost": ["fighting"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Jab"
+          }
         }
       ],
       "weakness": "psychic",
@@ -2297,7 +2708,10 @@
         {
           "name": "submarine_blow",
           "cost": ["fighting", "fighting"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Submarine Blow"
+          }
         }
       ],
       "weakness": "psychic",
@@ -2318,7 +2732,10 @@
         {
           "name": "rolling_tackle",
           "cost": ["fighting", "fighting", "colorless"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Rolling Tackle"
+          }
         }
       ],
       "weakness": "grass",
@@ -2338,7 +2755,10 @@
         {
           "name": "earthen_press",
           "cost": ["fighting", "fighting", "fighting", "colorless"],
-          "damage": 120
+          "damage": 120,
+          "text": {
+            "en": "Earthen Press"
+          }
         }
       ],
       "weakness": "grass",
@@ -2367,7 +2787,13 @@
               "amount": 20,
               "factor": "opponent_active_energy"
             }
-          ]
+          ],
+          "text": {
+            "en": "Energized Blade"
+          },
+          "description": {
+            "en": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+          }
         }
       ],
       "weakness": "psychic",
@@ -2388,7 +2814,10 @@
         {
           "name": "peck",
           "cost": ["darkness"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Peck"
+          }
         }
       ],
       "weakness": "lightning",
@@ -2414,7 +2843,13 @@
               "amount": 50,
               "target": "opponent_one"
             }
-          ]
+          ],
+          "text": {
+            "en": "Skill Dive"
+          },
+          "description": {
+            "en": "This attack does 50 damage to 1 of your opponent's Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -2443,7 +2878,13 @@
               "type": "multiply_damage",
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Double Scratch"
+          },
+          "description": {
+            "en": "Flip 2 coins. This attack does 20 damage for each heads."
+          }
         }
       ],
       "weakness": "grass",
@@ -2471,7 +2912,13 @@
               "amount": 40,
               "condition": "opponent_active_damaged"
             }
-          ]
+          ],
+          "text": {
+            "en": "Scratching Nails"
+          },
+          "description": {
+            "en": "If your opponent's Active Pokémon has damage on it, this attack does 40 more damage."
+          }
         }
       ],
       "weakness": "grass",
@@ -2492,7 +2939,10 @@
         {
           "name": "bite",
           "cost": ["darkness"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Bite"
+          }
         }
       ],
       "weakness": "grass",
@@ -2511,7 +2961,10 @@
         {
           "name": "darkness_fang",
           "cost": ["darkness", "colorless"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Darkness Fang"
+          }
         }
       ],
       "weakness": "grass",
@@ -2531,7 +2984,10 @@
         {
           "name": "scratch",
           "cost": ["darkness"],
-          "damage": 10
+          "damage": 10,
+          "text": {
+            "en": "Scratch"
+          }
         }
       ],
       "weakness": "fighting",
@@ -2558,7 +3014,13 @@
               "status": ["poison"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Poison Gas"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Poisoned."
+          }
         }
       ],
       "weakness": "fighting",
@@ -2585,7 +3047,13 @@
               "amount": 10,
               "target": "opponent_all"
             }
-          ]
+          ],
+          "text": {
+            "en": "Swirling Disaster"
+          },
+          "description": {
+            "en": "This attack does 10 damage to each of your opponent's Pokémon."
+          }
         }
       ],
       "weakness": "grass",
@@ -2605,7 +3073,10 @@
         {
           "name": "pierce",
           "cost": ["darkness", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Pierce"
+          }
         }
       ],
       "weakness": "fighting",
@@ -2638,7 +3109,13 @@
               "target": "opponent_active",
               "heads": 2
             }
-          ]
+          ],
+          "text": {
+            "en": "Cross Poison"
+          },
+          "description": {
+            "en": "Flip 4 coins. This attack does 40 damage for each heads. If at least 2 of them are heads, your opponent's Active Pokémon is now Poisoned."
+          }
         }
       ],
       "weakness": "fighting",
@@ -2666,7 +3143,13 @@
               "type": "multiply_damage",
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Group Beatdown"
+          },
+          "description": {
+            "en": "Flip a coin for each Pokémon you have in play. This attack does 20 damage for each heads."
+          }
         }
       ],
       "weakness": "fighting",
@@ -2694,7 +3177,13 @@
               "type": "multiply_damage",
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Group Beatdown"
+          },
+          "description": {
+            "en": "Flip a coin for each Pokémon you have in play. This attack does 20 damage for each heads."
+          }
         }
       ],
       "weakness": "fighting",
@@ -2722,7 +3211,13 @@
               "status": ["sleep"],
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Dark Void"
+          },
+          "description": {
+            "en": "Your opponent's Active Pokémon is now Asleep."
+          }
         }
       ],
       "weakness": "grass",
@@ -2753,7 +3248,10 @@
         {
           "name": "dark_prism",
           "cost": ["darkness", "darkness", "colorless"],
-          "damage": 80
+          "damage": 80,
+          "text": {
+            "en": "Dark Prism"
+          }
         }
       ],
       "weakness": "grass",
@@ -2781,7 +3279,13 @@
               "amount": 30,
               "condition": "tool_attached_self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Metal Arms"
+          },
+          "description": {
+            "en": "If this Pokémon has a Pokémon Tool attached, this attack does 30 more damage."
+          }
         }
       ],
       "weakness": "lightning",
@@ -2800,7 +3304,10 @@
         {
           "name": "metal_claw",
           "cost": ["metal", "metal", "metal"],
-          "damage": 90
+          "damage": 90,
+          "text": {
+            "en": "Metal Claw"
+          }
         }
       ],
       "weakness": "fire",
@@ -2820,7 +3327,10 @@
         {
           "name": "headbutt",
           "cost": ["metal", "colorless"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Headbutt"
+          }
         }
       ],
       "weakness": "fire",
@@ -2854,7 +3364,10 @@
         {
           "name": "headbang",
           "cost": ["metal", "metal", "colorless"],
-          "damage": 80
+          "damage": 80,
+          "text": {
+            "en": "Headbang"
+          }
         }
       ],
       "weakness": "fire",
@@ -2885,7 +3398,13 @@
               "amount": 30,
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Iron Head"
+          },
+          "description": {
+            "en": "Flip a coin until you get tails. This attack does 30 more damage for each heads."
+          }
         }
       ],
       "weakness": "fire",
@@ -2906,7 +3425,10 @@
         {
           "name": "tackle",
           "cost": ["metal", "colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Tackle"
+          }
         }
       ],
       "weakness": "fire",
@@ -2934,7 +3456,13 @@
               "target": "self",
               "duration": "opponent_next_turn"
             }
-          ]
+          ],
+          "text": {
+            "en": "Guard Press"
+          },
+          "description": {
+            "en": "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+          }
         }
       ],
       "weakness": "fire",
@@ -2964,7 +3492,13 @@
               "amount": 40,
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Triple Nose"
+          },
+          "description": {
+            "en": "Flip 3 coins. This attack does 50 more damage for each heads."
+          }
         }
       ],
       "weakness": "fire",
@@ -2993,12 +3527,21 @@
               "amount": 2,
               "target": "ally_benched"
             }
-          ]
+          ],
+          "text": {
+            "en": "Metallic Turbo"
+          },
+          "description": {
+            "en": "Take 2 [M] Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+          }
         },
         {
           "name": "heavy_impact",
           "cost": ["metal", "metal", "colorless", "colorless"],
-          "damage": 100
+          "damage": 100,
+          "text": {
+            "en": "Heavy Impact"
+          }
         }
       ],
       "weakness": "fire",
@@ -3025,7 +3568,13 @@
               "amount": 20,
               "target": "self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Steel Tackle"
+          },
+          "description": {
+            "en": "This Pokémon also does 20 damage to itself."
+          }
         }
       ],
       "weakness": "fire",
@@ -3045,7 +3594,10 @@
         {
           "name": "gnaw",
           "cost": ["colorless"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Gnaw"
+          }
         }
       ],
       "weakness": null,
@@ -3065,7 +3617,10 @@
         {
           "name": "slash",
           "cost": ["water", "fighting"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Slash"
+          }
         }
       ],
       "weakness": null,
@@ -3099,7 +3654,10 @@
         {
           "name": "dragon_claw",
           "cost": ["water", "fighting"],
-          "damage": 100
+          "damage": 100,
+          "text": {
+            "en": "Dragon Claw"
+          }
         }
       ],
       "weakness": null,
@@ -3120,7 +3678,10 @@
         {
           "name": "tongue_slap",
           "cost": ["colorless", "colorless", "colorless"],
-          "damage": 50
+          "damage": 50,
+          "text": {
+            "en": "Tongue Slap"
+          }
         }
       ],
       "weakness": "fighting",
@@ -3149,7 +3710,13 @@
               "amount": 40,
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Licking Fury"
+          },
+          "description": {
+            "en": "Flip a coin until you get tails. This attack does 40 more damage for each heads."
+          }
         }
       ],
       "weakness": "fighting",
@@ -3179,7 +3746,13 @@
               "amount": 20,
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Quick Attack"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, this attack does 20 more damage."
+          }
         }
       ],
       "weakness": "fighting",
@@ -3198,7 +3771,10 @@
         {
           "name": "beam",
           "cost": ["colorless"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Beam"
+          }
         }
       ],
       "weakness": "fighting",
@@ -3218,7 +3794,10 @@
         {
           "name": "sharpen",
           "cost": ["colorless"],
-          "damage": 30
+          "damage": 30,
+          "text": {
+            "en": "Sharpen"
+          }
         }
       ],
       "weakness": "fighting",
@@ -3244,7 +3823,13 @@
             {
               "type": "buggy_beam"
             }
-          ]
+          ],
+          "text": {
+            "en": "Buggy Beam"
+          },
+          "description": {
+            "en": "Change the type of the next Energy that will be generated for your opponent to 1 of the following at random: [G], [R], [W], [L], [P], [F], [D], or [M]."
+          }
         }
       ],
       "weakness": "fighting",
@@ -3265,7 +3850,10 @@
         {
           "name": "tail_jab",
           "cost": ["colorless"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Tail Jab"
+          }
         }
       ],
       "weakness": "fighting",
@@ -3292,7 +3880,13 @@
               "type": "multiply_damage",
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Double Hit"
+          },
+          "description": {
+            "en": "Flip 2 coins. This attack does 40 damage for each heads."
+          }
         }
       ],
       "weakness": "fighting",
@@ -3319,7 +3913,13 @@
               "target": "opponent_active",
               "before_damage": true
             }
-          ]
+          ],
+          "text": {
+            "en": "Pluck"
+          },
+          "description": {
+            "en": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
+          }
         }
       ],
       "weakness": "lightning",
@@ -3339,7 +3939,10 @@
         {
           "name": "wing_attack",
           "cost": ["colorless", "colorless"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Wing Attack"
+          }
         }
       ],
       "weakness": "lightning",
@@ -3367,7 +3970,13 @@
               "target": "opponent_active",
               "duration": "opponent_next_turn"
             }
-          ]
+          ],
+          "text": {
+            "en": "Clutch"
+          },
+          "description": {
+            "en": "During your opponent's next turn, the Defending Pokémon can't retreat."
+          }
         }
       ],
       "weakness": "lightning",
@@ -3393,7 +4002,13 @@
               "type": "halve_health",
               "target": "opponent_active"
             }
-          ]
+          ],
+          "text": {
+            "en": "Super Fang"
+          },
+          "description": {
+            "en": "Halve your opponent's Active Pokémon's remaining HP, rounded down."
+          }
         }
       ],
       "weakness": "fighting",
@@ -3413,7 +4028,10 @@
         {
           "name": "rolling_tackle",
           "cost": ["colorless", "colorless"],
-          "damage": 60
+          "damage": 60,
+          "text": {
+            "en": "Rolling Tackle"
+          }
         }
       ],
       "weakness": "fighting",
@@ -3434,7 +4052,10 @@
         {
           "name": "splash",
           "cost": ["colorless"],
-          "damage": 10
+          "damage": 10,
+          "text": {
+            "en": "Splash"
+          }
         }
       ],
       "weakness": "fighting",
@@ -3461,7 +4082,13 @@
               "amount": 20,
               "target": "opponent_bench_one"
             }
-          ]
+          ],
+          "text": {
+            "en": "Jump Kick"
+          },
+          "description": {
+            "en": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+          }
         }
       ],
       "weakness": "fighting",
@@ -3489,7 +4116,13 @@
               "type": "fail",
               "tails": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Pose"
+          },
+          "description": {
+            "en": "Flip a coin. If tails, this attack does nothing."
+          }
         }
       ],
       "weakness": "fighting",
@@ -3514,7 +4147,13 @@
             {
               "type": "interrupt"
             }
-          ]
+          ],
+          "text": {
+            "en": "Interrupt"
+          },
+          "description": {
+            "en": "Your opponent reveals their hand. Choose a card you find there and shuffle it into your opponent's deck."
+          }
         }
       ],
       "weakness": "fighting",
@@ -3543,7 +4182,13 @@
               "type": "multiply_damage",
               "factor": "heads"
             }
-          ]
+          ],
+          "text": {
+            "en": "Fury Attack"
+          },
+          "description": {
+            "en": "Flip 3 coins. This attack does 20 damage for each heads."
+          }
         }
       ],
       "weakness": "lightning",
@@ -3570,7 +4215,13 @@
               "target": "opponent_active",
               "heads": 1
             }
-          ]
+          ],
+          "text": {
+            "en": "Spin Storm"
+          },
+          "description": {
+            "en": "Flip a coin. If heads, put your opponent's Active Pokémon into their hand."
+          }
         }
       ],
       "weakness": "lightning",
@@ -3596,7 +4247,13 @@
               "type": "add_damage",
               "amount_complex": "damage_on_self"
             }
-          ]
+          ],
+          "text": {
+            "en": "Raging Hammer"
+          },
+          "description": {
+            "en": "This attack does more damage equal to the damage this Pokémon has on it."
+          }
         }
       ],
       "weakness": "fighting",

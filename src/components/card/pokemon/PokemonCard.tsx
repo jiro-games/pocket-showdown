@@ -6,7 +6,8 @@ import { CardArtwork } from '../CardArtwork';
 import { PokemonHeader } from './PokemonHeader';
 import './PokemonCard.css';
 import { useTranslations } from 'next-intl';
-import { Ability } from './Ability';
+import { CardAbility } from './CardAbility';
+import { CardAttack } from './CardAttack';
 
 interface PokemonCardProps {
   card: PokemonCardType;
@@ -41,7 +42,12 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
 
       <CardArtwork pokemonName={pokemonNameForArtwork} isExCard={isExCard} />
 
-      <div className="card__body">{card.ability && <Ability card={card} />}</div>
+      <div className="card__body">
+        {card.ability && <CardAbility card={card} />}
+        {card.attacks.map((attack, index) => (
+          <CardAttack key={index} card={card} attack={attack} extraSpace={extraMoveSpace} />
+        ))}
+      </div>
       <div className="card__bottom"></div>
     </div>
   );

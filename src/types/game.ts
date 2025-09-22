@@ -1,5 +1,9 @@
 export type Language = 'en' | 'es' | 'ja' | 'fr' | 'de';
 
+export type TranslatedText = {
+  [key in Language]?: string | string[];
+};
+
 export interface CardSetInfo {
   id: string;
   name: string;
@@ -41,6 +45,7 @@ export interface TrainerCard extends Card {
   effect: Effect[];
   flipFor?: string;
   target?: string;
+  description: TranslatedText;
 }
 
 export interface Ability {
@@ -54,6 +59,8 @@ export interface Attack {
   cost: PokemonType[];
   damage: number;
   effect?: Effect[];
+  text: TranslatedText;
+  description?: TranslatedText;
 }
 
 export interface Effect {

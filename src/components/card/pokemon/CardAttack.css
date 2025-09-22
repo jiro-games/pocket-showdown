@@ -1,0 +1,34 @@
+.card__attack-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card__attack-cost {
+  display: flex;
+  min-width: 80px;
+  align-items: center;
+}
+
+.card__attack-cost--extra {
+  min-width: 100px;
+}
+
+.card__attack-name {
+  font-weight: 800;
+  font-size: 1.125rem;
+}
+
+.card__attack-damage {
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.card__attack-text {
+  font-family: var(--font-pokemon-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: justify;
+}

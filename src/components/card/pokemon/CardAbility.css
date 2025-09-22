@@ -3,7 +3,7 @@
 }
 
 .card__ability-icon {
-  width: 88px;
+  width: 80px;
   margin-right: 8px;
   background-image: url('/assets/icons/ability.webp');
   background-size: contain;

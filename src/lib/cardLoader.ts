@@ -96,6 +96,7 @@ export class CardDataLoader {
           effect: rawCard.effect || [],
           flipFor: rawCard.flip_for,
           target: rawCard.target,
+          description: rawCard.description || {},
         };
 
         return trainerCard;
@@ -111,6 +112,8 @@ export class CardDataLoader {
       cost: attack.cost || [],
       damage: attack.damage || 0,
       effect: attack.effect || [],
+      text: attack.text || {},
+      description: attack.description || {},
     }));
   }
 
@@ -138,10 +141,7 @@ export class CardDataLoader {
     return undefined;
   }
 
-  async getCardBySetAndId(
-    setId: string,
-    cardId: number
-  ): Promise<Card | undefined> {
+  async getCardBySetAndId(setId: string, cardId: number): Promise<Card | undefined> {
     const cardSet = await this.loadSet(setId);
     return cardSet.cards.find(c => c.id === cardId);
   }
@@ -180,9 +180,7 @@ export class CardDataLoader {
 
     await Promise.all(
       coreSets.map(setId =>
-        this.loadSet(setId).catch(err =>
-          console.warn(`Failed to preload set ${setId}:`, err)
-        )
+        this.loadSet(setId).catch(err => console.warn(`Failed to preload set ${setId}:`, err))
       )
     );
   }
@@ -202,10 +200,7 @@ export function getCardById(id: number): Card | undefined {
   return cardLoader.getCardById(id);
 }
 
-export async function getCardBySetAndId(
-  setId: string,
-  cardId: number
-): Promise<Card | undefined> {
+export async function getCardBySetAndId(setId: string, cardId: number): Promise<Card | undefined> {
   return cardLoader.getCardBySetAndId(setId, cardId);
 }
 

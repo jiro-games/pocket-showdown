@@ -1,13 +1,13 @@
 import { PokemonCard } from '@/types/game';
 import { useTranslations } from 'next-intl';
 import { EnergyText } from '@/components/ui/EnergyText';
-import './Ability.css';
+import './CardAbility.css';
 
-interface AbilityProps {
+interface CardAbilityProps {
   card: PokemonCard;
 }
 
-export function Ability({ card }: AbilityProps) {
+export function CardAbility({ card }: CardAbilityProps) {
   const tAbility = useTranslations('abilities');
 
   if (!card.ability) {

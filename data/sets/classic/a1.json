@@ -1529,9 +1529,12 @@
       "stage": 0,
       "attacks": [
         {
-          "name": "ater_gun",
+          "name": "water_gun",
           "cost": ["water"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Water Gun"
+          }
         }
       ],
       "weakness": "lightning",
@@ -2010,9 +2013,12 @@
       "stage": 0,
       "attacks": [
         {
-          "name": "ater_gun",
+          "name": "water_gun",
           "cost": ["water"],
-          "damage": 20
+          "damage": 20,
+          "text": {
+            "en": "Water Gun"
+          }
         }
       ],
       "weakness": "lightning",
@@ -2031,7 +2037,7 @@
       "preevolution": "horsea",
       "attacks": [
         {
-          "name": "water",
+          "name": "water_arrow",
           "cost": ["water", "water", "water"],
           "effect": [
             {
@@ -2039,7 +2045,10 @@
               "amount": 50,
               "target": "opponent_one"
             }
-          ]
+          ],
+          "text": {
+            "en": "Water Arrow"
+          }
         }
       ],
       "weakness": "lightning",
@@ -2138,9 +2147,12 @@
       "preevolution": "staryu",
       "attacks": [
         {
-          "name": "ave_splash",
+          "name": "wave_splash",
           "cost": ["water"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Wave Splash"
+          }
         }
       ],
       "weakness": "lightning",
@@ -2311,9 +2323,12 @@
       "preevolution": "helix_fossil",
       "attacks": [
         {
-          "name": "ater_gun",
+          "name": "water_gun",
           "cost": ["water"],
-          "damage": 40
+          "damage": 40,
+          "text": {
+            "en": "Water Gun"
+          }
         }
       ],
       "weakness": "lightning",
@@ -5235,7 +5250,6 @@
           }
         }
       ],
-      "weakness": "none",
       "retreat_cost": 1,
       "artist": "Ayaka Yoshida",
       "packs": ["mewtwo"]
@@ -5259,7 +5273,6 @@
           }
         }
       ],
-      "weakness": "none",
       "retreat_cost": 1,
       "artist": "kirisAki",
       "packs": ["mewtwo"]
@@ -5293,7 +5306,6 @@
           }
         }
       ],
-      "weakness": "none",
       "retreat_cost": 3,
       "artist": "Hiroyuki Yamamoto",
       "packs": ["mewtwo"]

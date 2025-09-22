@@ -17,6 +17,7 @@
 .card__attack-name {
   font-weight: 800;
   font-size: 1.125rem;
+  transform-origin: left;
 }
 
 .card__attack-damage {

@@ -16,19 +16,16 @@ export function PokemonHeader({ card, name, isExCard }: PokemonHeaderProps) {
   const nameRef = useRef<HTMLDivElement>(null);
 
   // Code needed to shrink long Pokemon names
-
-  const totalHeaderWidth = 300; // It's actually 352px, but we subtract the stage icon
-  const exIconWidth = isExCard ? 40 : 0; // width is 36px, plus 4px from margin
-  const margins = 4 + 32; // pokemon-name margin + hp margin-right
+  const totalSpace = 264 - (isExCard ? 40 : 0);
 
   // Minimum width needed for HP section is around 38px (for "HP 0")
-  let pokemonNameAvailable = totalHeaderWidth - exIconWidth - margins - 38;
+  let spaceAvailable = totalSpace - 38;
 
   useEffect(() => {
     if (hpRef.current) {
       const hpWidth = hpRef.current.offsetWidth;
 
-      pokemonNameAvailable = totalHeaderWidth - hpWidth - margins - exIconWidth;
+      spaceAvailable = totalSpace - hpWidth;
     }
   }, [card.hp, isExCard]);
 
@@ -36,8 +33,8 @@ export function PokemonHeader({ card, name, isExCard }: PokemonHeaderProps) {
     if (nameRef.current) {
       const nameWidth = nameRef.current.offsetWidth;
 
-      if (nameWidth > pokemonNameAvailable) {
-        const transformScaleX = pokemonNameAvailable / nameWidth;
+      if (nameWidth > spaceAvailable) {
+        const transformScaleX = spaceAvailable / nameWidth;
         nameRef.current.style.transform = `scaleX(${transformScaleX})`;
 
         const negativeMargin = nameWidth * (1 - transformScaleX);

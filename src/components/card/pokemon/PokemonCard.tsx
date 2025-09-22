@@ -45,10 +45,39 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
       <div className="card__body">
         {card.ability && <CardAbility card={card} />}
         {card.attacks.map((attack, index) => (
-          <CardAttack key={index} card={card} attack={attack} extraSpace={extraMoveSpace} />
+          <CardAttack key={index} attack={attack} extraSpace={extraMoveSpace} />
         ))}
       </div>
-      <div className="card__bottom"></div>
+      <div className="card__weakness-retreat">
+        {card.weakness && (
+          <div className="card__weakness">
+            <img
+              src={`/assets/icons/energy/${card.weakness}.webp`}
+              alt={card.weakness}
+              className="card__weakness-icon"
+            />
+            +20
+          </div>
+        )}
+        {card.retreatCost > 0 && (
+          <div className="card__retreat">
+            {Array.from({ length: card.retreatCost }).map((_, idx) => (
+              <img
+                key={idx}
+                src={`/assets/icons/energy/colorless.webp`}
+                alt="Colorless Energy"
+                className="card__retreat-icon"
+              />
+            ))}
+          </div>
+        )}
+      </div>
+      <div className="card__bottom">
+        {/*<div className="card__illustrator">{card.artist}</div>*/}
+        {isExCard && (
+          <img src="/assets/icons/ex-rule.webp" alt="EX Rule" className="card__ex-rule" />
+        )}
+      </div>
     </div>
   );
 }

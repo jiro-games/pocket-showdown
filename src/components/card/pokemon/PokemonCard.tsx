@@ -21,7 +21,7 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
 
   const isExCard = card.name.endsWith('_ex');
   const basePokemonName = isExCard ? card.name.slice(0, -3) : card.name;
-  const pokemonNameForArtwork = card.form ? `${basePokemonName}-${card.form}` : basePokemonName;
+  const pokemonNameForArtwork = card.form ? `${basePokemonName}_${card.form}` : basePokemonName;
   const textColorClass =
     card.pokemonType === 'darkness' ? 'card__content--dark' : 'card__content--light';
   const extraMoveSpace = card.attacks.some(attack => attack.cost.length > 4);

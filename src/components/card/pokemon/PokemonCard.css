@@ -41,6 +41,7 @@
 
 .card__weakness {
   display: flex;
+  color: black;
   font-size: 1rem;
   font-weight: 700;
   margin-left: 90px;
@@ -82,4 +83,57 @@
   margin-top: 6px;
   margin-left: auto;
   margin-right: -9px;
+}
+
+/* Metallic border effect for EX cards */
+.card__content--ex {
+  border-radius: 1rem;
+}
+
+.card__content--ex::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 1rem, transparent 1rem),
+    linear-gradient(
+      135deg,
+      #606060 0%,
+      #c0c0c0 5%,
+      #606060 10%,
+      #999999 15%,
+      #c0c0c0 20%,
+      #606060 25%,
+      #808080 30%,
+      #c0c0c0 35%,
+      #606060 40%,
+      #999999 45%,
+      #c0c0c0 50%,
+      #606060 55%,
+      #808080 60%,
+      #c0c0c0 65%,
+      #606060 70%,
+      #999999 75%,
+      #c0c0c0 80%,
+      #606060 85%,
+      #808080 90%,
+      #c0c0c0 95%,
+      #606060 100%
+    );
+  background-size: 100% 100%;
+  border-radius: 1rem;
+  pointer-events: none;
+  z-index: -1;
+  mask: linear-gradient(to bottom, black 17px, transparent 17px),
+    linear-gradient(to top, black 17px, transparent 17px),
+    linear-gradient(to right, black 17px, transparent 17px),
+    linear-gradient(to left, black 17px, transparent 17px);
+  mask-composite: add;
+  -webkit-mask: linear-gradient(to bottom, black 17px, transparent 17px),
+    linear-gradient(to top, black 17px, transparent 17px),
+    linear-gradient(to right, black 17px, transparent 17px),
+    linear-gradient(to left, black 17px, transparent 17px);
+  -webkit-mask-composite: source-in;
 }

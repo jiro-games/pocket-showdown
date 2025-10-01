@@ -28,7 +28,7 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
 
   return (
     <div
-      className={`card__content ${textColorClass}`}
+      className={`card__content ${textColorClass} ${isExCard ? 'card__content--ex' : ''}`}
       style={{
         backgroundImage: `url(${cardTemplate})`,
         transform: `scale(${scale})`,

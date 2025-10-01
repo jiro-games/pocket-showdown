@@ -4273,7 +4273,8 @@
       "description": {
         "en": [
           "Play this card as if it were a 40-HP Basic [C] Pokémon.",
-          "At any time during your turn, you may discard this card from play. This card can't retreat."
+          "At any time during your turn, you may discard this card from play.",
+          "This card can't retreat."
         ]
       }
     },
@@ -4290,7 +4291,8 @@
       "description": {
         "en": [
           "Play this card as if it were a 40-HP Basic [C] Pokémon.",
-          "At any time during your turn, you may discard this card from play. This card can't retreat."
+          "At any time during your turn, you may discard this card from play.",
+          "This card can't retreat."
         ]
       }
     },

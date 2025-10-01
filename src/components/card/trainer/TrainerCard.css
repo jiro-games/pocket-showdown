@@ -1,24 +1,60 @@
-.card__trainer-content {
+.trainer__wrapper {
+  position: relative;
+  width: 384px;
+  aspect-ratio: 18/25;
+  transform-origin: top left;
+}
+
+.trainer__image {
+  position: absolute;
+  padding: 1.75rem;
+  top: 46px;
+  z-index: -1;
+}
+
+.trainer__content {
   width: 384px;
   aspect-ratio: 18/25;
   background-size: cover;
   background-position: center;
   padding: 1rem;
+  padding-top: 2.25rem;
   color: black;
   font-family: var(--font-pokemon-primary);
   transform-origin: top left;
+  display: flex;
+  flex-direction: column;
 }
 
-.card__header {
+.trainer__header {
   display: flex;
   font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: -0.025em;
   height: 2rem;
   line-height: 1.4;
+  margin-bottom: 214px;
 }
 
-.card__trainer-name {
-  margin-left: 3.5rem;
+.trainer__name {
+  margin-left: 0.5rem;
   text-align: left;
+}
+
+.trainer__effect {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 2rem;
+  margin-top: auto;
+  font-family: var(--font-pokemon-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.trainer__bottom {
+  height: 52px;
+  margin-top: auto;
 }

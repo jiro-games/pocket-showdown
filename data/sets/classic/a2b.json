@@ -1997,7 +1997,7 @@
     },
     {
       "id": 70,
-      "name": "pokmon_center_lady",
+      "name": "pokemon_center_lady",
       "card_type": "trainer",
       "trainer_type": "supporter",
       "rarity": 2,
@@ -2011,7 +2011,10 @@
           "type": "recover_status"
         }
       ],
-      "artist": "Susumu Maeya"
+      "artist": "Susumu Maeya",
+      "description": {
+        "en": "Heal 30 damage from 1 of your Pokémon, and it recovers from all Special Conditions."
+      }
     },
     {
       "id": 71,

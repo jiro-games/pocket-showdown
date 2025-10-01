@@ -2019,7 +2019,9 @@
       "description": {
         "en": [
           "Choose 1:",
+          "",
           "① During this turn, attacks used by your Pokémon that evolve from Eevee do +10 damage to your opponent's Active Pokémon.",
+          "",
           "② Heal 20 damage from each of your Pokémon that evolves from Eevee."
         ]
       }

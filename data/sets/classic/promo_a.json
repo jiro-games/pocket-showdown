@@ -73,7 +73,7 @@
     },
     {
       "id": 5,
-      "name": "poké_ball",
+      "name": "poke_ball",
       "card_type": "trainer",
       "trainer_type": "item",
       "effect": [
@@ -85,7 +85,10 @@
           "into": "hand"
         }
       ],
-      "artist": "Ryo Ueda"
+      "artist": "Ryo Ueda",
+      "description": {
+        "en": "Put 1 random Basic Pokemon from your deck into your hand."
+      }
     },
     {
       "id": 6,
@@ -107,6 +110,7 @@
     {
       "id": 7,
       "name": "professors_research",
+      "sub_name": "professor_oak",
       "card_type": "trainer",
       "trainer_type": "supporter",
       "effect": [

@@ -1850,24 +1850,8 @@
       "artist": "Masako Tomii"
     },
     {
-      "id": 63,
-      "name": "old_amber",
-      "card_type": "trainer",
-      "trainer_type": "item",
-      "rarity": 1,
-      "hp": 40,
-      "tags": ["fossil"],
-      "artist": "Toyste Beach",
-      "description": {
-        "en": [
-          "Play this card as if it were a 40-HP Basic [C] Pokémon.",
-          "At any time during your turn, you may discard this card from play. This card can't retreat."
-        ]
-      }
-    },
-    {
       "id": 64,
-      "name": "pokémon_flute",
+      "name": "pokemon_flute",
       "card_type": "trainer",
       "trainer_type": "item",
       "rarity": 2,
@@ -1880,7 +1864,10 @@
           "into": "bench"
         }
       ],
-      "artist": "Toyste Beach"
+      "artist": "Toyste Beach",
+      "description": {
+        "en": "Put a Basic Pokémon from your opponent's discard pile onto their Bench."
+      }
     },
     {
       "id": 65,

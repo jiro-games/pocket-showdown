@@ -1,5 +1,6 @@
 .card__header {
   display: flex;
+  font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: -0.025em;
   height: 2rem;

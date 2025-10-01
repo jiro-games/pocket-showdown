@@ -21,13 +21,13 @@ export function getTranslatedText(
   translatedText: TranslatedText,
   language: Language,
   fallback?: string
-): string {
+): string[] {
   const finalText = translatedText[language] || translatedText[defaultLanguage];
 
   if (Array.isArray(finalText)) {
-    if (finalText.length === 0) return fallback || '';
-    return finalText.join('<br><br>');
+    if (finalText.length === 0) return fallback ? [fallback] : [];
+    return finalText;
   }
 
-  return finalText || fallback || '';
+  return finalText ? [finalText] : fallback ? [fallback] : [];
 }

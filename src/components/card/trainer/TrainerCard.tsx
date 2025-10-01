@@ -1,7 +1,10 @@
 import React from 'react';
-import { TrainerCard as TrainerCardType } from '@/types/game';
+import { Language, TrainerCard as TrainerCardType } from '@/types/game';
 import { getTrainerTemplate } from '@/lib/cardTemplates';
 import './TrainerCard.css';
+import { useLocale, useTranslations } from 'next-intl';
+import { getTranslatedText } from '@/lib/cardText';
+import { EnergyText } from '@/components/ui/EnergyText';
 
 interface TrainerCardProps {
   card: TrainerCardType;
@@ -9,18 +12,39 @@ interface TrainerCardProps {
 }
 
 export function TrainerCard({ card, scale }: TrainerCardProps) {
+  const currentLocale = useLocale() as Language;
+  const tTrainer = useTranslations('trainers');
   const cardTemplate = getTrainerTemplate(card.trainerType);
 
   return (
     <div
-      className="card__trainer-content"
+      className="trainer__wrapper"
       style={{
-        backgroundImage: `url(${cardTemplate})`,
         transform: `scale(${scale})`,
       }}
     >
-      <div className="card__header">
-        <div className="card__trainer-name">Potion</div>
+      <img
+        className="trainer__image"
+        src={`/assets/cards/${card.set}/${card.id}.png`}
+        alt={card.name}
+      />
+      <div
+        className="trainer__content"
+        style={{
+          backgroundImage: `url(${cardTemplate})`,
+        }}
+      >
+        <div className="trainer__header">
+          <div className="trainer__name">{tTrainer(card.name)}</div>
+        </div>
+        <div className="trainer__effect">
+          {getTranslatedText(card.description, currentLocale).map((line, index) => (
+            <div key={index}>
+              <EnergyText text={line || '\u00A0'} />
+            </div>
+          ))}
+        </div>
+        <div className="trainer__bottom"></div>
       </div>
     </div>
   );

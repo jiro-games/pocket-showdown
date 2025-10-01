@@ -5,54 +5,6 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function shuffleDeck<T>(deck: T[]): T[] {
-  const shuffled = [...deck];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}
-
-export function drawCards<T>(
-  deck: T[],
-  count: number
-): { drawn: T[]; remaining: T[] } {
-  const drawn = deck.slice(0, count);
-  const remaining = deck.slice(count);
-  return { drawn, remaining };
-}
-
-export function calculateDamage(
-  baseDamage: number,
-  weakness: boolean = false
-): number {
-  let damage = baseDamage;
-
-  if (weakness) {
-    damage *= 2;
-  }
-
-  return damage;
-}
-
-export function isValidDeck(
-  cards: { cardId: string; quantity: number }[]
-): boolean {
-  const totalCards = cards.reduce((sum, card) => sum + card.quantity, 0);
-
-  if (totalCards !== 20) return false;
-
-  const hasInvalidQuantity = cards.some(card => card.quantity > 2);
-  if (hasInvalidQuantity) return false;
-
-  return true;
-}
-
-export function formatCardType(type: string): string {
-  return type.charAt(0).toUpperCase() + type.slice(1);
-}
-
 export function getTypeColor(type: string): string {
   const colors: Record<string, string> = {
     grass: 'bg-green-500',

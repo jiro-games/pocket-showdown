@@ -1,6 +1,4 @@
 import React from 'react';
-import { usePokemonArtwork } from '@/lib/pokemonArtwork';
-import { useTranslations } from 'next-intl';
 import './CardArtwork.css';
 
 interface CardArtworkProps {

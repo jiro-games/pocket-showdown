@@ -25,6 +25,11 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
   const textColorClass =
     card.pokemonType === 'darkness' ? 'card__content--dark' : 'card__content--light';
   const extraMoveSpace = card.attacks.some(attack => attack.cost.length > 4);
+  const setName = card.set.split('/')[1];
+  const visibleSet = setName
+    .split('_')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 
   const handleArtworkError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
     if (isExCard) {
@@ -99,7 +104,12 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
           )}
         </div>
         <div className="card__bottom">
-          {/*<div className="card__illustrator">{card.artist}</div>*/}
+          <div className="card__extra-info">
+            <div className="card__illustrator">Illus. {card.artist}</div>
+            <div className="card__set-info">
+              {visibleSet} - #{card.id}
+            </div>
+          </div>
           {isExCard && (
             <img src="/assets/icons/ex-rule.webp" alt="EX Rule" className="card__ex-rule" />
           )}

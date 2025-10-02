@@ -69,7 +69,7 @@ export class CardDataLoader {
         form: rawCard.form,
         tags: rawCard.tags || [],
         imageUrl: rawCard.imageUrl,
-        artist: rawCard.artist,
+        artist: rawCard.artist || 'Unknown',
         packs: rawCard.packs || [],
       };
 

@@ -103,6 +103,8 @@
 }
 
 .card__bottom {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   height: 40px;
   margin-top: auto;
@@ -112,8 +114,15 @@
   font-family: var(--font-pokemon-secondary);
   font-size: 0.5rem;
   font-weight: 700;
-  margin-left: 28px;
+  margin-left: 12px;
   font-style: italic;
+}
+
+.card__set-info {
+  font-family: var(--font-pokemon-secondary);
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin-left: 12px;
 }
 
 .card__ex-rule {

@@ -9,6 +9,8 @@
 }
 
 .card__stage-icon {
+  position: relative;
+  z-index: 2;
   width: 3.75rem;
   height: 1.5rem;
   margin-left: -0.5rem;

@@ -15,6 +15,11 @@ export function TrainerCard({ card, scale }: TrainerCardProps) {
   const currentLocale = useLocale() as Language;
   const tTrainer = useTranslations('trainers');
   const cardTemplate = getTrainerTemplate(card.trainerType);
+  const setName = card.set.split('/')[1];
+  const visibleSet = setName
+    .split('_')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 
   return (
     <div
@@ -44,7 +49,14 @@ export function TrainerCard({ card, scale }: TrainerCardProps) {
             </div>
           ))}
         </div>
-        <div className="trainer__bottom"></div>
+        <div className="trainer__bottom">
+          <div className="trainer__extra-info">
+            <div className="trainer__illustrator">Illus. {card.artist}</div>
+            <div className="trainer__set-info">
+              {visibleSet} - #{card.id}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

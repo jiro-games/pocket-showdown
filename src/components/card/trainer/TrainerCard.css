@@ -55,6 +55,27 @@
 }
 
 .trainer__bottom {
+  display: flex;
+  justify-content: space-between;
   height: 52px;
   margin-top: auto;
+}
+
+.trainer__extra-info {
+  margin-top: 12px;
+}
+
+.trainer__illustrator {
+  font-family: var(--font-pokemon-secondary);
+  font-size: 0.5rem;
+  font-weight: 700;
+  margin-left: 12px;
+  font-style: italic;
+}
+
+.trainer__set-info {
+  font-family: var(--font-pokemon-secondary);
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin-left: 12px;
 }

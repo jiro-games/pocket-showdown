@@ -66,6 +66,7 @@
 .card__weakness-retreat {
   display: flex;
   height: 20px;
+  align-items: center;
 }
 
 .card__weakness {
@@ -73,8 +74,16 @@
   color: black;
   font-size: 1rem;
   font-weight: 700;
-  margin-left: 90px;
   align-items: center;
+  width: 120px;
+  margin-left: 36px;
+}
+
+.card__weakness-label,
+.card__retreat-label {
+  font-weight: 500;
+  font-size: 8px;
+  margin-right: 1rem;
 }
 
 .card__weakness-icon {
@@ -85,7 +94,7 @@
 .card__retreat {
   display: flex;
   align-items: center;
-  margin-left: 110px;
+  margin-left: 52px;
 }
 
 .card__retreat-icon {

@@ -1,4 +1,5 @@
 export type Language = 'en' | 'es' | 'ja' | 'fr' | 'de';
+export type DamageType = 'default' | 'add' | 'multiply';
 
 export type TranslatedText = {
   [key in Language]?: string | string[];
@@ -58,6 +59,7 @@ export interface Attack {
   name: string;
   cost: PokemonType[];
   damage: number;
+  damageType: DamageType;
   effect?: Effect[];
   text: TranslatedText;
   description?: TranslatedText;
@@ -126,6 +128,7 @@ export const POKEMON_TYPES = [
   'fighting',
   'darkness',
   'metal',
+  'dragon',
   'colorless',
 ] as const;
 

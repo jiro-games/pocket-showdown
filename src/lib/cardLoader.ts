@@ -111,6 +111,7 @@ export class CardDataLoader {
       name: attack.name || 'Unknown Attack',
       cost: attack.cost || [],
       damage: attack.damage || 0,
+      damageType: attack.damage_type || 'default',
       effect: attack.effect || [],
       text: attack.text || {},
       description: attack.description || {},

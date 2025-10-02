@@ -55,6 +55,7 @@ export function CardAttack({ attack, extraSpace }: CardAttackProps) {
         {attack.damage > 0 && (
           <div className="card__attack-damage" ref={damageRef}>
             {attack.damage}
+            {attack.damageType === 'add' ? '+' : attack.damageType === 'multiply' ? 'x' : ''}
           </div>
         )}
       </div>

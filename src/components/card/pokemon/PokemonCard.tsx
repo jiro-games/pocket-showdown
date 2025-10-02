@@ -71,18 +71,22 @@ export function PokemonCard({ card, scale }: PokemonCardProps) {
           </div>
         </div>
         <div className="card__weakness-retreat">
-          {card.weakness && (
-            <div className="card__weakness">
-              <img
-                src={`/assets/icons/energy/${card.weakness}.webp`}
-                alt={card.weakness}
-                className="card__weakness-icon"
-              />
-              +20
-            </div>
-          )}
+          <div className="card__weakness">
+            {card.weakness && (
+              <>
+                <span className="card__weakness-label">weakness</span>
+                <img
+                  src={`/assets/icons/energy/${card.weakness}.webp`}
+                  alt={card.weakness}
+                  className="card__weakness-icon"
+                />
+                +20
+              </>
+            )}
+          </div>
           {card.retreatCost > 0 && (
             <div className="card__retreat">
+              <span className="card__retreat-label">retreat</span>
               {Array.from({ length: card.retreatCost }).map((_, idx) => (
                 <img
                   key={idx}

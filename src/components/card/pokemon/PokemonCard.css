@@ -1,3 +1,27 @@
+.pokemon__wrapper {
+  position: relative;
+  width: 384px;
+  aspect-ratio: 18/25;
+  transform-origin: top left;
+}
+
+.pokemon__image {
+  position: absolute;
+  padding: 1.75rem;
+  top: 22px;
+  z-index: -1;
+}
+
+.pokemon__image--fallback {
+  padding: 0;
+  height: 204px;
+  object-fit: contain;
+  margin: 0 auto;
+  top: 50px;
+  left: 0;
+  right: 0;
+}
+
 .card__content {
   display: flex;
   flex-direction: column;
@@ -8,7 +32,6 @@
   background-position: center;
   padding: 1rem;
   font-family: var(--font-pokemon-primary);
-  transform-origin: top left;
 }
 
 .card__content--dark {
@@ -32,6 +55,12 @@
   margin: 0 0.75rem;
   justify-content: space-evenly;
   flex-grow: 1;
+}
+
+.card__attacks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .card__weakness-retreat {
@@ -79,18 +108,20 @@
 }
 
 .card__ex-rule {
+  position: relative;
   width: 250px;
   margin-top: 6px;
   margin-left: auto;
   margin-right: -9px;
+  z-index: 2;
 }
 
 /* Metallic border effect for EX cards */
-.card__content--ex {
+.pokemon__wrapper.card__content--ex {
   border-radius: 1rem;
 }
 
-.card__content--ex::before {
+.pokemon__wrapper.card__content--ex::before {
   content: '';
   position: absolute;
   top: 0;
@@ -123,9 +154,9 @@
       #606060 100%
     );
   background-size: 100% 100%;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   pointer-events: none;
-  z-index: -1;
+  z-index: 1;
   mask: linear-gradient(to bottom, black 17px, transparent 17px),
     linear-gradient(to top, black 17px, transparent 17px),
     linear-gradient(to right, black 17px, transparent 17px),
